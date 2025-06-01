@@ -93,12 +93,12 @@ src/
 
 ## 🛠️ Built With
 
-- React  
-- Vite  
+- [React](https://react.dev/)  
+- [Vite](https://vite.dev/)  
 - Context API  
-- FontAwesome  
-- Atomic Design  
-- Tailwind CSS (optional)
+- [FontAwesome](https://docs.fontawesome.com/v5/web/use-with/react)  
+- [Atomic Design](https://atomicdesign.bradfrost.com/)  
+- [Tailwind CSS](https://tailwindcss.com/) (optional)
 
 ---
 
