@@ -1,84 +1,170 @@
 {
-    "title": "Hi! I'm, Eduardo. ",
-    "subtitle": "I build websites",
-    "author": "Eduardo Sanchez Hidalgo Urias",
-    "version": "1.0",
-    "description": "This is my portfolio website where you can see my experience as a WordPress developer and a few of the projects I worked on.",
-    "skills": [
-        {
-            "id": 1,
-            "title": "HTML",
-            "description": "HyperText Markup Language is the standard markup language for documents designed to be displayed in a web browser."
-        },
-        {
-            "id": 2,
-            "title": "CSS",
-            "description": "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in HTML or XML."
-        },
-        {
-            "id": 3,
-            "title": "JavaScript",
-            "description": "JavaScript is a programming language that conforms to the ECMAScript specification, widely used for web development."
-        }
-    ],
-    "projects": [
-        {
-            "id": 1,
-            "title": "Item One",
-            "description": "This is the first item in the list.",
-            "image": {
-                "src": "./src/assets/website-uno.png",
-                "alt": "Website Uno",
-                "caption": "This is a caption for the first item."
+    "en":{
+        "title": "Hi! I'm, Eduardo. ",
+        "subtitle": "I build websites",
+        "author": "Eduardo Sanchez Hidalgo Urias",
+        "version": "1.0",
+        "description": "This is my portfolio website where you can see my experience as a WordPress developer and a few of the projects I worked on.",
+        "skills": [
+            {
+                "id": 1,
+                "title": "HTML",
+                "description": "HyperText Markup Language is the standard markup language for documents designed to be displayed in a web browser."
+            },
+            {
+                "id": 2,
+                "title": "CSS",
+                "description": "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in HTML or XML."
+            },
+            {
+                "id": 3,
+                "title": "JavaScript",
+                "description": "JavaScript is a programming language that conforms to the ECMAScript specification, widely used for web development."
             }
-        },
-        {
-            "id": 2,
-            "title": "Item Two",
-            "description": "This is the second item in the list.",
-            "image": {
-                "src": "./src/assets/website-dos.png",
-                "alt": "Website Dos",
-                "caption": "This is a caption for the second item."
+        ],
+        "projects": [
+            {
+                "id": 1,
+                "title": "Item One",
+                "description": "This is the first item in the list.",
+                "image": {
+                    "src": "./src/assets/website-uno.png",
+                    "alt": "Website Uno",
+                    "caption": "This is a caption for the first item."
+                }
+            },
+            {
+                "id": 2,
+                "title": "Item Two",
+                "description": "This is the second item in the list.",
+                "image": {
+                    "src": "./src/assets/website-dos.png",
+                    "alt": "Website Dos",
+                    "caption": "This is a caption for the second item."
+                }
+            },
+            {
+                "id": 3,
+                "title": "Item Three",
+                "description": "This is the third item in the list.",
+                "image": {
+                    "src": "./src/assets/website-tres.png",
+                    "alt": "Website Tres",
+                    "caption": "This is a caption for the third item."
+                }
             }
-        },
-        {
-            "id": 3,
-            "title": "Item Three",
-            "description": "This is the third item in the list.",
-            "image": {
-                "src": "./src/assets/website-tres.png",
-                "alt": "Website Tres",
-                "caption": "This is a caption for the third item."
+        ],
+        "jobs": [
+            {
+                "id": 1,
+                "title": "Item One",
+                "description": "This is the first item in the list.",
+                "startYear": "2020",
+                "endYear": "2021",
+                "image": {
+                    "src": "",
+                    "alt": "",
+                    "caption": ""
+                }
+            },
+            {
+                "id": 2,
+                "title": "Item Two",
+                "description": "This is the second item in the list.",
+                "startYear": "2020",
+                "endYear": "2021"
+            },
+            {
+                "id": 3,
+                "title": "Item Three",
+                "description": "This is the third item in the list.",
+                "startYear": "2020",
+                "endYear": "2021"
             }
-        }
-    ],
-    "jobs": [
-        {
-            "id": 1,
-            "title": "Item One",
-            "description": "This is the first item in the list.",
-            "startYear": "2020",
-            "endYear": "2021",
-            "image": {
-                "src": "",
-                "alt": "",
-                "caption": ""
+        ]
+    },
+    "es": {
+        "title": "¡Hola! Soy Eduardo.",
+        "subtitle": "Construyo sitios web",
+        "author": "Eduardo Sánchez Hidalgo Urías",
+        "version": "1.0",
+        "description": "Este es mi sitio web de portafolio donde puedes ver mi experiencia como desarrollador de WordPress y algunos de los proyectos en los que he trabajado.",
+        "skills": [
+            {
+                "id": 1,
+                "title": "HTML",
+                "description": "El Lenguaje de Marcado de Hipertexto es el lenguaje estándar para documentos diseñados para mostrarse en un navegador web."
+            },
+            {
+                "id": 2,
+                "title": "CSS",
+                "description": "Las Hojas de Estilo en Cascada son un lenguaje de estilos utilizado para describir la presentación de un documento escrito en HTML o XML."
+            },
+            {
+                "id": 3,
+                "title": "JavaScript",
+                "description": "JavaScript es un lenguaje de programación que se ajusta a la especificación ECMAScript, ampliamente utilizado en el desarrollo web."
             }
-        },
-        {
-            "id": 2,
-            "title": "Item Two",
-            "description": "This is the second item in the list.",
-            "startYear": "2020",
-            "endYear": "2021"
-        },
-        {
-            "id": 3,
-            "title": "Item Three",
-            "description": "This is the third item in the list.",
-            "startYear": "2020",
-            "endYear": "2021"
-        }
-    ]
+        ],
+        "projects": [
+            {
+                "id": 1,
+                "title": "Elemento Uno",
+                "description": "Este es el primer elemento de la lista.",
+                "image": {
+                    "src": "./src/assets/website-uno.png",
+                    "alt": "Sitio Web Uno",
+                    "caption": "Este es un pie de imagen para el primer elemento."
+                }
+            },
+            {
+                "id": 2,
+                "title": "Elemento Dos",
+                "description": "Este es el segundo elemento de la lista.",
+                "image": {
+                    "src": "./src/assets/website-dos.png",
+                    "alt": "Sitio Web Dos",
+                    "caption": "Este es un pie de imagen para el segundo elemento."
+                }
+            },
+            {
+                "id": 3,
+                "title": "Elemento Tres",
+                "description": "Este es el tercer elemento de la lista.",
+                "image": {
+                    "src": "./src/assets/website-tres.png",
+                    "alt": "Sitio Web Tres",
+                    "caption": "Este es un pie de imagen para el tercer elemento."
+                }
+            }
+        ],
+        "jobs": [
+            {
+                "id": 1,
+                "title": "Elemento Uno",
+                "description": "Este es el primer elemento de la lista.",
+                "startYear": "2020",
+                "endYear": "2021",
+                "image": {
+                    "src": "",
+                    "alt": "",
+                    "caption": ""
+                }
+            },
+            {
+                "id": 2,
+                "title": "Elemento Dos",
+                "description": "Este es el segundo elemento de la lista.",
+                "startYear": "2020",
+                "endYear": "2021"
+            },
+            {
+                "id": 3,
+                "title": "Elemento Tres",
+                "description": "Este es el tercer elemento de la lista.",
+                "startYear": "2020",
+                "endYear": "2021"
+            }
+        ]
+    }
 }
