@@ -166,5 +166,17 @@
                 "endYear": "2021"
             }
         ]
-    }
+    },
+    "social": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/laloptk",
+            "icon": "fab fa-github"
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/eduardo-sanchez-hidalgo/",
+            "icon": "fab fa-linkedin"
+        }
+    ] 
 }

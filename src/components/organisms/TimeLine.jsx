@@ -4,7 +4,7 @@ const Timeline = ({jobs}) => {
   return (
     <div className="timeline">
       {jobs.map((job) => (
-        <div className="timeline-card">
+        <div key={job.id} className="timeline-card">
             <div className="timeline-years">
                 <p>
                     {`${job.startYear} - ${job.endYear}`}
