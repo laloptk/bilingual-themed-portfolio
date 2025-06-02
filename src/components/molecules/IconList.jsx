@@ -6,11 +6,11 @@ const IconList = ({ icons }) => {
                 icons.map((icon) =>
                     icon.url ? (
                         <a href={icon.url ? icon.url : "#"}>
-                            <FontAwesomeIcon icon={icon.icon} />
+                            <FontAwesomeIcon icon={icon.fontAwesomeName} />
                         </a>
                     ) : (
                         <span>
-                            <FontAwesomeIcon icon={icon.icon} />
+                            <FontAwesomeIcon icon={icon.fontAwesomeName} />
                         </span>
                     )
                 )

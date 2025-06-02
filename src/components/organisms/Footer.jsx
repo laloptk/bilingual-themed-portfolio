@@ -1,4 +1,4 @@
-import IconList from '../organisms/IconList'
+import IconList from '../molecules/IconList'
 const Footer = ({ social }) => {
     console.log(social);
     return (

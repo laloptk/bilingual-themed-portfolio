@@ -5,23 +5,6 @@
         "author": "Eduardo Sanchez Hidalgo Urias",
         "version": "1.0",
         "description": "This is my portfolio website where you can see my experience as a WordPress developer and a few of the projects I worked on.",
-        "skills": [
-            {
-                "id": 1,
-                "title": "HTML",
-                "description": "HyperText Markup Language is the standard markup language for documents designed to be displayed in a web browser."
-            },
-            {
-                "id": 2,
-                "title": "CSS",
-                "description": "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in HTML or XML."
-            },
-            {
-                "id": 3,
-                "title": "JavaScript",
-                "description": "JavaScript is a programming language that conforms to the ECMAScript specification, widely used for web development."
-            }
-        ],
         "projects": [
             {
                 "id": 1,
@@ -89,23 +72,6 @@
         "author": "Eduardo Sánchez Hidalgo Urías",
         "version": "1.0",
         "description": "Este es mi sitio web de portafolio donde puedes ver mi experiencia como desarrollador de WordPress y algunos de los proyectos en los que he trabajado.",
-        "skills": [
-            {
-                "id": 1,
-                "title": "HTML",
-                "description": "El Lenguaje de Marcado de Hipertexto es el lenguaje estándar para documentos diseñados para mostrarse en un navegador web."
-            },
-            {
-                "id": 2,
-                "title": "CSS",
-                "description": "Las Hojas de Estilo en Cascada son un lenguaje de estilos utilizado para describir la presentación de un documento escrito en HTML o XML."
-            },
-            {
-                "id": 3,
-                "title": "JavaScript",
-                "description": "JavaScript es un lenguaje de programación que se ajusta a la especificación ECMAScript, ampliamente utilizado en el desarrollo web."
-            }
-        ],
         "projects": [
             {
                 "id": 1,
@@ -167,16 +133,50 @@
             }
         ]
     },
-    "social": [
+    "skills": [
         {
-            "name": "GitHub",
-            "url": "https://github.com/laloptk",
-            "icon": "fab fa-github"
+            "id": "skill1",
+            "title": "HTML",
+            "fontAwesomeName": "fab fa-html5"
         },
         {
+            "id": "skill2",
+            "title": "CSS",
+            "fontAwesomeName": "fab fa-css3-alt"
+        },
+        {
+            "id": "skill3",
+            "title": "JavaScript",
+            "fontAwesomeName": "fab fa-js"
+        },
+        {
+            "id": "skill5",
+            "title": "PHP",
+            "fontAwesomeName": "fab fa-php"
+        },
+        {
+            "id": "skill7",
+            "title": "Git",
+            "fontAwesomeName": "fab fa-git-alt"
+        },
+        {
+            "id": "skill4",
+            "title": "WordPress",
+            "fontAwesomeName": "fab fa-wordpress"
+        }
+    ],
+    "social": [
+        {
+            "id": "social1",
+            "name": "GitHub",
+            "url": "https://github.com/laloptk",
+            "fontAwesomeName": "fab fa-github"
+        },
+        {
+            "id": "social2",
             "name": "LinkedIn",
             "url": "https://www.linkedin.com/in/eduardo-sanchez-hidalgo/",
-            "icon": "fab fa-linkedin"
+            "fontAwesomeName": "fab fa-linkedin"
         }
     ] 
 }
