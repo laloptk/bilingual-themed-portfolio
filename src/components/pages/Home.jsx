@@ -1,3 +1,5 @@
+import MainBox from '../boxes/MainBox'
+import SectionBox from '../boxes/SectionBox'
 import Grid from '../organisms/Grid'
 import Header from '../organisms/Header'
 import TimeLine from '../organisms/TimeLine'
@@ -13,10 +15,29 @@ const Home = () => {
     return (
         <>
             <Header title={languageData.title} text={languageData.description} />
-            <Grid posts={languageData.projects} />
-            <TimeLine jobs={languageData.jobs} />
-            <Skills skills={data.skills} />
-            <Footer social={social} />
+                <MainBox classes={globalVariable.light ? "portfolio light" : "portfolio dark"}>
+                <SectionBox 
+                    title="My Projects" 
+                    blurb=""
+                    classes="section projects"
+                >
+                    <Grid posts={languageData.projects} />
+                </SectionBox>
+                <SectionBox
+                    title="My Experience"
+                    blurb=""
+                    classes="section experience"
+                >
+                    <TimeLine jobs={languageData.jobs} />
+                </SectionBox>
+                <SectionBox
+                    title="Skills"
+                    blurb=""
+                    classes="section skills">
+                    <Skills skills={data.skills} />
+                </SectionBox>
+                <Footer social={social} />
+            </MainBox>
         </>
     )
 }

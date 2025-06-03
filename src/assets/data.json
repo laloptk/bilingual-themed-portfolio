@@ -106,26 +106,21 @@
         ],
         "jobs": [
             {
-                "id": 1,
+                "id": "job1",
                 "title": "Elemento Uno",
                 "description": "Este es el primer elemento de la lista.",
                 "startYear": "2020",
-                "endYear": "2021",
-                "image": {
-                    "src": "",
-                    "alt": "",
-                    "caption": ""
-                }
+                "endYear": "2021"
             },
             {
-                "id": 2,
+                "id": "job2",
                 "title": "Elemento Dos",
                 "description": "Este es el segundo elemento de la lista.",
                 "startYear": "2020",
                 "endYear": "2021"
             },
             {
-                "id": 3,
+                "id": "job3",
                 "title": "Elemento Tres",
                 "description": "Este es el tercer elemento de la lista.",
                 "startYear": "2020",

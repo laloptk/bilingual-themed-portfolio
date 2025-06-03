@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-const IconList = ({ icons }) => {
+const IconList = ({ icons, type="list"}) => {
     return (
-        <>
+        <div className={`icon-${type}`}>
             {icons &&
                 icons.map((icon) =>
                     icon.url ? (
@@ -15,7 +15,7 @@ const IconList = ({ icons }) => {
                     )
                 )
             }
-        </>
+        </div>
     );
 }
 
