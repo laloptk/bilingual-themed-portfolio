@@ -1,0 +1,12 @@
+@use './globals' as *;
+
+
+.icon-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 1rem;
+  font-size: $font-size-xxl;
+  color: #7566d5;
+}

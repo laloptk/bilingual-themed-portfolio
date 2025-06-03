@@ -15,29 +15,29 @@ const Home = () => {
     return (
         <>
             <Header title={languageData.title} text={languageData.description} />
-                <MainBox classes={globalVariable.light ? "portfolio light" : "portfolio dark"}>
+            <MainBox classes={globalVariable.light ? "portfolio light" : "portfolio dark"}>
                 <SectionBox 
                     title="My Projects" 
                     blurb=""
-                    classes="section projects"
+                    classes="section projects with-line-after"
                 >
                     <Grid posts={languageData.projects} />
                 </SectionBox>
                 <SectionBox
                     title="My Experience"
                     blurb=""
-                    classes="section experience"
+                    classes="section experience with-line-after"
                 >
                     <TimeLine jobs={languageData.jobs} />
                 </SectionBox>
                 <SectionBox
                     title="Skills"
                     blurb=""
-                    classes="section skills">
+                    classes="section skills with-line-after">
                     <Skills skills={data.skills} />
                 </SectionBox>
-                <Footer social={social} />
             </MainBox>
+            <Footer social={social} />
         </>
     )
 }

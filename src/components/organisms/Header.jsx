@@ -1,4 +1,4 @@
-import Title from "../atoms/Title"
+import Title from "../atoms/Title/Title"
 import Text from "../atoms/Text"
 import useGlobalState from "../../utils/hooks/useGlobalState";
 
@@ -11,7 +11,7 @@ const Header = ({title, text}) => {
     return (
         <header className="header">
             <Title title={title} />
-            <Text>{text}</Text>
+            <Text classes="header-description">{text}</Text>
             <button onClick={() => handleOnClick('english')}>
                 {globalVariable.english ? 'Español' : 'English'}
             </button>

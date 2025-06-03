@@ -1,12 +1,13 @@
 import IconList from '../molecules/IconList'
+
 const Footer = ({ social }) => {
     console.log(social);
     return (
-        <div>
+        <footer>
             {social && 
                 <IconList icons={social} />
             }
-        </div>
+        </footer>
     )
 }
 

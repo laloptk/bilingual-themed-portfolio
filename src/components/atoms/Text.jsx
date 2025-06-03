@@ -1,6 +1,6 @@
-const Text = ({ children }) => {  
+const Text = ({ children, classes='' }) => {  
   return (
-    <div>
+    <div className={classes} >
       {children}
     </div>
   );
