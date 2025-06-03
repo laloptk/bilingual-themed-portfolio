@@ -10,7 +10,7 @@ const Timeline = ({jobs}) => {
                     {`${job.startYear} - ${job.endYear}`}
                 </p>
             </div>
-            <Card key={job.id} post={job} type="timeline" />
+            <Card key={job.id} post={job} type="timeline" triangles={["left", "right"]} />
         </div>
       ))}
     </div>
