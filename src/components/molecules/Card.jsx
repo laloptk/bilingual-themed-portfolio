@@ -2,6 +2,7 @@ import SemanticImage from "./SemanticImage";
 import Title from "../atoms/Title/Title";
 import Text from "../atoms/Text";
 import Triangle from "../atoms/Triangle";
+import SafeHTMLContent from "./SafeHTMLContent";
 
 const Card = ({ post, type="default", triangles=[] }) => {
   return (
@@ -13,9 +14,7 @@ const Card = ({ post, type="default", triangles=[] }) => {
             )}
             <div className="card-content">
                 <Title title={post.title} level="3" />
-                <Text>
-                    {post.description}
-                </Text>
+                <SafeHTMLContent content={post.description} />
             </div>
           </Triangle>) 
           : (
