@@ -1,5 +1,4 @@
 import Title from "../atoms/Title/Title"
-import Text from "../atoms/Text"
 import Button from "../atoms/Button"
 import useGlobalState from "../../utils/hooks/useGlobalState"
 import SafeHTMLContent from "../molecules/SafeHTMLContent"
@@ -11,9 +10,9 @@ const Header = ({title, subtitle, text}) => {
     }
     return (
         <header className="header">
-            <Title title={title} classes={"header-subtitle gradient-title"} />
+            <Title title={title} classes={"header-title gradient-title"} />
             <Title title={subtitle} level="2" classes={"header-subtitle gradient-title"} />
-            <SafeHTMLContent content={text} />
+            <SafeHTMLContent content={text} classes="header-blurb" />
             <div className="header-buttons">
                 <div className="header-button">
                     <Button onClick={() => handleOnClick('english')}>
