@@ -6,6 +6,7 @@
 @use './card';
 @use './icon-list';
 @use './timeline';
+@use './projects';
 @use './footer';
 
 // =====================
@@ -52,12 +53,6 @@ body {
   padding: $spacing-lg $spacing-md;
 }
 
-// Dark mode override class (can be toggled on <body>)
-body.dark-mode {
-  background-color: $color-dark-bg;
-  color: $color-dark-text;
-}
-
 // Image reset
 img {
   max-width: 100%;
@@ -71,9 +66,17 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
+p {
+  margin-bottom: 10px;
+}
+
 a {
   color: inherit;
   text-decoration: none;
+}
+
+strong {
+  color: $color-light-primary;
 }
 
 // Utility class for gradient title

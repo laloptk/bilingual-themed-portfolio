@@ -55,7 +55,7 @@
             "sectionTitle": "Experience",
             "content": [
                 {
-                    "id": 1,
+                    "id": "joben1",
                     "title": "StellarWP",
                     "position": "WordPress Developer",
                     "description": "<p>Contributed to the ongoing maintenance and feature development of multiple WordPress plugins across the company’s product suite.</p> <p>Specialized in Gutenberg block development, with a strong focus on the Kadence Theme, Kadence Blocks, and Kadence Blocks Pro.</p>",
@@ -68,30 +68,30 @@
                     }
                 },
                 {
-                    "id": 2,
+                    "id": "joben2",
                     "title": "Wizeline",
                     "description": "<p>I led the technical part of an audit of a large-scale Magento-based eCommerce platform to assess technical debt and identify improvement opportunities. Delivered a phased modernization plan, including patching legacy issues, introducing a React-based headless frontend, and outlining a long-term migration to microservices. The roadmap was approved and became the foundation for the company’s digital transformation strategy.</p>",
                     "startYear": "2022",
                     "endYear": "2023"
                 },
                 {
-                    "id": 3,
+                    "id": "joben3",
                     "title": "RockStarCoders",
                     "description": "<p>Worked full-time as a contractor, serving marketing, SEO, and design-focused clients. Delivered tailored solutions including full site builds, plugin customization, performance optimization, and ongoing maintenance. Regularly worked with WordPress, ACF, Page Builders, REST API, and custom Gutenberg blocks. Often handled direct communication with clients, ensuring agile, client-first development.</p>",
                     "startYear": "2018",
                     "endYear": "2021"
                 },
                 {
-                    "id": 4,
+                    "id": "joben4",
                     "title": "CabForward",
                     "description": "<p>Initially joined as a part-time contractor to implement the agency’s website redesign. After a few months, I was brought on full-time to help offer WordPress websites as a service to their clients. Most projects involved building custom sites using page builders like Divi and Cornerstone, with a focus on rapid delivery and solid UX.</p>",
                     "startYear": "2017",
                     "endYear": "2018"
                 },
                 {
-                    "id": 5,
+                    "id": "joben5",
                     "title": "PostModernMarketing",
-                    "description": "Worked full-time as a contractor handling a wide variety of WordPress development tasks. From building custom templates for pages and post types to adding new functionality or styling existing components, I adapted to each project's needs with flexibility and precision. This role required strong knowledge of WordPress internals, frontend styling, and modular development practices.",
+                    "description": "<p>Worked full-time as a contractor handling a wide variety of WordPress development tasks. From building custom templates for pages and post types to adding new functionality or styling existing components, I adapted to each project's needs with flexibility and precision. This role required strong knowledge of WordPress internals, frontend styling, and modular development practices.</p>",
                     "startYear": "2016",
                     "endYear": "2017"
                 }
@@ -103,14 +103,14 @@
         "subtitle": "Construyo sitios web.",
         "author": "Eduardo Sánchez Hidalgo Urías",
         "version": "1.0",
-        "description": "Este es mi sitio web de portafolio donde puedes ver mi experiencia como desarrollador de WordPress y algunos de los proyectos en los que he trabajado.",
+        "description": "<p>Este es mi portafolio, donde puedes ver mi experiencia como <strong>desarrollador de WordPress</strong> y algunos de los proyectos en los que he trabajado.</p>",
         "projects":{ 
             "sectionTitle": "Proyectos",
             "content": [
                 {
                     "id": "projectes1",
                     "title": "PartySlate",
-                    "description": "PartySlate ya tenía un blog, pero querían renovarlo y ofrecer una mejor experiencia a su equipo editorial — y ahí entré yo. Les ayudé a re-construir su blog desde cero, integrando una nueva instalación de WordPress con su sitio principal y su blog anterior (también en WordPress). El proyecto incluyó la creación de bloques personalizados de Gutenberg y plantillas a medida con ACF, llamadas a la API de GraphQL para algunos widgets interactivos, y un par de trucos más del mundo WordPress. Fue un reto divertido que combinó creatividad con ingeniería sólida.",
+                    "description": "<p>PartySlate ya tenía un blog, pero querían renovarlo y ofrecer una mejor experiencia a su equipo editorial — y ahí entré yo. Les ayudé a re-construir su blog desde cero, integrando una nueva instalación de WordPress con su sitio principal y su blog anterior (también en WordPress). El proyecto incluyó la creación de bloques personalizados de Gutenberg y plantillas a medida con ACF, llamadas a la API de GraphQL para algunos widgets interactivos, y un par de trucos más del mundo WordPress. Fue un reto divertido que combinó creatividad con ingeniería sólida.</p>",
                     "image": {
                         "src": "./src/assets/party-slate-blog-post-w-sidebar.png",
                         "alt": "Sitio Web Uno",
