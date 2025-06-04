@@ -1,11 +1,11 @@
-import IconList from "../molecules/IconList"
+import IconList from '../molecules/IconList';
 
 const Skills = ({ skills }) => {
-    return(
-       <div className="skills">
-            <IconList icons={skills} />
-       </div>
-    )
-}
+  return (
+    <div className="skills">
+      <IconList icons={skills} />
+    </div>
+  );
+};
 
-export default Skills
+export default Skills;

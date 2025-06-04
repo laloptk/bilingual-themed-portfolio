@@ -4,7 +4,10 @@ export const GlobalStateContext = createContext();
 
 // Provider Component
 const GlobalStateProvider = ({ children }) => {
-  const [globalVariable, setGlobalVariable] = useState({english: true, light: true});
+  const [globalVariable, setGlobalVariable] = useState({
+    english: true,
+    light: true,
+  });
 
   return (
     <GlobalStateContext.Provider value={{ globalVariable, setGlobalVariable }}>

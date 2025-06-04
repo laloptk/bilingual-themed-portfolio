@@ -35,7 +35,9 @@ body {
   background-color: $color-light-bg;
   color: $color-light-text;
   line-height: 1.6;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 #root {
@@ -55,7 +57,7 @@ body {
       & button {
         color: $color-dark-text;
         border-color: $color-dark-text;
-        
+
         &:hover {
           background-color: $color-dark-text;
           color: $color-light-text;
@@ -79,7 +81,12 @@ img {
 }
 
 // Global typography
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $font-title;
   font-weight: 600;
 }
