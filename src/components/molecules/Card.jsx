@@ -8,6 +8,7 @@ const Card = ({ post, type="default", triangles=[] }) => {
   return (
     <div className={`card card-${type}`}>
         {triangles ?
+        
           (<Triangle sides={triangles} >
             {post.image && post.image.src && (
                 <SemanticImage src={post.image.src} alt={post.image.alt} caption={post.image.caption} />

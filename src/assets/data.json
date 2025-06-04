@@ -82,14 +82,14 @@
                     "endYear": "2021"
                 },
                 {
-                    "id": 3,
+                    "id": 4,
                     "title": "CabForward",
                     "description": "<p>Initially joined as a part-time contractor to implement the agency’s website redesign. After a few months, I was brought on full-time to help offer WordPress websites as a service to their clients. Most projects involved building custom sites using page builders like Divi and Cornerstone, with a focus on rapid delivery and solid UX.</p>",
                     "startYear": "2017",
                     "endYear": "2018"
                 },
                 {
-                    "id": 3,
+                    "id": 5,
                     "title": "PostModernMarketing",
                     "description": "Worked full-time as a contractor handling a wide variety of WordPress development tasks. From building custom templates for pages and post types to adding new functionality or styling existing components, I adapted to each project's needs with flexibility and precision. This role required strong knowledge of WordPress internals, frontend styling, and modular development practices.",
                     "startYear": "2016",
@@ -108,7 +108,7 @@
             "sectionTitle": "Proyectos",
             "content": [
                 {
-                    "id": 1,
+                    "id": "projectes1",
                     "title": "PartySlate",
                     "description": "PartySlate ya tenía un blog, pero querían renovarlo y ofrecer una mejor experiencia a su equipo editorial — y ahí entré yo. Les ayudé a re-construir su blog desde cero, integrando una nueva instalación de WordPress con su sitio principal y su blog anterior (también en WordPress). El proyecto incluyó la creación de bloques personalizados de Gutenberg y plantillas a medida con ACF, llamadas a la API de GraphQL para algunos widgets interactivos, y un par de trucos más del mundo WordPress. Fue un reto divertido que combinó creatividad con ingeniería sólida.",
                     "image": {
@@ -118,7 +118,7 @@
                     }
                 },
                                 {
-                    "id": 2,
+                    "id": "projectes2",
                     "title": "KadenceWP",
                     "description": "<p>Durante mi tiempo en StellarWP, tuve la oportunidad de colaborar con Kadence — una de sus divisiones que ofrece un potente tema y constructor de páginas para WordPress (en versiones gratuita y pro).</p><p>Mi trabajo se centró en mejorar el ecosistema de Kadence corrigiendo bugs y desarrollando nuevas funcionalidades para los bloques de Gutenberg. También trabajé con el Personalizador de WordPress, la Options API y otras herramientas internas. Fue una experiencia práctica que reforzó mis conocimientos en desarrollo moderno con WordPress.</p>",
                     "url": "https://www.kadencewp.com/",
@@ -129,7 +129,7 @@
                     }
                 },
                 {
-                    "id": 3,
+                    "id": "projectes3",
                     "title": "PalTech",
                     "description": "Desarrollé el sitio web de PalTech en WordPress, partiendo de diseños personalizados en PSD. Me entregaron maquetas muy bien elaboradas para cada página, y las transformé en módulos reutilizables para construir las plantillas reales. El proyecto no se trató solo de programar, sino de dar vida a un diseño elegante en un sitio funcional. Fue una experiencia divertida trabajar con un diseño tan bien pensado.",
                     "image": {
@@ -139,7 +139,7 @@
                     }
                 },
                 {
-                    "id": 4,
+                    "id": "projectes4",
                     "title": "All Wheather",
                     "description": "<p>Este fue un proyecto desafiante que exigió un gran trabajo en equipo.</P><p>Mi responsabilidad principal fue construir la mayor parte del front-end, aunque también colaboré en algunas tareas de backend. Desarrollé plantillas personalizadas para distintos tipos de contenido usando ACF e integré librerías como jQuery y Masonry para lograr diseños dinámicos. Fue una excelente oportunidad para combinar funcionalidad con una experiencia de usuario fluida.</p>",
                     "url": "https://www.allweatheraa.com/",
@@ -155,7 +155,7 @@
             "sectionTitle": "Experiencia",
             "content": [
             {
-                "id": 1,
+                "id": "jobes1",
                 "title": "StellarWP",
                 "position": "Desarrollador WordPress",
                 "description": "<p>Contribuí al mantenimiento continuo y desarrollo de nuevas funciones para varios plugins de WordPress dentro del portafolio de productos de la empresa.</p> <p>Especializado en el desarrollo de bloques Gutenberg, con un enfoque principal en Kadence Theme, Kadence Blocks y Kadence Blocks Pro. También trabajé con ACF, REST API, y Page Builders.</p>",
@@ -163,7 +163,7 @@
                 "endYear": "2024"
             },
             {
-                "id": 2,
+                "id": "jobes2",
                 "title": "Wizeline",
                 "position": "Ingeniero de Software",
                 "description": "<p>Dirigí la parte técnica de una auditoría para una plataforma eCommerce basada en Magento con el objetivo de identificar deuda técnica y proponer una estrategia de modernización. Elaboré un plan por fases: primero corregir problemas existentes, luego desarrollar un frontend headless con React, y finalmente migrar el backend a microservicios. El plan fue aprobado y se convirtió en la hoja de ruta de transformación digital de la empresa.</p>",
@@ -171,7 +171,7 @@
                 "endYear": "2023"
             },
             {
-                "id": 3,
+                "id": "jobes3",
                 "title": "RockStarCoders",
                 "position": "Desarrollador WordPress (Contratista)",
                 "description": "<p>Trabajé tiempo completo como contractor para una agencia que brindaba servicios a clientes enfocados en marketing, SEO y diseño. Desarrollé sitios completos, personalicé plugins, optimicé el rendimiento, di mantenimiento y a veces trabajé directamente con los clientes sin pasar por el project manager. Utilicé WordPress, ACF, Page Builders, REST API y bloques personalizados de Gutenberg.</p>",
@@ -179,7 +179,7 @@
                 "endYear": "2021"
             },
             {
-                "id": 4,
+                "id": "jobes4",
                 "title": "CabForward",
                 "position": "Desarrollador WordPress (Contratista)",
                 "description": "<p>Inicié como contractor medio tiempo para implementar el rediseño del sitio web de la agencia. Meses después, me ofrecieron integrarme tiempo completo para desarrollar sitios WordPress para sus clientes. La mayoría de los sitios fueron creados con page builders como Divi y Cornerstone.</p>",
@@ -187,7 +187,7 @@
                 "endYear": "2018"
             },
             {
-                "id": 5,
+                "id": "jobes5",
                 "title": "PostModernMarketing",
                 "position": "Desarrollador WordPress (Contratista)",
                 "description": "<p>Trabajé como contractor full-time haciendo un poco de todo: desde construir plantillas para páginas o post types, hasta añadir funcionalidades o estilos a componentes ya existentes. Este rol me exigía una comprensión sólida de WordPress, desarrollo modular, y buenas prácticas de frontend.</p>",
