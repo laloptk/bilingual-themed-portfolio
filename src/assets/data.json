@@ -13,29 +13,40 @@
                     "title": "PartySlate",
                     "description": "PartySlate already had a blog, but they wanted a fresh look and a better experience for their content team — that’s where I came in. I helped them revamp their blog by integrating a brand-new WordPress setup with both their main website and their legacy blog (also on WordPress). The project involved building custom Gutenberg blocks and templates using ACF, implementing GraphQL API calls for interactive widgets, and playing with a few other neat WordPress tricks. It was a fun challenge that blended creativity with solid engineering.",
                     "image": {
-                        "src": "https://www.partyslate.com/best-of/",
-                        "alt": "Website Uno",
-                        "caption": "This is a caption for the first item."
+                        "src": "./src/assets/party-slate-blog-post-w-sidebar.png",
+                        "alt": "A blog post by party slate",
+                        "caption": "This is an image of one of the blog posts posted in party slate."
                     }
                 },
                 {
                     "id": 2,
-                    "title": "PalTech",
-                    "description": "I built the PalTech website using WordPress, starting from their custom PSD designs. They handed me beautifully crafted layouts for every page, and I translated those into reusable modules to bring the templates to life. The project was not just about coding — it was about turning an elegant design into a fully functional site. It was genuinely fun to work on a build with such thoughtful design behind it.",
+                    "title": "KadenceWP",
+                    "description": "<p>While working with StellarWP, I had the chance to contribute to Kadence — one of their branches offering a powerful WordPress theme and page builder (both free and pro versions).</p><p>My work focused on enhancing the Kadence ecosystem by fixing bugs and developing new features for Gutenberg blocks. I also worked with the WordPress Customizer, the Options API, and various internal tools. It was a hands-on experience that deepened my understanding of modern WordPress development.</p>",
+                    "url": "https://www.kadencewp.com/",
                     "image": {
-                        "src": "./src/assets/website-dos.png",
-                        "alt": "Website Dos",
+                        "src": "./src/assets/kadence-plugin.png",
+                        "alt": "KadenceWP Website",
                         "caption": "This is a caption for the second item."
                     }
                 },
                 {
                     "id": 3,
+                    "title": "PalTech",
+                    "description": "I built the PalTech website using WordPress, starting from their custom PSD designs. They handed me beautifully crafted layouts for every page, and I translated those into reusable modules to bring the templates to life. The project was not just about coding — it was about turning an elegant design into a fully functional site. It was genuinely fun to work on a build with such thoughtful design behind it.",
+                    "image": {
+                        "src": "./src/assets/pal-tech-home.png",
+                        "alt": "PalTech website's homepage",
+                        "caption": "A screenshot of the PalTech website homepage"
+                    }
+                },
+                {
+                    "id": 4,
                     "title": "All Wheather",
                     "description": "<p>This was a challenging project that required strong teamwork.</p><p>I was primarily responsible for building most of the front end, while also contributing to some backend tasks. I developed custom templates for various post types using ACF, and integrated libraries like jQuery and Masonry to handle dynamic layouts. It was a great opportunity to blend functionality with a smooth user experience.</p>",
                     "image": {
-                        "src": "./src/assets/website-tres.png",
+                        "src": "./src/assets/all-weather-home.png",
                         "alt": "All Wheather Website",
-                        "caption": "This is a caption for the third item."
+                        "caption": "The homepage of All Weather AA"
                     }
                 }
             ]
@@ -91,8 +102,19 @@
                         "caption": "Este es un pie de imagen para el primer elemento."
                     }
                 },
-                {
+                                {
                     "id": 2,
+                    "title": "KadenceWP",
+                    "description": "<p>Durante mi tiempo en StellarWP, tuve la oportunidad de colaborar con Kadence — una de sus divisiones que ofrece un potente tema y constructor de páginas para WordPress (en versiones gratuita y pro).</p><p>Mi trabajo se centró en mejorar el ecosistema de Kadence corrigiendo bugs y desarrollando nuevas funcionalidades para los bloques de Gutenberg. También trabajé con el Personalizador de WordPress, la Options API y otras herramientas internas. Fue una experiencia práctica que reforzó mis conocimientos en desarrollo moderno con WordPress.</p>",
+                    "url": "https://www.kadencewp.com/",
+                    "image": {
+                        "src": "./src/assets/kadence-plugin.png",
+                        "alt": "Kadence theme",
+                        "caption": "Foto del tema de WordPress Kadence"
+                    }
+                },
+                {
+                    "id": 3,
                     "title": "PalTech",
                     "description": "Desarrollé el sitio web de PalTech en WordPress, partiendo de diseños personalizados en PSD. Me entregaron maquetas muy bien elaboradas para cada página, y las transformé en módulos reutilizables para construir las plantillas reales. El proyecto no se trató solo de programar, sino de dar vida a un diseño elegante en un sitio funcional. Fue una experiencia divertida trabajar con un diseño tan bien pensado.",
                     "image": {
@@ -102,7 +124,7 @@
                     }
                 },
                 {
-                    "id": 3,
+                    "id": 4,
                     "title": "All Wheather",
                     "description": "<p>Este fue un proyecto desafiante que exigió un gran trabajo en equipo.</P><p>Mi responsabilidad principal fue construir la mayor parte del front-end, aunque también colaboré en algunas tareas de backend. Desarrollé plantillas personalizadas para distintos tipos de contenido usando ACF e integré librerías como jQuery y Masonry para lograr diseños dinámicos. Fue una excelente oportunidad para combinar funcionalidad con una experiencia de usuario fluida.</p>",
                     "url": "https://www.allweatheraa.com/",
@@ -163,6 +185,11 @@
                 "id": "skill3",
                 "title": "JavaScript",
                 "fontAwesomeName": "fab fa-js"
+            },
+             {
+                "id": "skill4",
+                "title": "React",
+                "fontAwesomeName": "fab fa-react"
             },
             {
                 "id": "skill5",

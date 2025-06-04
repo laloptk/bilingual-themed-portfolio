@@ -14,12 +14,18 @@ const Header = ({title, subtitle, text}) => {
             <Title title={title} />
             <Title title={subtitle} level="2" />
             <SafeHTMLContent content={text} />
-            <Button onClick={() => handleOnClick('english')}>
-                {globalVariable.english ? 'Español' : 'English'}
-            </Button>
-            <Button onClick={() => handleOnClick('light')}>
-                {globalVariable.light ? 'Dark Mode' : 'Light Mode'}
-            </Button>
+            <div className="header-buttons">
+                <div className="header-button">
+                    <Button onClick={() => handleOnClick('english')}>
+                        {globalVariable.english ? 'Español' : 'English'}
+                    </Button>
+                </div>
+                <div className="header-button">
+                    <Button onClick={() => handleOnClick('light')}>
+                        {globalVariable.light ? 'Dark Mode' : 'Light Mode'}
+                    </Button>
+                </div>
+            </div>
         </header>
     )
 }
