@@ -1,13 +1,9 @@
-import IconList from '../molecules/IconList'
-
-const Footer = ({ social, classes }) => {
+const Footer = ({ classes="" }) => {
     return (
         <footer className={`footer ${classes}`}>
-            <div className="icons">
-                {social &&
-                    <IconList icons={social} />
-                }
-            </div>   
+           <div className="footer-bottom">
+                <p>Developed and designed by <a href="https://www.linkedin.com/in/eduardo-sanchez-hidalgo/">Eduardo Sanchez Hidalgo</a> (with a bit of help from chatGPT for the design).</p>
+           </div>
         </footer>
     )
 }

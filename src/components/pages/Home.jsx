@@ -7,6 +7,7 @@ import Skills from '../organisms/Skills'
 import Footer from '../organisms/Footer'
 import useGlobalState from "../../utils/hooks/useGlobalState";
 import data from '../../assets/data.json'
+import Contact from '../organisms/Contact'
 
 const Home = () => {
     const { globalVariable } = useGlobalState();
@@ -32,11 +33,19 @@ const Home = () => {
                 <SectionBox
                     title={globalVariable.english ? "Skills" : "Habilidades"}
                     blurb=""
-                    classes="section skills with-line-after">
+                    classes="section skills with-line-after"
+                >
                     <Skills skills={data.skills.content} />
                 </SectionBox>
+                <SectionBox
+                    title={globalVariable.english ? "Contact Me!" : "Contáctame"}
+                    blurb=""
+                    classes="section skills with-line-after"
+                >
+                    <Contact social={data.social.content} classes={globalVariable.light ? "light" : "dark"} />
+                </SectionBox>
             </MainBox>
-            <Footer social={data.social.content} classes={globalVariable.light ? "light" : "dark"} />
+            <Footer />
         </>
     )
 }

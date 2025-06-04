@@ -1,53 +1,15 @@
 @use "./globals" as *;
 
 .footer {
+    text-align: center;
+    font-size: $font-size-xs;
+
+    a {
+        color: $color-light-primary;
+    }
+
     &.dark {
         background-color: $color-dark-bg;
         color: $color-dark-text;
-
-        & .icons a {
-            color: #999999; // Default icon color in dark mode
-        }
-
-        & .icons a:hover {
-            color: $color-dark-primary; // Hover color in dark mode
-        }
-    }
-    & .icons {
-        display: flex;
-        justify-content: center;
-        gap: 1rem;
-        width: 100%;
-
-        .icon-list {
-            display: flex;
-            flex-wrap: nowrap;
-            justify-content: center;
-            gap: 1rem;
-            width: 80%;
-            border-top: 2px solid #ccc; // Top divider line
-            padding-top: 0;
-        }
-
-        & a {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            color: #999999; // Default icon color
-            text-decoration: none;
-            font-size: 5rem; // Adjust size as needed
-            transition: color 0.3s ease;
-            width: 50%;
-            padding: 40px 20px;
-            border-right: 2px solid #ccc; // Divider line
-
-            &:last-child {
-                border-right: none; // Remove divider for last icon
-            }
-
-            &:hover {
-                color: #007bff; 
-            }
-        }
     }
 }
