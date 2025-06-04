@@ -1,65 +1,72 @@
-@use "./globals" as *;
+@use './globals' as *;
 .timeline {
-    position: relative;
-    
-    // Línea central del timeline
-    &:before {
-        content: "";
-        position: absolute;
-        left: 50%;
-        top: 0;
-        bottom: 0;
-        width: 6px;
-        background: linear-gradient(to bottom, #f9766f 0%,#d160a2 25%,#7f60d1 65%,#3b8ff1 90%,#7db9e8 100%);
-        transform: translateX(-50%);
-        z-index: 1;
-        border-radius: 3px;
+  position: relative;
+
+  // Línea central del timeline
+  &:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 6px;
+    background: linear-gradient(
+      to bottom,
+      #f9766f 0%,
+      #d160a2 25%,
+      #7f60d1 65%,
+      #3b8ff1 90%,
+      #7db9e8 100%
+    );
+    transform: translateX(-50%);
+    z-index: 1;
+    border-radius: 3px;
+  }
+
+  .timeline-card {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 10px;
+    margin-bottom: 30px;
+    align-items: center;
+
+    .timeline-years {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #888;
+      font-size: $font-size-sm;
     }
 
-    .timeline-card {
-        display: grid;
-        grid-template-columns: 1fr auto 1fr;
-        gap: 10px;
-        margin-bottom: 30px;
-        align-items: center;
+    // Filas impares: año a la izquierda, contenido a la derecha
+    &:nth-child(odd) {
+      .timeline-years {
+        grid-column: 1;
+        text-align: right;
+        padding-right: 20px;
+      }
 
-        .timeline-years {
-            font-size: 1.2em;
-            font-weight: bold;
-            color: #888;
-            font-size: $font-size-sm;
-        }
-
-        // Filas impares: año a la izquierda, contenido a la derecha
-        &:nth-child(odd) {
-            .timeline-years {
-                grid-column: 1;
-                text-align: right;
-                padding-right: 20px;
-            }
-            
-            .card {
-                grid-column: 3;
-                grid-row: 1;
-                margin-left: 20px;
-                position: relative;
-            }
-        }
-
-        // Filas pares: contenido a la izquierda, año a la derecha
-        &:nth-child(even) {
-            .timeline-years {
-                grid-column: 3;
-                text-align: left;
-                padding-left: 20px;
-            }
-            
-            .card {
-                grid-column: 1;
-                grid-row: 1;
-                margin-right: 20px;
-                position: relative;
-            }
-        }
+      .card {
+        grid-column: 3;
+        grid-row: 1;
+        margin-left: 20px;
+        position: relative;
+      }
     }
+
+    // Filas pares: contenido a la izquierda, año a la derecha
+    &:nth-child(even) {
+      .timeline-years {
+        grid-column: 3;
+        text-align: left;
+        padding-left: 20px;
+      }
+
+      .card {
+        grid-column: 1;
+        grid-row: 1;
+        margin-right: 20px;
+        position: relative;
+      }
+    }
+  }
 }

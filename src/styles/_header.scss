@@ -1,4 +1,4 @@
-@use "./globals" as *;
+@use './globals' as *;
 
 .header {
   display: flex;
@@ -16,15 +16,15 @@
     background-color: $color-dark-bg;
 
     & .header-buttons {
-        & button {
-            border-color: white;
-            color: white;
+      & button {
+        border-color: white;
+        color: white;
 
-            &:hover {
-                background-color: white;
-                color: $color-dark-bg;
-            }
+        &:hover {
+          background-color: white;
+          color: $color-dark-bg;
         }
+      }
     }
   }
 

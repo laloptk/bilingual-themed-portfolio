@@ -1,9 +1,5 @@
-const Text = ({ children, classes='' }) => {  
-  return (
-    <div className={classes} >
-      {children}
-    </div>
-  );
-}
+const Text = ({ children, classes = '' }) => {
+  return <div className={classes}>{children}</div>;
+};
 
 export default Text;

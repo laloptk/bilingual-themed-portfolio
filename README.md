@@ -11,13 +11,13 @@ Designed to be **easily customizable** so anyone can quickly set up and showcase
 
 ## 🚀 Features
 
-- ⚛️ **React + Vite** for fast development and performance  
-- 🧬 **Atomic Design** architecture for scalable components  
-- 🌐 **Language toggle** (English / Spanish) via React Context  
-- 🌗 **Light / Dark mode** switch with global context  
-- 🧠 **Custom hooks** for clean and reusable logic  
-- 🎨 Styled with Tailwind CSS (optional, depending on your implementation)  
-- 📦 Uses **FontAwesome** for social and tech icons  
+- ⚛️ **React + Vite** for fast development and performance
+- 🧬 **Atomic Design** architecture for scalable components
+- 🌐 **Language toggle** (English / Spanish) via React Context
+- 🌗 **Light / Dark mode** switch with global context
+- 🧠 **Custom hooks** for clean and reusable logic
+- 🎨 Styled with Tailwind CSS (optional, depending on your implementation)
+- 📦 Uses **FontAwesome** for social and tech icons
 
 ---
 
@@ -44,8 +44,8 @@ src/
 
 ## 🌐 Language & Theme Context
 
-- `LanguageContext` manages **English** and **Spanish** strings.  
-- `ThemeContext` toggles between **light** and **dark** modes.  
+- `LanguageContext` manages **English** and **Spanish** strings.
+- `ThemeContext` toggles between **light** and **dark** modes.
 - Wrap your app with both providers to use them globally.
 
 ---
@@ -61,12 +61,14 @@ src/
    ```
 
 2. **Update content:**
+
    - Modify data in `/assets/data` for:
      - Experience
      - Projects
      - Skills
 
 3. **Add your icons:**
+
    - Use [FontAwesome](https://fontawesome.com/icons) icons in social links and tech skills.
    - Example:
      ```jsx
@@ -83,21 +85,21 @@ src/
 
 ## 📦 Dependencies
 
-- `react`, `react-dom`  
-- `vite`  
-- `@fortawesome/react-fontawesome`  
-- `@fortawesome/free-brands-svg-icons`  
-- `@fortawesome/free-solid-svg-icons`  
+- `react`, `react-dom`
+- `vite`
+- `@fortawesome/react-fontawesome`
+- `@fortawesome/free-brands-svg-icons`
+- `@fortawesome/free-solid-svg-icons`
 
 ---
 
 ## 🛠️ Built With
 
-- [React](https://react.dev/)  
-- [Vite](https://vite.dev/)  
-- Context API  
-- [FontAwesome](https://docs.fontawesome.com/v5/web/use-with/react)  
-- [Atomic Design](https://atomicdesign.bradfrost.com/)  
+- [React](https://react.dev/)
+- [Vite](https://vite.dev/)
+- Context API
+- [FontAwesome](https://docs.fontawesome.com/v5/web/use-with/react)
+- [Atomic Design](https://atomicdesign.bradfrost.com/)
 - [Tailwind CSS](https://tailwindcss.com/) (optional)
 
 ---
@@ -128,5 +130,5 @@ Feel free to connect via [LinkedIn](https://www.linkedin.com/in/eduardo-sanchez-
 
 ## 🧠 Credits
 
-- UI Design: ChatGPT (prompt engineered by @laloptk)  
+- UI Design: ChatGPT (prompt engineered by @laloptk)
 - Dev: [Eduardo Sanchez Hidalgo](https://github.com/laloptk)

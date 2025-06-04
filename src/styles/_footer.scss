@@ -1,15 +1,15 @@
-@use "./globals" as *;
+@use './globals' as *;
 
 .footer {
-    text-align: center;
-    font-size: $font-size-xs;
+  text-align: center;
+  font-size: $font-size-xs;
 
-    a {
-        color: $color-light-primary;
-    }
+  a {
+    color: $color-light-primary;
+  }
 
-    &.dark {
-        background-color: $color-dark-bg;
-        color: $color-dark-text;
-    }
+  &.dark {
+    background-color: $color-dark-bg;
+    color: $color-dark-text;
+  }
 }

@@ -53,7 +53,14 @@ $color-error: #ef4444;
 
 // Gradient title mixin
 @mixin gradient-title() {
-  background: linear-gradient(to right, #f9766f 0%,#d160a2 15%,#7f60d1 34%,#3b8ff1 59%,#7db9e8 100%);
+  background: linear-gradient(
+    to right,
+    #f9766f 0%,
+    #d160a2 15%,
+    #7f60d1 34%,
+    #3b8ff1 59%,
+    #7db9e8 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
