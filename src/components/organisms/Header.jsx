@@ -11,8 +11,8 @@ const Header = ({title, subtitle, text}) => {
     }
     return (
         <header className="header">
-            <Title title={title} />
-            <Title title={subtitle} level="2" />
+            <Title title={title} classes={"header-subtitle gradient-title"} />
+            <Title title={subtitle} level="2" classes={"header-subtitle gradient-title"} />
             <SafeHTMLContent content={text} />
             <div className="header-buttons">
                 <div className="header-button">

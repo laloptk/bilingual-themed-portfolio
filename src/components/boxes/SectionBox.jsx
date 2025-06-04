@@ -6,7 +6,7 @@ const SectionBox = ({children, classes="section", title, blurb }) => {
         <section className={classes} >
             {(title || blurb) && (
                 <header className="section-header">
-                    {title && <Title title={title} level="2" />}
+                    {title && <Title title={title} level="2" classes={"gradient-title"} />}
                     {blurb && <Text>{blurb}</Text>}
                 </header>
             )}

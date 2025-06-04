@@ -1,7 +1,7 @@
-const Title = ({ title, level = '1' }) => {
+const Title = ({ title, level = '1', classes='' }) => {
     const Heading = `h${level}`;
     return (
-        <Heading className="gradient-title">{title}</Heading>
+        <Heading className={classes} >{title}</Heading>
     );
 };
 
