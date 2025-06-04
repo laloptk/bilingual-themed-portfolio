@@ -1,6 +1,6 @@
 const NetlifyForm = () => {
     return (
-        <form name="contact" netlify>
+        <form name="contact" netlify="true">
             <p>
                 <label>Name <input type="text" name="name" /></label>
             </p>
