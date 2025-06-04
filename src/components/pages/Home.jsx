@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <>
             <Header title={languageData.title} subtitle={languageData.subtitle} text={languageData.description} />
-            <MainBox classes={globalVariable.light ? "portfolio light" : "portfolio dark"}>
+            <MainBox classes={globalVariable.light ? "portfolio light" : "portfolio dark"} >
                 <SectionBox 
                     title={languageData.projects.sectionTitle} 
                     blurb=""
@@ -36,7 +36,7 @@ const Home = () => {
                     <Skills skills={data.skills.content} />
                 </SectionBox>
             </MainBox>
-            <Footer social={data.social.content} />
+            <Footer social={data.social.content} classes={globalVariable.light ? "light" : "dark"} />
         </>
     )
 }

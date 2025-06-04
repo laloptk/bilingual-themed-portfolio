@@ -1,3 +1,5 @@
+@use "./globals" as *;
+
 .header {
   display: flex;
   flex-direction: column;
@@ -9,6 +11,22 @@
   padding: 20px;
   text-align: center;
   font-size: 24px;
+
+  &.dark {
+    background-color: $color-dark-bg;
+
+    & .header-buttons {
+        & button {
+            border-color: white;
+            color: white;
+
+            &:hover {
+                background-color: white;
+                color: $color-dark-bg;
+            }
+        }
+    }
+  }
 
   &-title {
     line-height: 1.1;

@@ -1,11 +1,22 @@
 @use "./globals" as *;
 
 .footer {
+    &.dark {
+        background-color: $color-dark-bg;
+        color: $color-dark-text;
+
+        & .icons a {
+            color: #999999; // Default icon color in dark mode
+        }
+
+        & .icons a:hover {
+            color: $color-dark-primary; // Hover color in dark mode
+        }
+    }
     & .icons {
         display: flex;
         justify-content: center;
         gap: 1rem;
-        margin-top: 1rem;
         width: 100%;
 
         .icon-list {

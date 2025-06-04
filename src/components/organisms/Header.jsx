@@ -8,8 +8,10 @@ const Header = ({title, subtitle, text}) => {
     const handleOnClick = (varName) => {
         setGlobalVariable({ ...globalVariable, [varName]: !globalVariable[varName] });
     }
+    const colorMode = globalVariable.light ? "light" : "dark";
+    
     return (
-        <header className="header">
+        <header className={`header ${colorMode}`}>
             <Title title={title} classes={"header-title gradient-title"} />
             <Title title={subtitle} level="2" classes={"header-subtitle gradient-title"} />
             <SafeHTMLContent content={text} classes="header-blurb" />

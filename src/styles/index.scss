@@ -36,7 +36,14 @@ body {
 }
 
 #root {
+  padding: 0;
+}
+
+.portfolio {
   padding: 0 $spacing-md;
+  &.dark {
+    background-color: $color-dark-bg;
+  }
 }
 
 .section {

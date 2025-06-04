@@ -1,6 +1,6 @@
-const MainBox = ({children, classes = "portfolio light"}) => {
+const MainBox = ({children, classes = "portfolio"}) => {
     return (
-        <main className={classes}>
+        <main className={classes} >
             {children}
         </main>
     )       
