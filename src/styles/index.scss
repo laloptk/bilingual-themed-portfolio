@@ -46,6 +46,22 @@ body {
   padding: 0 $spacing-md;
   &.dark {
     background-color: $color-dark-bg;
+
+    & .contact {
+      & label {
+        color: $color-dark-text;
+      }
+
+      & button {
+        color: $color-dark-text;
+        border-color: $color-dark-text;
+        
+        &:hover {
+          background-color: $color-dark-text;
+          color: $color-light-text;
+        }
+      }
+    }
   }
 }
 
