@@ -21,7 +21,7 @@
         {
           "id": 2,
           "title": "KadenceWP",
-          "description": "<p>While working with StellarWP, I had the chance to contribute to Kadence — one of their branches offering a powerful WordPress theme and page builder (both free and pro versions).</p><p>My work focused on enhancing the Kadence ecosystem by fixing bugs and developing new features for Gutenberg blocks. I also worked with the WordPress Customizer, the Options API, and various internal tools. It was a hands-on experience that deepened my understanding of modern WordPress development.</p>",
+          "description": "<p>While working with StellarWP, I had the chance to contribute to Kadence — one of their branches offering a powerful WordPress theme and page builder (both free and pro versions).</p><p>My work focused on enhancing the Kadence ecosystem by fixing bugs and developing new features for Kadence blocks. I also worked with the WordPress Customizer, the Options API, and various internal tools. It was a hands-on experience that deepened my understanding of modern WordPress development.</p>",
           "url": "https://www.kadencewp.com/",
           "image": {
             "src": "./kadence-plugin.png",
