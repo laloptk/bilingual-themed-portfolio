@@ -48,6 +48,17 @@
             "alt": "All Wheather Website",
             "caption": "The homepage of All Weather AA"
           }
+        },
+        {
+          "id": "projecten5",
+          "title": "This Portfolio",
+          "description": "<p>This portfolio was built with React + Vite. It uses a JSON object to input the data, leverages the Context API to manage global state that renders text based on language and theme type (dark or light). It also uses semantic HTML in the components, custom hooks, atomic design for structure, Sass for styling, GIT for version control, and a few other tricks you can learn more about by checking out the <a href='https://github.com/laloptk/bilingual-themed-portfolio' lazyloading target='_blank'>code and project description on GitHub</a>.</p>",
+          "url": "https://github.com/laloptk/bilingual-themed-portfolio",
+          "image": {
+            "src": "./lalos-portfolio.png",
+            "alt": "Portfolio of Eduardo Sanchez Hidalgo",
+            "caption": "Image of Eduardo Sanchez Hidalgo's portfolio."
+          }
         }
       ]
     },
@@ -113,8 +124,8 @@
           "description": "<p>PartySlate ya tenía un blog, pero querían renovarlo y ofrecer una mejor experiencia a su equipo editorial — y ahí entré yo. Les ayudé a re-construir su blog desde cero, integrando una nueva instalación de WordPress con su sitio principal y su blog anterior (también en WordPress). El proyecto incluyó la creación de bloques personalizados de Gutenberg y plantillas a medida con ACF, llamadas a la API de GraphQL para algunos widgets interactivos, y un par de trucos más del mundo WordPress. Fue un reto divertido que combinó creatividad con ingeniería sólida.</p>",
           "image": {
             "src": "./party-slate-blog-post-w-sidebar.png",
-            "alt": "Sitio Web Uno",
-            "caption": "Este es un pie de imagen para el primer elemento."
+            "alt": "Screenshot de blog post de PartySlate",
+            "caption": "Imagen de un post de PartySlate"
           }
         },
         {
@@ -124,7 +135,7 @@
           "url": "https://www.kadencewp.com/",
           "image": {
             "src": "./kadence-plugin.png",
-            "alt": "Kadence theme",
+            "alt": "Screenshot de Kadence theme",
             "caption": "Foto del tema de WordPress Kadence"
           }
         },
@@ -134,8 +145,8 @@
           "description": "Desarrollé el sitio web de PalTech en WordPress, partiendo de diseños personalizados en PSD. Me entregaron maquetas muy bien elaboradas para cada página, y las transformé en módulos reutilizables para construir las plantillas reales. El proyecto no se trató solo de programar, sino de dar vida a un diseño elegante en un sitio funcional. Fue una experiencia divertida trabajar con un diseño tan bien pensado.",
           "image": {
             "src": "./pal-tech-home.png",
-            "alt": "Sitio Web Dos",
-            "caption": "Este es un pie de imagen para el segundo elemento."
+            "alt": "Blog de PartySlate",
+            "caption": "Imagen de homepage de PalTech"
           }
         },
         {
@@ -146,7 +157,18 @@
           "image": {
             "src": "./all-weather-home.png",
             "alt": "Sitio Web de All Wheather",
-            "caption": "Este es un pie de imagen para el tercer elemento."
+            "caption": "IImage de homepage para All Wheather AA"
+          }
+        },
+        {
+          "id": "projectes5",
+          "title": "Este Portafolio",
+          "description": "<p>Este portfolio fue creado con React + Vite, usa un objeto JSON para introducir los datos, hace uso de la API de Contexto para manejar el estado global que renderiza el texto por idiomas y el tipo de tema (obscuro o ligero). También usa HTML semántico en los componentes, custom hooks, atomic design para la estructura, Sass para los estilos, GIT para el control de versiones, y unos cuantos trucos más sobre los que puedes ver más detalles viendo el ,<a href='https://github.com/laloptk/bilingual-themed-portfolio' lazyloading target='_blank'>código y la descripción del proyecto en Github</a>.</p>",
+          "url": "https://github.com/laloptk/bilingual-themed-portfolio",
+          "image": {
+            "src": "./lalos-portfolio.png",
+            "alt": "Portafolio de Eduardo Sanchez Hidalgo",
+            "caption": "Imagen del portafolio de Eduardo Sanchez Hidalgo."
           }
         }
       ]
