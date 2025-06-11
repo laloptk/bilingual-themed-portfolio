@@ -46,5 +46,9 @@
       font-size: $font-size-md;
       margin-top: 15px;
     }
+
+    & a {
+      color: $color-light-primary;
+    }
   }
 }
