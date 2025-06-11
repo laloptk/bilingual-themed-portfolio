@@ -14,7 +14,7 @@ const NetlifyForm = () => {
       </p>
       <p>
         <label>
-          Message<textarea></textarea>
+          Message: <textarea name="message"></textarea>
         </label>
       </p>
       <p>
