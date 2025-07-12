@@ -59,6 +59,17 @@
             "alt": "Portfolio of Eduardo Sanchez Hidalgo",
             "caption": "Image of Eduardo Sanchez Hidalgo's portfolio."
           }
+        },
+        {
+          "id": "projecten6",
+          "title": "WP Code Reviewer (Custom GPT)",
+          "description": "<p>AI tool that reviews WordPress plugin code for structure, security, and best practices. Built using a custom GPT and grounded in scraped data from the WP Plugin Developer Handbook.</p><p>It flags common issues (like missing nonces or bad hook usage) and suggests clean, modular improvements.</p>",
+          "url": "https://chatgpt.com/g/g-687145c05da081919c19f057d850614d-wp-code-reviewer-unoffcial",
+          "image": {
+            "src": "./wp-code-reviewer.png",
+            "alt": "WP Code Reviewer",
+            "caption": "Imagen de WP Code Reviewer."
+          }
         }
       ]
     },
@@ -169,6 +180,17 @@
             "src": "./lalos-portfolio.png",
             "alt": "Portafolio de Eduardo Sanchez Hidalgo",
             "caption": "Imagen del portafolio de Eduardo Sanchez Hidalgo."
+          }
+        },
+        {
+          "id": "projectes6",
+          "title": "WP Code Reviewer (Custom GPT)",
+          "description": "<p>Herramienta de IA que revisa código de plugins WordPress, enfocada en estructura, seguridad y buenas prácticas. Construida con un GPT personalizado y documentación extraída del Handbook oficial.</p><p> Detecta errores comunes (como falta de nonces o mal uso de hooks) y sugiere mejoras limpias y modulares.</p>",
+          "url": "https://chatgpt.com/g/g-687145c05da081919c19f057d850614d-wp-code-reviewer-unoffcial",
+          "image": {
+            "src": "./wp-code-reviewer.png",
+            "alt": "WP Code Reviewer",
+            "caption": "Imagen de WP Code Reviewer."
           }
         }
       ]
