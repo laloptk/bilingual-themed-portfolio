@@ -70,6 +70,17 @@
             "alt": "WP Code Reviewer",
             "caption": "Imagen de WP Code Reviewer."
           }
+        },
+        {
+          "id": "projecten7",
+          "title": "LearnHooks (WIP Plugin)",
+          "description": "<p>A learning plugin built to master WordPress hooks deeply, both in PHP and JavaScript. Includes examples of custom hooks, dynamic hooks, hook introspection, and extending Gutenberg core blocks. Actively in development.</p>",
+          "url": "https://github.com/eduardosanchezdev/LearnHooks",
+          "image": {
+            "src": "./learnhooks-plugin.png",
+            "alt": "LearnHooks plugin",
+            "caption": "Image of LearnHooks (WIP)"
+          }
         }
       ]
     },
@@ -191,6 +202,17 @@
             "src": "./wp-code-reviewer.png",
             "alt": "WP Code Reviewer",
             "caption": "Imagen de WP Code Reviewer."
+          }
+        },
+        {
+          "id": "projectes7",
+          "title": "LearnHooks (WIP Plugin)",
+          "description": "<p>Plugin de aprendizaje diseñado para dominar los hooks de WordPress en profundidad, tanto en PHP como en JavaScript. Incluye ejemplos de custom hooks, hooks dinámicos, introspección, y extensión de bloques Gutenberg. En desarrollo activo.</p>",
+          "url": "https://github.com/laloptk/learnhooks",
+          "image": {
+            "src": "./learnhooks-plugin.png",
+            "alt": "LearnHooks plugin",
+            "caption": "Imagen de LearnHooks (en desarrollo)"
           }
         }
       ]
