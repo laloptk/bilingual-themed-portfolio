@@ -4,38 +4,27 @@ import Text from '../atoms/Text';
 import Triangle from '../atoms/Triangle';
 import SafeHTMLContent from './SafeHTMLContent';
 
-const Card = ({ post, type = 'default', triangles = [] }) => {
+const Card = ({ post, type = 'default', btnText="Learn More"}) => {
   return (
     <div className={`card card-${type}`}>
-      {triangles ? (
-        <Triangle sides={triangles}>
           {post.image && post.image.src && (
             <SemanticImage
-              src={post.image.src}
-              alt={post.image.alt}
-              caption={post.image.caption}
+              src={post?.image?.src}
+              alt={post?.image?.alt}
+              caption={post?.image?.caption}
             />
           )}
           <div className="card-content">
             <Title title={post.title} level="3" />
-            <SafeHTMLContent content={post.description} />
+            <div className="card-content text" >
+              <SafeHTMLContent content={post.description} />
+              { type === "default" && post.url &&
+                  <a href={post?.url} target="_blank">
+                    { btnText }
+                  </a>
+              }
+            </div>
           </div>
-        </Triangle>
-      ) : (
-        <>
-          {post.image && post.image.src && (
-            <SemanticImage
-              src={post.image.src}
-              alt={post.image.alt}
-              caption={post.image.caption}
-            />
-          )}
-          <div className="card-content">
-            <Title title={post.title} level="3" />
-            <Text>{post.description}</Text>
-          </div>
-        </>
-      )}
     </div>
   );
 };

@@ -13,7 +13,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
   & figure {
-    max-height: 250px;
+    max-height: 300px;
     overflow: hidden;
     border-radius: 8px;
     margin: 0;
@@ -42,13 +42,22 @@
     flex-direction: column;
     justify-content: center;
 
+    .text {
+      margin-bottom: 20px;
+    }
+
     & .gradient-title {
       font-size: $font-size-md;
       margin-top: 15px;
     }
 
     & a {
-      color: $color-light-primary;
+      color: $color-dark-primary;
+      margin-top: auto;
+      padding: 10px 15px;
+      border: 3px solid $color-dark-primary;
+      border-radius: 50px;
+      text-align: center;
     }
   }
 }
