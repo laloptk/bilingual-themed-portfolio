@@ -1,7 +1,7 @@
 {
   "en": {
-    "title": "Hi! I'm, Eduardo. ",
-    "subtitle": "I build websites with WordPress.",
+    "title": "I'm, Eduardo. ",
+    "subtitle": "I build with WordPress.",
     "author": "Eduardo Sanchez Hidalgo Urias",
     "version": "1.0",
     "description": "<p>This is my portfolio website where you can see my experience as a <strong>WordPress developer</strong> and a few of the projects I worked on.</p>",
@@ -114,7 +114,7 @@
   },
   "es": {
     "title": "¡Hola! Soy Eduardo.",
-    "subtitle": "Construyo sitios web con WordPress.",
+    "subtitle": "Construyo con WordPress.",
     "author": "Eduardo Sánchez Hidalgo Urías",
     "version": "1.0",
     "description": "<p>Este es mi portafolio donde puedes ver mi experiencia como <strong>desarrollador de WordPress</strong> y algunos de los proyectos en los que he trabajado.</p>",
