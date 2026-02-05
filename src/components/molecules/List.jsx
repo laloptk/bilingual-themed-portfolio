@@ -4,7 +4,7 @@ const List = ({items}) => {
             {
                 items &&
                     items.map((item) => {
-                        return <li>{item.text}</li> 
+                        return <li key={item.id}>{item?.name ?? ''}</li> 
                     })
             }
         </ul>

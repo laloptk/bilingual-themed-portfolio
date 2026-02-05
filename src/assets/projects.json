@@ -1,0 +1,394 @@
+{
+    "en": {
+        "projectsDetailed": [
+            {
+                "id": 1,
+                "slug": "partyslate",
+                "name": "PartySlate",
+                "oneLiner": "A modern blog experience for content teams",
+                "description": "<p>PartySlate already had a blog, but they wanted a fresh look and a better experience for their content team, that's where I came in.</p><p>I helped them revamp their blog by integrating a brand-new WordPress setup with both their main website and their legacy blog (also on WordPress).</p><p>The project involved building custom Gutenberg blocks and templates using ACF, implementing GraphQL API calls for interactive widgets, and playing with a few other neat WordPress tricks.</p><p>It was a fun challenge that blended creativity with solid engineering.</p>",
+                "image": {
+                    "src": "/party-slate-blog-post-w-sidebar.png",
+                    "alt": "A blog post by party slate"
+                },
+                "links": {
+                    "Visit Site": "https://partyslate.com/best-of"
+                },
+                "stack": [
+                    {
+                        "id": "stack-1",
+                        "name": "WordPress"
+                    },
+                    {
+                        "id": "stack-2",
+                        "name": "ACF"
+                    },
+                    {
+                        "id": "stack-3",
+                        "name": "Gutenberg Blocks"
+                    },
+                    {
+                        "id": "stack-4",
+                        "name": "GraphQL"
+                    },
+                    {
+                        "id": "stack-5",
+                        "name": "PHP"
+                    },
+                    {
+                        "id": "stack-6",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "slug": "wp-flashnotes",
+                "name": "WP FlashNotes",
+                "oneLiner": "A WordPress plugin for learning and study",
+                "description": "<p>WP FlashNotes is a personal project aiming to be accepted in the official WP plugins repository, it is currently in active development.</p><p>A WordPress plugin that introduces note and flashcard Gutenberg blocks you can insert into posts and pages. The notes and flashcards can be grouped by study sets.</p><p>Useful to structure information and quiz one self, or others, when learning.</p>",
+                "image": {
+                    "src": "./wp-flashnotes.png",
+                    "alt": "WP FlashNotes plugin interface"
+                },
+                "links": {
+                    "View on GitHub": "https://github.com/laloptk/wp-flashnotes"
+                },
+                "stack": [
+                    {
+                        "id": "stack-1",
+                        "name": "WordPress"
+                    },
+                    {
+                        "id": "stack-2",
+                        "name": "Gutenberg Blocks"
+                    },
+                    {
+                        "id": "stack-3",
+                        "name": "React"
+                    },
+                    {
+                        "id": "stack-4",
+                        "name": "PHP"
+                    },
+                    {
+                        "id": "stack-5",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "slug": "kadencewp",
+                "name": "KadenceWP",
+                "oneLiner": "Contributing to a powerful WordPress theme ecosystem",
+                "description": "<p>While working with StellarWP, I had the chance to contribute to Kadence, one of their branches offering a powerful WordPress theme and page builder (both free and pro versions).</p><p>My work focused on enhancing the Kadence ecosystem by fixing bugs and developing new features for Kadence blocks.</p><p>I also worked with the WordPress Customizer, the Options API, and various internal tools. It was a hands-on experience that deepened my understanding of modern WordPress development.</p>",
+                "image": {
+                    "src": "./kadence-plugin.png",
+                    "alt": "KadenceWP Website"
+                },
+                "links": {
+                    "Visit Site": "https://www.kadencewp.com/"
+                },
+                "stack": [
+                    {
+                        "id": "stack-1",
+                        "name": "WordPress"
+                    },
+                    {
+                        "id": "stack-2",
+                        "name": "Gutenberg Blocks"
+                    },
+                    {
+                        "id": "stack-3",
+                        "name": "React"
+                    },
+                    {
+                        "id": "stack-4",
+                        "name": "PHP"
+                    },
+                    {
+                        "id": "stack-5",
+                        "name": "JavaScript"
+                    },
+                    {
+                        "id": "stack-6",
+                        "name": "WordPress Customizer"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "slug": "paltech",
+                "name": "PalTech",
+                "oneLiner": "Turning elegant designs into a functional WordPress site",
+                "description": "<p>I built the PalTech website using WordPress, starting from their custom PSD designs. They handed me beautifully crafted layouts for every page, and I translated those into reusable modules to bring the templates to life.</p><p>The project was not just about coding, it was about turning an elegant design into a fully functional site.</p><p>It was genuinely fun to work on a build with such thoughtful design behind it.</p>",
+                "image": {
+                    "src": "./pal-tech-home.png",
+                    "alt": "PalTech website's homepage"
+                },
+                "links": {
+                    "Visit Site": "https://pal-tech.com"
+                },
+                "stack": [
+                    {
+                        "id": "stack-1",
+                        "name": "WordPress"
+                    },
+                    {
+                        "id": "stack-2",
+                        "name": "ACF"
+                    },
+                    {
+                        "id": "stack-3",
+                        "name": "PHP"
+                    },
+                    {
+                        "id": "stack-4",
+                        "name": "CSS"
+                    },
+                    {
+                        "id": "stack-5",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "slug": "all-weather",
+                "name": "All Weather",
+                "oneLiner": "Dynamic layouts with strong teamwork",
+                "description": "<p>This was a challenging project that required strong teamwork.</p><p>I was primarily responsible for building most of the front end, while also contributing to some backend tasks. I developed custom templates for various post types using ACF, and integrated libraries like jQuery and Masonry to handle dynamic layouts.</p><p>It was a great opportunity to blend functionality with a smooth user experience.</p>",
+                "image": {
+                    "src": "./all-weather-home.png",
+                    "alt": "All Weather website homepage"
+                },
+                "links": {
+                    "Visit Site": "https://www.allweatheraa.com/"
+                },
+                "stack": [
+                    {
+                        "id": "stack-1",
+                        "name": "WordPress"
+                    },
+                    {
+                        "id": "stack-2",
+                        "name": "ACF"
+                    },
+                    {
+                        "id": "stack-3",
+                        "name": "PHP"
+                    },
+                    {
+                        "id": "stack-4",
+                        "name": "jQuery"
+                    },
+                    {
+                        "id": "stack-5",
+                        "name": "Masonry.js"
+                    },
+                    {
+                        "id": "stack-6",
+                        "name": "CSS"
+                    }
+                ]
+            }
+        ]
+    },
+    "es": {
+        "projectsDetailed": [
+            {
+                "id": 1,
+                "slug": "partyslate",
+                "name": "PartySlate",
+                "oneLiner": "Una experiencia de blog moderna para equipos de contenido",
+                "description": "<p>PartySlate ya tenía un blog, pero querían renovarlo y ofrecer una mejor experiencia a su equipo de contenidos, ahí entré yo.</p><p>Les ayudé a rediseñar su blog integrando una nueva instalación de WordPress con su sitio principal y su blog anterior (también en WordPress).</p><p>El proyecto incluyó la creación de bloques personalizados de Gutenberg y plantillas con ACF, llamadas a la API de GraphQL para widgets interactivos, y algunos otros trucos de WordPress.</p><p>Fue un reto divertido que combinó creatividad con ingeniería sólida.</p>",
+                "image": {
+                    "src": "./party-slate-blog-post-w-sidebar.png",
+                    "alt": "Una entrada de blog en PartySlate"
+                },
+                "links": {
+                    "Visitar Sitio": "https://partyslate.com/best-of"
+                },
+                "stack": [
+                    {
+                        "id": "stack-1",
+                        "name": "WordPress"
+                    },
+                    {
+                        "id": "stack-2",
+                        "name": "ACF"
+                    },
+                    {
+                        "id": "stack-3",
+                        "name": "Bloques Gutenberg"
+                    },
+                    {
+                        "id": "stack-4",
+                        "name": "GraphQL"
+                    },
+                    {
+                        "id": "stack-5",
+                        "name": "PHP"
+                    },
+                    {
+                        "id": "stack-6",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "slug": "wp-flashnotes",
+                "name": "WP FlashNotes",
+                "oneLiner": "Un plugin de WordPress para aprender y estudiar",
+                "description": "<p>WP FlashNotes es un proyecto personal que busca ser aceptado en el repositorio oficial de plugins de WordPress. Actualmente está en desarrollo activo.</p><p>Un plugin de WordPress que introduce bloques de Gutenberg para notas y tarjetas de estudio que puedes insertar en entradas y páginas. Las notas y tarjetas se pueden agrupar por conjuntos de estudio.</p><p>Útil para estructurar información y auto-evaluarse, o evaluar a otros, al aprender.</p>",
+                "image": {
+                    "src": "./wp-flashnotes.png",
+                    "alt": "Interfaz del plugin WP FlashNotes"
+                },
+                "links": {
+                    "Ver en GitHub": "https://github.com/laloptk/wp-flashnotes"
+                },
+                "stack": [
+                    {
+                        "id": "stack-1",
+                        "name": "WordPress"
+                    },
+                    {
+                        "id": "stack-2",
+                        "name": "Bloques Gutenberg"
+                    },
+                    {
+                        "id": "stack-3",
+                        "name": "React"
+                    },
+                    {
+                        "id": "stack-4",
+                        "name": "PHP"
+                    },
+                    {
+                        "id": "stack-5",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "slug": "kadencewp",
+                "name": "KadenceWP",
+                "oneLiner": "Contribuyendo a un poderoso ecosistema de temas para WordPress",
+                "description": "<p>Durante mi tiempo en StellarWP, tuve la oportunidad de colaborar con Kadence, una de sus divisiones que ofrece un potente tema y constructor de páginas para WordPress (en versiones gratuita y pro).</p><p>Mi trabajo se centró en mejorar el ecosistema de Kadence corrigiendo errores y desarrollando nuevas funcionalidades para los bloques de Gutenberg.</p><p>También trabajé con el Personalizador de WordPress, la Options API y varias herramientas internas. Fue una experiencia práctica que reforzó mis conocimientos en desarrollo moderno de WordPress.</p>",
+                "image": {
+                    "src": "./kadence-plugin.png",
+                    "alt": "Sitio web de KadenceWP"
+                },
+                "links": {
+                    "Visitar Sitio": "https://www.kadencewp.com/"
+                },
+                "stack": [
+                    {
+                        "id": "stack-1",
+                        "name": "WordPress"
+                    },
+                    {
+                        "id": "stack-2",
+                        "name": "Bloques Gutenberg"
+                    },
+                    {
+                        "id": "stack-3",
+                        "name": "React"
+                    },
+                    {
+                        "id": "stack-4",
+                        "name": "PHP"
+                    },
+                    {
+                        "id": "stack-5",
+                        "name": "JavaScript"
+                    },
+                    {
+                        "id": "stack-6",
+                        "name": "Personalizador de WordPress"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "slug": "paltech",
+                "name": "PalTech",
+                "oneLiner": "Convirtiendo diseños elegantes en un sitio WordPress funcional",
+                "description": "<p>Desarrollé el sitio web de PalTech en WordPress, partiendo de diseños personalizados en PSD. Me entregaron maquetas muy bien elaboradas para cada página, y las transformé en módulos reutilizables para construir las plantillas finales.</p><p>El proyecto no fue solo programar: se trató de convertir un diseño elegante en un sitio totalmente funcional.</p><p>Fue divertido trabajar con un diseño tan bien pensado.</p>",
+                "image": {
+                    "src": "./pal-tech-home.png",
+                    "alt": "Página de inicio del sitio de PalTech"
+                },
+                "links": {
+                    "Visitar Sitio": "https://pal-tech.com"
+                },
+                "stack": [
+                    {
+                        "id": "stack-1",
+                        "name": "WordPress"
+                    },
+                    {
+                        "id": "stack-2",
+                        "name": "ACF"
+                    },
+                    {
+                        "id": "stack-3",
+                        "name": "PHP"
+                    },
+                    {
+                        "id": "stack-4",
+                        "name": "CSS"
+                    },
+                    {
+                        "id": "stack-5",
+                        "name": "JavaScript"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "slug": "all-weather",
+                "name": "All Weather",
+                "oneLiner": "Layouts dinámicos con gran trabajo en equipo",
+                "description": "<p>Este fue un proyecto desafiante que exigió un gran trabajo en equipo.</p><p>Mi responsabilidad principal fue construir la mayor parte del front-end, aunque también colaboré en algunas tareas de backend. Desarrollé plantillas personalizadas para distintos tipos de contenido usando ACF e integré librerías como jQuery y Masonry para manejar diseños dinámicos.</p><p>Fue una excelente oportunidad de combinar funcionalidad con una experiencia de usuario fluida.</p>",
+                "image": {
+                    "src": "./all-weather-home.png",
+                    "alt": "Página de inicio del sitio de All Weather"
+                },
+                "links": {
+                    "Visitar Sitio": "https://www.allweatheraa.com/"
+                },
+                "stack": [
+                    {
+                        "id": "stack-1",
+                        "name": "WordPress"
+                    },
+                    {
+                        "id": "stack-2",
+                        "name": "ACF"
+                    },
+                    {
+                        "id": "stack-3",
+                        "name": "PHP"
+                    },
+                    {
+                        "id": "stack-4",
+                        "name": "jQuery"
+                    },
+                    {
+                        "id": "stack-5",
+                        "name": "Masonry.js"
+                    },
+                    {
+                        "id": "stack-6",
+                        "name": "CSS"
+                    }
+                ]
+            }
+        ]
+    }
+}

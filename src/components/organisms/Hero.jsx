@@ -3,7 +3,7 @@ import Button from '../atoms/Button';
 import useGlobalState from '../../utils/hooks/useGlobalState';
 import SafeHTMLContent from '../molecules/SafeHTMLContent';
 
-const Header = ({ title, subtitle, text }) => {
+const Hero = ({ title, subtitle, text }) => {
   const { globalVariable, setGlobalVariable } = useGlobalState();
   const handleOnClick = varName => {
     setGlobalVariable({
@@ -38,4 +38,4 @@ const Header = ({ title, subtitle, text }) => {
   );
 };
 
-export default Header;
+export default Hero;

@@ -1,7 +1,7 @@
 import MainBox from '../boxes/MainBox';
 import SectionBox from '../boxes/SectionBox';
 import Grid from '../organisms/Grid';
-import Header from '../organisms/Header';
+import Hero from '../organisms/Hero';
 import TimeLine from '../organisms/TimeLine';
 import Skills from '../organisms/Skills';
 import Footer from '../organisms/Footer';
@@ -14,15 +14,16 @@ const Home = () => {
   const languageData = globalVariable.english ? data.en : data.es;
   return (
     <>
-      <Header
-        title={languageData.title}
-        subtitle={languageData.subtitle}
-        text={languageData.description}
-      />
       <MainBox
         classes={globalVariable.light ? 'portfolio light' : 'portfolio dark'}
       >
+        <Hero
+          title={languageData.title}
+          subtitle={languageData.subtitle}
+          text={languageData.description}
+        />
         <SectionBox
+          id="projects"
           title={languageData.projects.sectionTitle}
           blurb=""
           classes="section projects with-line-after"
@@ -30,6 +31,7 @@ const Home = () => {
           <Grid posts={languageData.projects.content} />
         </SectionBox>
         <SectionBox
+          id="experience"
           title={languageData.jobs.sectionTitle}
           blurb=""
           classes="section experience with-line-after"
@@ -37,6 +39,7 @@ const Home = () => {
           <TimeLine jobs={languageData.jobs.content} />
         </SectionBox>
         <SectionBox
+          id="skills"
           title={globalVariable.english ? 'Skills' : 'Habilidades'}
           blurb=""
           classes="section skills with-line-after"

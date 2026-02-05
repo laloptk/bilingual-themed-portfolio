@@ -1,0 +1,12 @@
+{
+    "logo": {
+        "src": "/lalo-avatar.png",
+        "alt": "Eduardo Sanchez Hidalgo's avatar"
+    },
+    "menu": {
+        "Home": "/",
+        "Projects": "/#projects",
+        "Experience": "/#experience",
+        "Skills": "/#skills"
+    }
+}

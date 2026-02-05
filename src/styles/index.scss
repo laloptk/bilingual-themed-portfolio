@@ -1,6 +1,7 @@
 @use './globals' as *;
 @use './button';
-@use './header';
+@use './header.scss';
+@use './hero';
 @use './section';
 @use './grid';
 @use './card';
