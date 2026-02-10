@@ -1,0 +1,53 @@
+@use './globals' as *;
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+  height: 100vh;
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+
+  &.dark {
+    background-color: $color-dark-bg;
+
+    & .header-buttons {
+      & button {
+        border-color: white;
+        color: white;
+
+        &:hover {
+          background-color: white;
+          color: $color-dark-bg;
+        }
+      }
+    }
+  }
+
+  &-title {
+    line-height: 1.1;
+  }
+
+  &-subtitle {
+    line-height: 1.1;
+    margin-bottom: 30px;
+  }
+
+  &-blurb {
+    max-width: 500px;
+    margin: 0 auto 20px;
+    font-size: 16px;
+    color: #6c757d;
+  }
+
+  &-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+}

@@ -1,8 +1,7 @@
 import SemanticImage from './SemanticImage';
 import Title from '../atoms/Title/Title';
-import Text from '../atoms/Text';
-import Triangle from '../atoms/Triangle';
 import SafeHTMLContent from './SafeHTMLContent';
+import { Link } from 'react-router-dom';
 
 const Card = ({ post, type = 'default', btnText="Learn More"}) => {
   return (
@@ -19,9 +18,9 @@ const Card = ({ post, type = 'default', btnText="Learn More"}) => {
             <div className="card-content text" >
               <SafeHTMLContent content={post.description} />
               { type === "default" && post.url &&
-                  <a href={post?.url} target="_blank">
+                  <Link to={post?.url} >
                     { btnText }
-                  </a>
+                  </Link>
               }
             </div>
           </div>

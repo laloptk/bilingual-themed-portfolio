@@ -1,7 +1,7 @@
 {
   "en": {
-    "title": "Hi! I'm, Eduardo. ",
-    "subtitle": "I build websites with WordPress.",
+    "title": "I'm, Eduardo. ",
+    "subtitle": "I build with WordPress.",
     "author": "Eduardo Sanchez Hidalgo Urias",
     "version": "1.0",
     "description": "<p>This is my portfolio website where you can see my experience as a <strong>WordPress developer</strong> and a few of the projects I worked on.</p>",
@@ -11,8 +11,8 @@
         {
           "id": 1,
           "title": "PartySlate",
-          "description": "PartySlate already had a blog, but they wanted a fresh look and a better experience for their content team, that’s where I came in. I helped them revamp their blog by integrating a brand-new WordPress setup with both their main website and their legacy blog (also on WordPress). The project involved building custom Gutenberg blocks and templates using ACF, implementing GraphQL API calls for interactive widgets, and playing with a few other neat WordPress tricks. It was a fun challenge that blended creativity with solid engineering.",
-          "url": "https://partyslate.com/best-of",
+          "description": "PartySlate already had a blog, but they wanted a fresh look and a better experience for their content team, that's where I came in. I helped them revamp their blog by integrating a brand-new WordPress setup with both their main website and their legacy blog (also on WordPress). The project involved building custom Gutenberg blocks and templates using ACF, implementing GraphQL API calls for interactive widgets, and playing with a few other neat WordPress tricks. It was a fun challenge that blended creativity with solid engineering.",
+          "url": "./projects/partyslate",
           "image": {
             "src": "./party-slate-blog-post-w-sidebar.png",
             "alt": "A blog post by party slate",
@@ -23,7 +23,7 @@
           "id": 2,
           "title": "WP FlashNotes",
           "description": "<p>WP FlashNotes is a personal project aiming to be accepted in the official WP plugins repository, it is currently in active development.</p><p>A WordPress plugin that introduces note and flashcard Gutenberg blocks you can insert into posts and pages. The notes and flashcards can be grouped by study sets. Useful to structure information and quizz one self, or others, when learning.</p>",
-          "url": "https://github.com/laloptk/wp-flashnotes",
+          "url": "./projects/wp-flashnotes",
           "image": {
             "src": "./wp-flashnotes.png",
             "alt": "LearnHooks plugin",
@@ -34,7 +34,7 @@
           "id": 3,
           "title": "KadenceWP",
           "description": "<p>While working with StellarWP, I had the chance to contribute to Kadence, one of their branches offering a powerful WordPress theme and page builder (both free and pro versions).</p><p>My work focused on enhancing the Kadence ecosystem by fixing bugs and developing new features for Kadence blocks. I also worked with the WordPress Customizer, the Options API, and various internal tools. It was a hands-on experience that deepened my understanding of modern WordPress development.</p>",
-          "url": "https://www.kadencewp.com/",
+          "url": "./projects/kadencewp",
           "image": {
             "src": "./kadence-plugin.png",
             "alt": "KadenceWP Website",
@@ -45,7 +45,7 @@
           "id": 4,
           "title": "PalTech",
           "description": "I built the PalTech website using WordPress, starting from their custom PSD designs. They handed me beautifully crafted layouts for every page, and I translated those into reusable modules to bring the templates to life. The project was not just about coding, it was about turning an elegant design into a fully functional site. It was genuinely fun to work on a build with such thoughtful design behind it.",
-          "url": "https://pal-tech.com",
+          "url": "./projects/paltech",
           "image": {
             "src": "./pal-tech-home.png",
             "alt": "PalTech website's homepage",
@@ -56,7 +56,7 @@
           "id": 5,
           "title": "All Wheather",
           "description": "<p>This was a challenging project that required strong teamwork.</p><p>I was primarily responsible for building most of the front end, while also contributing to some backend tasks. I developed custom templates for various post types using ACF, and integrated libraries like jQuery and Masonry to handle dynamic layouts. It was a great opportunity to blend functionality with a smooth user experience.</p>",
-          "url": "https://www.allweatheraa.com/",
+          "url": "./projects/all-weather",
           "image": {
             "src": "./all-weather-home.png",
             "alt": "All Wheather Website",
@@ -72,7 +72,7 @@
           "id": "job-en-1",
           "title": "StellarWP",
           "position": "WordPress Developer",
-          "description": "<p>Contributed to the ongoing maintenance and feature development for multiple WordPress plugins across the company’s product suite.</p> <p>Specialized in Gutenberg block development, with a strong focus on the Kadence Theme, Kadence Blocks, and Kadence Blocks Pro.</p>",
+          "description": "<p>Contributed to the ongoing maintenance and feature development for multiple WordPress plugins across the company's product suite.</p> <p>Specialized in Gutenberg block development, with a strong focus on the Kadence Theme, Kadence Blocks, and Kadence Blocks Pro.</p>",
           "startYear": "2023",
           "endYear": "2024",
           "image": {
@@ -84,7 +84,7 @@
         {
           "id": "job-en-2",
           "title": "Wizeline",
-          "description": "<p>I led the technical part of an audit of a large-scale Magento-based eCommerce platform to assess technical debt and identify improvement opportunities. Delivered a phased modernization plan, including patching legacy issues, introducing a React-based headless frontend, and outlining a long-term migration to microservices. The roadmap was approved and became the foundation for the company’s digital transformation strategy.</p>",
+          "description": "<p>I led the technical part of an audit of a large-scale Magento-based eCommerce platform to assess technical debt and identify improvement opportunities. Delivered a phased modernization plan, including patching legacy issues, introducing a React-based headless frontend, and outlining a long-term migration to microservices. The roadmap was approved and became the foundation for the company's digital transformation strategy.</p>",
           "startYear": "2022",
           "endYear": "2023"
         },
@@ -98,7 +98,7 @@
         {
           "id": "job-en-4",
           "title": "CabForward",
-          "description": "<p>Initially joined as a part-time contractor to implement the agency’s website redesign. After a few months, I was brought on full-time to help offer WordPress websites as a service to their clients. Most projects involved building custom sites using page builders like Divi and Cornerstone, with a focus on rapid delivery and solid UX.</p>",
+          "description": "<p>Initially joined as a part-time contractor to implement the agency's website redesign. After a few months, I was brought on full-time to help offer WordPress websites as a service to their clients. Most projects involved building custom sites using page builders like Divi and Cornerstone, with a focus on rapid delivery and solid UX.</p>",
           "startYear": "2017",
           "endYear": "2019"
         },
@@ -114,7 +114,7 @@
   },
   "es": {
     "title": "¡Hola! Soy Eduardo.",
-    "subtitle": "Construyo sitios web con WordPress.",
+    "subtitle": "Construyo con WordPress.",
     "author": "Eduardo Sánchez Hidalgo Urías",
     "version": "1.0",
     "description": "<p>Este es mi portafolio donde puedes ver mi experiencia como <strong>desarrollador de WordPress</strong> y algunos de los proyectos en los que he trabajado.</p>",
@@ -125,7 +125,7 @@
           "id": 1,
           "title": "PartySlate",
           "description": "PartySlate ya tenía un blog, pero querían renovarlo y ofrecer una mejor experiencia a su equipo de contenidos, ahí entré yo. Les ayudé a rediseñar su blog integrando una nueva instalación de WordPress con su sitio principal y su blog anterior (también en WordPress). El proyecto incluyó la creación de bloques personalizados de Gutenberg y plantillas con ACF, llamadas a la API de GraphQL para widgets interactivos, y algunos otros trucos de WordPress. Fue un reto divertido que combinó creatividad con ingeniería sólida.",
-          "url": "https://partyslate.com/best-of",
+          "url": "./projects/partyslate",
           "image": {
             "src": "./party-slate-blog-post-w-sidebar.png",
             "alt": "Una entrada de blog en PartySlate",
@@ -136,7 +136,7 @@
           "id": 2,
           "title": "WP FlashNotes",
           "description": "<p>Bloques de Gutenberg para notas y tarjetas de estudio que se pueden insertar en entradas y páginas, y agrupar en conjuntos de estudio. Útiles para estructurar información y auto-evaluarse (o evaluar a otros) al aprender. En desarrollo activo.</p>",
-          "url": "https://github.com/laloptk/wp-flashnotes",
+          "url": "./projects/wp-flashnotes",
           "image": {
             "src": "./wp-flashnotes.png",
             "alt": "Plugin WP FlashNotes",
@@ -147,7 +147,7 @@
           "id": 3,
           "title": "KadenceWP",
           "description": "<p>Durante mi tiempo en StellarWP, tuve la oportunidad de colaborar con Kadence, una de sus divisiones que ofrece un potente tema y constructor de páginas para WordPress (en versiones gratuita y pro).</p><p>Mi trabajo se centró en mejorar el ecosistema de Kadence corrigiendo errores y desarrollando nuevas funcionalidades para los bloques de Gutenberg. También trabajé con el Personalizador de WordPress, la Options API y varias herramientas internas. Fue una experiencia práctica que reforzó mis conocimientos en desarrollo moderno de WordPress.</p>",
-          "url": "https://www.kadencewp.com/",
+          "url": "./projects/kadencewp",
           "image": {
             "src": "./kadence-plugin.png",
             "alt": "Sitio web de KadenceWP",
@@ -158,7 +158,7 @@
           "id": 4,
           "title": "PalTech",
           "description": "Desarrollé el sitio web de PalTech en WordPress, partiendo de diseños personalizados en PSD. Me entregaron maquetas muy bien elaboradas para cada página, y las transformé en módulos reutilizables para construir las plantillas finales. El proyecto no fue solo programar: se trató de convertir un diseño elegante en un sitio totalmente funcional. Fue divertido trabajar con un diseño tan bien pensado.",
-          "url": "https://pal-tech.com",
+          "url": "./projects/paltech",
           "image": {
             "src": "./pal-tech-home.png",
             "alt": "Página de inicio del sitio de PalTech",
@@ -169,7 +169,7 @@
           "id": 5,
           "title": "All Wheather",
           "description": "<p>Este fue un proyecto desafiante que exigió un gran trabajo en equipo.</p><p>Mi responsabilidad principal fue construir la mayor parte del front-end, aunque también colaboré en algunas tareas de backend. Desarrollé plantillas personalizadas para distintos tipos de contenido usando ACF e integré librerías como jQuery y Masonry para manejar diseños dinámicos. Fue una excelente oportunidad de combinar funcionalidad con una experiencia de usuario fluida.</p>",
-          "url": "https://www.allweatheraa.com/",
+          "url": "./projects/all-weather",
           "image": {
             "src": "./all-weather-home.png",
             "alt": "Sitio web de All Wheather",
