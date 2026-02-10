@@ -31,11 +31,24 @@
     }
 
     &--description {
-        .section-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1em;
+        @media (min-width: 1180px) {
+            .section-content {
+                display: grid;
+                grid-template-columns: 1fr 5px 1fr;
+                gap: 1em;
+            }
         }
+    }
+
+    &--separator {
+        background: linear-gradient(
+            to bottom,
+            #f9766f 0%,
+            #d160a2 25%,
+            #7f60d1 65%,
+            #3b8ff1 90%,
+            #7db9e8 100%
+        );
     }
 
     &--footer {

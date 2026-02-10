@@ -29,6 +29,7 @@ const Project = () => {
                     </header>
                     <SectionBox classes="section single-project--description">
                         <SafeHTMLContent content={description} />
+                        <div className="single-project--separator"></div>
                         <SemanticImage src={image.src} alt={image.alt ? image.alt : ''} />
                     </SectionBox>
                     <footer className="single-project--footer">
