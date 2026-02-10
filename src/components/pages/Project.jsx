@@ -6,12 +6,14 @@ import SemanticImage from '../molecules/SemanticImage.jsx';
 import Title from '../atoms/Title/Title.jsx';
 import LinksList from '../molecules/LinksList.jsx';
 import List from '../molecules/List.jsx';
+import SafeHTMLContent from '../molecules/SafeHTMLContent.jsx';
+import useGlobalState from '../../utils/hooks/useGlobalState';
 
 const Project = () => {
     const { slug } = useParams();
-    const project = projectsData.en.projectsDetailed.find(p => p.slug === slug);
-
-    console.log(project);
+    const { globalVariable } = useGlobalState();
+    const projects = globalVariable.english ? projectsData.en : projectsData.es;
+    const project = projects.projectsDetailed.find(p => p.slug === slug);
     
     if (!project) return <div>Project not found</div>;
 
@@ -19,25 +21,26 @@ const Project = () => {
     
     return (
         <MainBox classes="single-project">
-            <article>
-                <header>
-                    <Title title={name} level={1} classes="single-project-title"/>
-                    <Title title={oneLiner} level={2} classes="single-project-subtitle"/>
-                </header>
-                <SectionBox classes="section single-project--thumb">
-                    <SemanticImage src={image.src} alt={image.alt ? image.alt : ''} />
-                </SectionBox>
-                <SectionBox classes="section single-project--description">
-                    {description}
-                </SectionBox>
-                <footer>
-                    <div className="single-project--links">
-                        <LinksList links={links} />
-                    </div>
-                    
-                    <List items={stack} />
-                </footer>
-            </article>
+            <div className="single-project--container">
+                <article>
+                    <header className="single-project--header">
+                        <Title title={name} level={1} classes="single-project--title"/>
+                        <Title title={oneLiner} level={2} classes="single-project--subtitle"/>
+                    </header>
+                    <SectionBox classes="section single-project--description">
+                        <SafeHTMLContent content={description} />
+                        <SemanticImage src={image.src} alt={image.alt ? image.alt : ''} />
+                    </SectionBox>
+                    <footer className="single-project--footer">
+                        <div className="single-project--links">
+                            <LinksList links={links} />
+                        </div>
+                        <div className="single-project--stack">
+                            <List items={stack} />
+                        </div>
+                    </footer>
+                </article>
+            </div>
         </MainBox>
     )
 }
