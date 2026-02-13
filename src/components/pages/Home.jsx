@@ -12,6 +12,7 @@ import Contact from '../organisms/Contact';
 const Home = () => {
   const { globalVariable } = useGlobalState();
   const languageData = globalVariable.english ? data.en : data.es;
+
   return (
     <>
       <MainBox
@@ -47,7 +48,7 @@ const Home = () => {
           <Skills skills={data.skills.content} />
         </SectionBox>
         <SectionBox
-          title={globalVariable.english ? 'Contact Me!' : 'Contáctame'}
+          title={globalVariable.english ? 'Contact Me!' : 'Contactame'}
           blurb=""
           classes="section skills with-line-after"
         >
@@ -57,7 +58,7 @@ const Home = () => {
           />
         </SectionBox>
       </MainBox>
-      <Footer />
+      <Footer classes={globalVariable.light ? 'light' : 'dark'} />
     </>
   );
 };

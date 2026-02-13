@@ -1,4 +1,4 @@
-const LinksList = ({links}) => {
+const LinksList = ({ links }) => {
     const linkNames = Object.keys(links);
     
     return (
@@ -6,7 +6,7 @@ const LinksList = ({links}) => {
             {
                 links && linkNames &&
                     linkNames.map((linkName) => {
-                        return <li><a href={links?.[linkName]}>{linkName}</a></li> 
+                        return <li key={linkName}><a href={links?.[linkName]}>{linkName}</a></li> 
                     })
             }
         </ul>
