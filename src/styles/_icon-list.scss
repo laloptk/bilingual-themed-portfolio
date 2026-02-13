@@ -9,3 +9,11 @@
   font-size: $font-size-xxl;
   color: #7566d5;
 }
+
+@media (max-width: 980px) {
+  .icon-list {
+    gap: 1rem;
+    font-size: clamp(1.8rem, 8vw, 3rem);
+    padding: 0.5rem;
+  }
+}

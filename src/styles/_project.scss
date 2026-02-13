@@ -1,7 +1,10 @@
 @use './globals' as *;
 
 .single-project {
-    padding-top: 200px;
+    padding: 180px 20px 40px;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
 
     .section {
         padding: 2em 1em;
@@ -17,17 +20,26 @@
         justify-content: center;
         align-items: center;
         gap: 2rem;
+        margin-bottom: 20px;
     }
 
     &--title {
         text-transform: uppercase;
-        font-size: 3rem;
+        font-size: clamp(2rem, 5vw, 3rem);
         @include gradient-title();
+        text-align: center;
     }
 
     &--subtitle {
         text-transform: uppercase;
-        font-size: 1rem;
+        font-size: clamp(0.9rem, 1.8vw, 1.1rem);
+        text-align: center;
+    }
+
+    &--meta-label {
+        text-transform: uppercase;
+        font-size: 1.2em;
+        margin-bottom: 12px;
     }
 
     &--description {
@@ -54,12 +66,16 @@
     &--footer {
         display: flex;
         justify-content: space-around;
+        gap: 20px;
         padding: 2em 0;
 
         ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
             li {
                 display: inline-block;
-                padding: 12px 20px;
+                padding: 10px 14px;
                 border-top: 2px solid black;
                 border-bottom: 2px solid black;
                 font-size: 1em;
@@ -69,44 +85,53 @@
 
     &--links {
         position: relative;
-        padding-left: 40px;
-        
-        &:before {
-            content: "Links: ";
-            text-transform: uppercase;
-            position: absolute;
-            top: 50%;
-            transform: translate(-100%, -50%);
-            font-size: 1.5em;
-            padding-right: 20px;
-
-        }
     }
 
     &--stack {
         position: relative;
-        padding-left: 40px;
-        
-        &:before {
-            content: "Stack: ";
-            text-transform: uppercase;
-            position: absolute;
-            top: 50%;
-            transform: translate(-100%, -50%);
-            font-size: 1.5em;
-            padding-right: 20px;
+    }
 
+    &.dark {
+        background-color: $color-dark-bg;
+        color: $color-dark-text;
+
+        a {
+            color: $color-dark-primary;
+        }
+
+        .single-project--footer ul li {
+            border-top-color: $color-dark-text;
+            border-bottom-color: $color-dark-text;
         }
     }
 
-    @media (max-width: 1280px) {
+    @media (max-width: 980px) {
+        padding: 36px 14px 30px;
+
+        &--header {
+            flex-direction: column;
+            gap: 10px;
+            align-items: flex-start;
+        }
+
+        &--title,
+        &--subtitle {
+            text-align: left;
+        }
+
+        &--meta-label {
+            font-size: 1rem;
+        }
+
         &--footer {
             flex-direction: column;
+            align-items: flex-start;
         }
 
         &--stack,
         &--links {
-            margin-bottom: 20px;
+            margin-bottom: 8px;
+            width: 100%;
 
             ul {
                 li {
@@ -116,9 +141,6 @@
                         font-size: 14px;
                     }
                 }
-            }
-            &:before {
-                content: "";
             }
         }
     }

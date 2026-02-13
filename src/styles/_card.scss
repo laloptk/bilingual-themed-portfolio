@@ -61,3 +61,15 @@
     }
   }
 }
+
+@media (max-width: 980px) {
+  .card {
+    padding: 14px;
+
+    &-content {
+      .text div {
+        margin-bottom: 12px;
+      }
+    }
+  }
+}

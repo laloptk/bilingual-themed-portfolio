@@ -75,6 +75,12 @@ body {
   padding: $spacing-lg $spacing-md;
 }
 
+@media (max-width: 980px) {
+  .section {
+    padding: $spacing-md $spacing-sm;
+  }
+}
+
 // Image reset
 img {
   max-width: 100%;
@@ -130,6 +136,20 @@ strong {
     } @else if $heading == h6 {
       font-size: $font-size-xs;
     }
+  }
+}
+
+@media (max-width: 980px) {
+  h1.gradient-title {
+    font-size: clamp(2.2rem, 8vw, 3.4rem);
+  }
+
+  h2.gradient-title {
+    font-size: clamp(1.6rem, 5vw, 2.4rem);
+  }
+
+  h3.gradient-title {
+    font-size: clamp(1.2rem, 4vw, 1.8rem);
   }
 }
 
