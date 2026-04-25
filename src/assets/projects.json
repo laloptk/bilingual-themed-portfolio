@@ -1,394 +1,362 @@
 {
-    "en": {
-        "projectsDetailed": [
-            {
-                "id": 1,
-                "slug": "partyslate",
-                "name": "PartySlate",
-                "oneLiner": "A modern blog experience for content teams",
-                "description": "<p>PartySlate already had a blog, but they wanted a fresh look and a better experience for their content team, that's where I came in.</p><p>I helped them revamp their blog by integrating a brand-new WordPress setup with both their main website and their legacy blog (also on WordPress).</p><p>The project involved building custom Gutenberg blocks and templates using ACF, implementing GraphQL API calls for interactive widgets, and playing with a few other neat WordPress tricks.</p><p>It was a fun challenge that blended creativity with solid engineering.</p>",
-                "image": {
-                    "src": "/party-slate-blog-post-w-sidebar.png",
-                    "alt": "A blog post by party slate"
-                },
-                "links": {
-                    "Visit Site": "https://partyslate.com/best-of"
-                },
-                "stack": [
-                    {
-                        "id": "stack-1",
-                        "name": "WordPress"
-                    },
-                    {
-                        "id": "stack-2",
-                        "name": "ACF"
-                    },
-                    {
-                        "id": "stack-3",
-                        "name": "Gutenberg Blocks"
-                    },
-                    {
-                        "id": "stack-4",
-                        "name": "GraphQL"
-                    },
-                    {
-                        "id": "stack-5",
-                        "name": "PHP"
-                    },
-                    {
-                        "id": "stack-6",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "slug": "wp-flashnotes",
-                "name": "WP FlashNotes",
-                "oneLiner": "A WordPress plugin for learning and study",
-                "description": "<p>WP FlashNotes is a personal project aiming to be accepted in the official WP plugins repository, it is currently in active development.</p><p>A WordPress plugin that introduces note and flashcard Gutenberg blocks you can insert into posts and pages. The notes and flashcards can be grouped by study sets.</p><p>Useful to structure information and quiz one self, or others, when learning.</p>",
-                "image": {
-                    "src": "/wp-flashnotes.png",
-                    "alt": "WP FlashNotes plugin interface"
-                },
-                "links": {
-                    "View on GitHub": "https://github.com/laloptk/wp-flashnotes"
-                },
-                "stack": [
-                    {
-                        "id": "stack-1",
-                        "name": "WordPress"
-                    },
-                    {
-                        "id": "stack-2",
-                        "name": "Gutenberg Blocks"
-                    },
-                    {
-                        "id": "stack-3",
-                        "name": "React"
-                    },
-                    {
-                        "id": "stack-4",
-                        "name": "PHP"
-                    },
-                    {
-                        "id": "stack-5",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "slug": "kadencewp",
-                "name": "KadenceWP",
-                "oneLiner": "Contributing to a powerful WordPress theme ecosystem",
-                "description": "<p>While working with StellarWP, I had the chance to contribute to Kadence, one of their branches offering a powerful WordPress theme and page builder (both free and pro versions).</p><p>My work focused on enhancing the Kadence ecosystem by fixing bugs and developing new features for Kadence blocks.</p><p>I also worked with the WordPress Customizer, the Options API, and various internal tools. It was a hands-on experience that deepened my understanding of modern WordPress development.</p>",
-                "image": {
-                    "src": "/kadence-plugin.png",
-                    "alt": "KadenceWP Website"
-                },
-                "links": {
-                    "Visit Site": "https://www.kadencewp.com/"
-                },
-                "stack": [
-                    {
-                        "id": "stack-1",
-                        "name": "WordPress"
-                    },
-                    {
-                        "id": "stack-2",
-                        "name": "Gutenberg Blocks"
-                    },
-                    {
-                        "id": "stack-3",
-                        "name": "React"
-                    },
-                    {
-                        "id": "stack-4",
-                        "name": "PHP"
-                    },
-                    {
-                        "id": "stack-5",
-                        "name": "JavaScript"
-                    },
-                    {
-                        "id": "stack-6",
-                        "name": "WordPress Customizer"
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "slug": "paltech",
-                "name": "PalTech",
-                "oneLiner": "Turning elegant designs into a functional WordPress site",
-                "description": "<p>Paltech sought to modernize their online presence with a complete website rebuild. Working from their finalized PSD designs, I led the development to transform their vision into a fully functional WordPress site.</p><p>I built the site on the _underscores boilerplate, establishing a solid foundation for a custom theme. To accommodate Paltech's diverse content needs, I registered custom post types tailored to each unique page design, ensuring content management would be intuitive and scalable.</p><p>Starting from the ground up allowed me to thoughtfully select the optimal development tools. I leveraged Advanced Custom Fields Pro to create flexible, reusable modules and custom page templates, providing the client with an easy-to-manage backend. For the frontend, I used Sass to write maintainable, organized styles, while jQuery and animate.css brought the interface to life with smooth, engaging animations.</p><p>The project launched successfully within a few weeks. Following deployment, I provided comprehensive support and maintenance for approximately one year, ensuring the site remained secure, updated, and performing optimally.</p>",
-                "image": {
-                    "src": "/pal-tech-home.png",
-                    "alt": "PalTech website's homepage"
-                },
-                "links": {
-                    "Visit Site": "https://pal-tech.com"
-                },
-                "stack": [
-                    {
-                        "id": "stack-1",
-                        "name": "WordPress"
-                    },
-                    {
-                        "id": "stack-2",
-                        "name": "ACF"
-                    },
-                    {
-                        "id": "stack-3",
-                        "name": "PHP"
-                    },
-                    {
-                        "id": "stack-4",
-                        "name": "Sass"
-                    },
-                    {
-                        "id": "stack-5",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            {
-                "id": 5,
-                "slug": "all-weather",
-                "name": "All Weather",
-                "oneLiner": "Dynamic layouts with strong teamwork",
-                "description": "<p>This was a challenging project that required strong teamwork.</p><p>I was primarily responsible for building most of the front end, while also contributing to some backend tasks. I developed custom templates for various post types using ACF, and integrated libraries like jQuery and Masonry to handle dynamic layouts.</p><p>It was a great opportunity to blend functionality with a smooth user experience.</p>",
-                "image": {
-                    "src": "/all-weather-home.png",
-                    "alt": "All Weather website homepage"
-                },
-                "links": {
-                    "Visit Site": "https://www.allweatheraa.com/"
-                },
-                "stack": [
-                    {
-                        "id": "stack-1",
-                        "name": "WordPress"
-                    },
-                    {
-                        "id": "stack-2",
-                        "name": "ACF"
-                    },
-                    {
-                        "id": "stack-3",
-                        "name": "PHP"
-                    },
-                    {
-                        "id": "stack-4",
-                        "name": "jQuery"
-                    },
-                    {
-                        "id": "stack-5",
-                        "name": "Masonry.js"
-                    },
-                    {
-                        "id": "stack-6",
-                        "name": "CSS"
-                    }
-                ]
-            }
-        ]
-    },
-    "es": {
-        "projectsDetailed": [
-            {
-                "id": 1,
-                "slug": "partyslate",
-                "name": "PartySlate",
-                "oneLiner": "Una experiencia de blog moderna para equipos de contenido",
-                "description": "<p>PartySlate ya tenía un blog, pero querían renovarlo y ofrecer una mejor experiencia a su equipo de contenidos, ahí entré yo.</p><p>Les ayudé a rediseñar su blog integrando una nueva instalación de WordPress con su sitio principal y su blog anterior (también en WordPress).</p><p>El proyecto incluyó la creación de bloques personalizados de Gutenberg y plantillas con ACF, llamadas a la API de GraphQL para widgets interactivos, y algunos otros trucos de WordPress.</p><p>Fue un reto divertido que combinó creatividad con ingeniería sólida.</p>",
-                "image": {
-                    "src": "/party-slate-blog-post-w-sidebar.png",
-                    "alt": "Una entrada de blog en PartySlate"
-                },
-                "links": {
-                    "Visitar Sitio": "https://partyslate.com/best-of"
-                },
-                "stack": [
-                    {
-                        "id": "stack-1",
-                        "name": "WordPress"
-                    },
-                    {
-                        "id": "stack-2",
-                        "name": "ACF"
-                    },
-                    {
-                        "id": "stack-3",
-                        "name": "Bloques Gutenberg"
-                    },
-                    {
-                        "id": "stack-4",
-                        "name": "GraphQL"
-                    },
-                    {
-                        "id": "stack-5",
-                        "name": "PHP"
-                    },
-                    {
-                        "id": "stack-6",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "slug": "wp-flashnotes",
-                "name": "WP FlashNotes",
-                "oneLiner": "Un plugin de WordPress para aprender y estudiar",
-                "description": "<p>WP FlashNotes es un proyecto personal que busca ser aceptado en el repositorio oficial de plugins de WordPress. Actualmente está en desarrollo activo.</p><p>Un plugin de WordPress que introduce bloques de Gutenberg para notas y tarjetas de estudio que puedes insertar en entradas y páginas. Las notas y tarjetas se pueden agrupar por conjuntos de estudio.</p><p>Útil para estructurar información y auto-evaluarse, o evaluar a otros, al aprender.</p>",
-                "image": {
-                    "src": "/wp-flashnotes.png",
-                    "alt": "Interfaz del plugin WP FlashNotes"
-                },
-                "links": {
-                    "Ver en GitHub": "https://github.com/laloptk/wp-flashnotes"
-                },
-                "stack": [
-                    {
-                        "id": "stack-1",
-                        "name": "WordPress"
-                    },
-                    {
-                        "id": "stack-2",
-                        "name": "Bloques Gutenberg"
-                    },
-                    {
-                        "id": "stack-3",
-                        "name": "React"
-                    },
-                    {
-                        "id": "stack-4",
-                        "name": "PHP"
-                    },
-                    {
-                        "id": "stack-5",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "slug": "kadencewp",
-                "name": "KadenceWP",
-                "oneLiner": "Contribuyendo a un poderoso ecosistema de temas para WordPress",
-                "description": "<p>Durante mi tiempo en StellarWP, tuve la oportunidad de colaborar con Kadence, una de sus divisiones que ofrece un potente tema y constructor de páginas para WordPress (en versiones gratuita y pro).</p><p>Mi trabajo se centró en mejorar el ecosistema de Kadence corrigiendo errores y desarrollando nuevas funcionalidades para los bloques de Gutenberg.</p><p>También trabajé con el Personalizador de WordPress, la Options API y varias herramientas internas. Fue una experiencia práctica que reforzó mis conocimientos en desarrollo moderno de WordPress.</p>",
-                "image": {
-                    "src": "/kadence-plugin.png",
-                    "alt": "Sitio web de KadenceWP"
-                },
-                "links": {
-                    "Visitar Sitio": "https://www.kadencewp.com/"
-                },
-                "stack": [
-                    {
-                        "id": "stack-1",
-                        "name": "WordPress"
-                    },
-                    {
-                        "id": "stack-2",
-                        "name": "Bloques Gutenberg"
-                    },
-                    {
-                        "id": "stack-3",
-                        "name": "React"
-                    },
-                    {
-                        "id": "stack-4",
-                        "name": "PHP"
-                    },
-                    {
-                        "id": "stack-5",
-                        "name": "JavaScript"
-                    },
-                    {
-                        "id": "stack-6",
-                        "name": "Personalizador de WordPress"
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "slug": "paltech",
-                "name": "PalTech",
-                "oneLiner": "Convirtiendo diseños elegantes en un sitio WordPress funcional",
-                "description": "<p>Paltech buscaba modernizar su presencia en línea con una reconstrucción completa de su sitio web. Trabajando a partir de sus diseños finalizados en PSD, lideré el desarrollo para transformar su visión en un sitio WordPress completamente funcional.</p><p>Construí el sitio sobre el boilerplate _underscores, estableciendo una base sólida para un tema personalizado. Para adaptarme a las diversas necesidades de contenido de Paltech, registré custom post types diseñados específicamente para cada diseño de página único, asegurando que la gestión de contenido fuera intuitiva y escalable.</p><p>Empezar desde cero me permitió seleccionar cuidadosamente las herramientas de desarrollo óptimas. Aproveché Advanced Custom Fields Pro para crear módulos flexibles y reutilizables, así como plantillas de página personalizadas, proporcionando al cliente un backend fácil de gestionar. Para el frontend, utilicé Sass para escribir estilos organizados y mantenibles, mientras que jQuery y animate.css dieron vida a la interfaz con animaciones suaves y atractivas.</p><p>El proyecto se lanzó exitosamente en pocas semanas. Tras su implementación, proporcioné soporte integral y mantenimiento durante aproximadamente un año, asegurando que el sitio se mantuviera seguro, actualizado y funcionando de manera óptima.</p>",
-                "image": {
-                    "src": "/pal-tech-home.png",
-                    "alt": "Página de inicio del sitio de PalTech"
-                },
-                "links": {
-                    "Visitar Sitio": "https://pal-tech.com"
-                },
-                "stack": [
-                    {
-                        "id": "stack-1",
-                        "name": "WordPress"
-                    },
-                    {
-                        "id": "stack-2",
-                        "name": "ACF"
-                    },
-                    {
-                        "id": "stack-3",
-                        "name": "PHP"
-                    },
-                    {
-                        "id": "stack-4",
-                        "name": "Sass"
-                    },
-                    {
-                        "id": "stack-5",
-                        "name": "JavaScript"
-                    }
-                ]
-            },
-            {
-                "id": 5,
-                "slug": "all-weather",
-                "name": "All Weather",
-                "oneLiner": "Layouts dinámicos con gran trabajo en equipo",
-                "description": "<p>Este fue un proyecto desafiante que exigió un gran trabajo en equipo.</p><p>Mi responsabilidad principal fue construir la mayor parte del front-end, aunque también colaboré en algunas tareas de backend. Desarrollé plantillas personalizadas para distintos tipos de contenido usando ACF e integré librerías como jQuery y Masonry para manejar diseños dinámicos.</p><p>Fue una excelente oportunidad de combinar funcionalidad con una experiencia de usuario fluida.</p>",
-                "image": {
-                    "src": "/all-weather-home.png",
-                    "alt": "Página de inicio del sitio de All Weather"
-                },
-                "links": {
-                    "Visitar Sitio": "https://www.allweatheraa.com/"
-                },
-                "stack": [
-                    {
-                        "id": "stack-1",
-                        "name": "WordPress"
-                    },
-                    {
-                        "id": "stack-2",
-                        "name": "ACF"
-                    },
-                    {
-                        "id": "stack-3",
-                        "name": "PHP"
-                    },
-                    {
-                        "id": "stack-4",
-                        "name": "jQuery"
-                    },
-                    {
-                        "id": "stack-5",
-                        "name": "Masonry.js"
-                    },
-                    {
-                        "id": "stack-6",
-                        "name": "CSS"
-                    }
-                ]
-            }
-        ]
-    }
+  "en": {
+    "projectsDetailed": [
+      {
+        "id": 6,
+        "slug": "icca-2028",
+        "name": "ICCA 2028",
+        "oneLiner": "Led a 2-person team to ship a composable congress site — 80% of pages live in two weeks",
+        "year": "2025",
+        "type": "Theme Development",
+        "tags": ["WordPress", "PHP", "ACF", "PostCSS", "Bitbucket Pipelines"],
+        "links": [
+          { "label": "Visit Site", "url": "https://www.icca2028.org/", "type": "site" }
+        ],
+        "screenshots": [
+          { "desktop": "/icca-2028.png", "mobile": "/icca-2028-mobile.png" },
+          { "desktop": "/icca-2028-interior.png", "mobile": "/icca-2028-interior-mobile.png" }
+        ],
+        "context": "<p>ICCA 2028 is the biennial congress of the International Council for Commercial Arbitration — one of the most prestigious gatherings in international law, held in a different world city every two years. The 2028 edition is set for San Francisco.</p><p>The organization needed a website that served several high-stakes goals simultaneously: introduce the congress and the city to a global professional audience, convert visitors into pre-registrations, drive attendance when registration opened, and attract corporate sponsors by clearly communicating sponsorship value and making it easy for them to reach the organizing team — all under a compressed delivery timeline.</p>",
+        "role": "<p>Lead developer on a two-person team. Responsible for defining the technical architecture, establishing the full toolchain and deployment pipeline, coordinating the Git workflow across both environments, and mentoring my colleague throughout — all while delivering the build under a tight deadline.</p>",
+        "approach": "<p>Defined a composable architecture from the start: a custom WordPress theme with ACF as the component layer, built on DRY principles so that every element was built once and reused across the site rather than duplicated per page. The design was delivered in Figma; from those files we extracted design tokens — color, typography, and spacing values — that fed directly into the PostCSS pipeline as CSS custom properties, keeping the implementation aligned with the design system throughout. PHP templates handled server-side rendering for each content area; jQuery and direct DOM manipulation covered interactive front-end behaviors.</p><p>Set up PostCSS for the CSS pipeline and Bitbucket Pipelines for automated deployment to two separate environments — development and staging. The staging environment was deliberately designed to protect the content editor: their work in staging was never overwritten by development commits, letting content and code advance in parallel without conflict.</p><p>Third-party integrations included Osano for cookie consent and privacy compliance, DigiOh for the lead capture forms powering pre-registration and sponsor contact, and Google Maps to showcase the San Francisco congress venue and surroundings.</p>",
+        "challenges": "<p>The first phase — 80% of the site — had to launch two weeks after development began. That left no room to revisit architecture: the composable ACF system had to be right from the start, and pages had to be built fast without accumulating technical debt.</p><p>Leading a team under that timeline meant actively mentoring my colleague on the toolchain — PostCSS, Bitbucket Pipelines, Git workflows — while simultaneously building. Keeping velocity high while maintaining a coherent, shared codebase required clear conventions and continuous communication.</p>",
+        "techStack": [
+          { "name": "WordPress", "note": "CMS foundation with a custom theme and page templates for each distinct section of the congress site." },
+          { "name": "PHP", "note": "Server-side template rendering following the WordPress template hierarchy across every page type." },
+          { "name": "ACF", "note": "Composable component layer — reusable, configurable field groups assembled across pages without duplication, enforcing DRY throughout the codebase." },
+          { "name": "PostCSS", "note": "CSS pipeline for compilation and file watching; Figma design tokens — color, typography, and spacing — compiled into CSS custom properties to keep the implementation aligned with the design system." },
+          { "name": "jQuery / JS", "note": "Interactive behaviors and direct DOM manipulation across the front end." },
+          { "name": "Bitbucket Pipelines", "note": "CI/CD for automated deployment to development and staging environments, enabling parallel content and code workflows without conflicts." },
+          { "name": "Osano", "note": "Cookie consent and privacy compliance platform integrated across all pages." },
+          { "name": "DigiOh", "note": "Lead capture forms for pre-registration and sponsor contact, directly serving the site's primary conversion goals." },
+          { "name": "Google Maps", "note": "Embedded maps showcasing the San Francisco congress venue and surrounding area." }
+        ],
+        "outcomes": "<p>Phase one — 80% of the site — delivered on schedule, two weeks after kickoff. The dual-environment setup let the content editor work in staging uninterrupted while development continued in parallel. My colleague reached full productivity with the toolchain before we hit the deadline.</p>"
+      },
+      {
+        "id": 1,
+        "slug": "partyslate",
+        "name": "PartySlate",
+        "oneLiner": "Zero-downtime blog integration with a custom Gutenberg block library",
+        "year": "2024",
+        "type": "WordPress Integration",
+        "tags": ["WordPress", "Gutenberg", "ACF", "GraphQL", "PHP", "JavaScript"],
+        "links": [
+          { "label": "Visit Site", "url": "https://partyslate.com/best-of", "type": "site" }
+        ],
+        "screenshots": [
+          { "desktop": "/partyslate.png", "mobile": null },
+          { "desktop": "/party-slate-blog-post.png", "mobile": null }
+        ],
+        "context": "<p>PartySlate had an existing blog and main site. They wanted a modernized editorial experience and a fresh WordPress installation integrated into their existing infrastructure — without any downtime during the transition.</p>",
+        "role": "<p>WordPress developer responsible for the full integration: new WordPress setup, custom Gutenberg block library, ACF template architecture, and GraphQL-powered widget implementation.</p>",
+        "approach": "<p>Set up a new WordPress installation and integrated it with both their main site and their legacy WordPress blog using shared authentication. Built a custom Gutenberg block library that gave the editorial team a structured, flexible content workflow tailored to their publishing patterns.</p><p>ACF field groups standardized template output across post types. GraphQL endpoints fed interactive widgets throughout the site with real-time data from their existing API.</p>",
+        "challenges": "<p>Running both the new and legacy WordPress installations in parallel without downtime required careful routing and shared state management during the cutover window. Mapping the GraphQL schema cleanly to the existing data model took several iterations to get right.</p>",
+        "techStack": [
+          { "name": "WordPress", "note": "Fresh installation integrated with the legacy WP blog and main site, using shared authentication across all three." },
+          { "name": "Gutenberg Blocks", "note": "Custom block library tailored to the editorial team's content workflows and publishing patterns." },
+          { "name": "ACF", "note": "Template logic and structured field groups for consistent, predictable output across post types." },
+          { "name": "GraphQL", "note": "Real-time data layer powering interactive widgets throughout the site, pulling from their existing API." },
+          { "name": "PHP", "note": "Server-side rendering for blocks, templates, and REST endpoints." },
+          { "name": "JavaScript", "note": "Block interactivity, GraphQL query execution, and frontend widget logic." }
+        ],
+        "outcomes": "<p>Zero downtime on launch day. The editorial team adopted the new Gutenberg blocks immediately, reducing publishing friction. The GraphQL widgets delivered live data without additional infrastructure.</p>"
+      },
+      {
+        "id": 4,
+        "slug": "paltech",
+        "name": "PalTech",
+        "oneLiner": "Full PSD-to-WordPress build, pixel-accurate across every breakpoint",
+        "year": "2023",
+        "type": "Theme Development",
+        "tags": ["WordPress", "ACF Pro", "PHP", "Sass", "jQuery"],
+        "links": [
+          { "label": "Visit Site", "url": "https://pal-tech.com", "type": "site" }
+        ],
+        "screenshots": [
+          { "desktop": "/pal-tech-home.png", "mobile": "/pal-tech-home-mobile.png" },
+          { "desktop": "/pal-tech-about-desktop.png", "mobile": "/pal-tech-about-mobile.png" }
+        ],
+        "context": "<p>PalTech needed a complete website rebuild from finalized PSD designs. Every page had a distinct layout — the project demanded accurate translation of each design into a maintainable, scalable codebase.</p>",
+        "role": "<p>Lead developer and sole engineer — responsible for everything from architecture and tooling through launch, plus ongoing post-launch support and maintenance.</p>",
+        "approach": "<p>Worked from the finalized PSD designs to define the architecture before writing a line of code: identified the custom post types the site required, mapped out the templates each needed, and catalogued the components and sections that could be shared across layouts. Built a custom WordPress theme using an approximation of atomic design — WP template parts served as the composition layer, with ACF Pro field groups driving the content behind each reusable component. This kept the codebase DRY across a project with many distinct templates without duplicating markup or styles.</p><p>The asset pipeline ran on Gulp: compiling Sass, autoprefixing, minifying CSS and JS, and watching for changes during development. jQuery and animate.css handled UI interactions and scroll-triggered entrance animations.</p>",
+        "challenges": "<p>Pages shared components but not always structure — the challenge was designing a component library expressive enough to cover every layout variation while keeping the codebase DRY. Each template had to be composable from shared parts without duplicating markup or styles. Making the backend genuinely usable for a non-technical client required careful ACF field design and labeling throughout.</p>",
+        "techStack": [
+          { "name": "WordPress", "note": "CMS with custom post types, template hierarchy, and WP template parts as the composition layer for each page." },
+          { "name": "ACF Pro", "note": "Flexible field groups powering every reusable component — structured content the client can manage without touching code." },
+          { "name": "PHP", "note": "Custom template files and template parts following the WordPress template hierarchy, composed per page from shared components." },
+          { "name": "Sass", "note": "Organized, maintainable CSS across a large variety of layouts, compiled and processed by Gulp." },
+          { "name": "Gulp", "note": "Asset pipeline — compiling Sass, autoprefixing, minifying CSS and JS, and watching files during development." },
+          { "name": "jQuery", "note": "Frontend UI interactions, DOM manipulation, and triggering animate.css effects on scroll." },
+          { "name": "animate.css", "note": "CSS animation library for scroll-triggered entrance effects without heavy JavaScript overhead." }
+        ],
+        "outcomes": "<p>Launched on time. The composable ACF system made post-launch maintenance low-overhead, and the client kept me on for ongoing support and maintenance indefinitely.</p>"
+      },
+      {
+        "id": 5,
+        "slug": "all-weather",
+        "name": "All Weather",
+        "oneLiner": "Complex multi-post-type site with dynamic Masonry layouts",
+        "year": "2021",
+        "type": "Team Development",
+        "tags": ["WordPress", "ACF", "PHP", "jQuery", "Masonry.js"],
+        "links": [
+          { "label": "Visit Site", "url": "https://www.allweatheraa.com/", "type": "site" }
+        ],
+        "screenshots": [
+          { "desktop": "/all-weather-home.png", "mobile": null },
+          { "desktop": null, "mobile": null }
+        ],
+        "context": "<p>A complex WordPress site with multiple custom post types and heavy dynamic layout requirements. Delivered as a coordinated team effort under real-world time constraints.</p>",
+        "role": "<p>Lead front-end developer, with backend contributions alongside the development team throughout the project.</p>",
+        "approach": "<p>Built custom ACF templates for each distinct post type, ensuring structured, predictable output regardless of content length or type. Masonry.js was integrated with jQuery to handle dynamic grid layouts that adapt to content quantity and card dimensions — the grid reflows correctly on pagination and dynamic content loads.</p><p>Worked closely with backend developers throughout to align data structure and display logic without blocking either side of the stack.</p>",
+        "challenges": "<p>Getting Masonry.js to re-initialize reliably after WordPress pagination and dynamic content changes required careful event sequencing with jQuery. Delivering clean front-end output under a tight timeline while coordinating with backend developers who were building the data structures in parallel.</p>",
+        "techStack": [
+          { "name": "WordPress", "note": "CMS with multiple custom post types for varied editorial content categories." },
+          { "name": "ACF", "note": "Custom field groups per post type, driving template-level output for each content category." },
+          { "name": "PHP", "note": "Server-side rendering across custom templates tied to the WordPress template hierarchy." },
+          { "name": "jQuery", "note": "UI interactions and triggering Masonry re-layouts when content changes or pagination fires." },
+          { "name": "Masonry.js", "note": "Dynamic, content-aware grid layout for mixed card sizes — accommodates variable content lengths cleanly." },
+          { "name": "CSS", "note": "Custom styles layered on top of the theme foundation for each content type and layout." }
+        ],
+        "outcomes": "<p>Delivered on schedule under real project constraints. Dynamic Masonry layouts performed reliably across all content types and viewport sizes. The coordinated team delivery kept both frontend and backend in sync throughout.</p>"
+      },
+      {
+        "id": 2,
+        "slug": "wp-flashnotes",
+        "name": "WP FlashNotes",
+        "oneLiner": "A WordPress plugin for structured learning and self-study",
+        "year": "2023",
+        "type": "Plugin Development",
+        "tags": ["WordPress", "Gutenberg", "React", "PHP", "JavaScript"],
+        "links": [
+          { "label": "View on GitHub", "url": "https://github.com/laloptk/wp-flashnotes", "type": "repo" }
+        ],
+        "screenshots": [
+          { "desktop": "/wp-flashnotes.png", "mobile": null },
+          { "desktop": null, "mobile": null }
+        ],
+        "context": "<p>A personal project targeting submission to the official WordPress plugin repository. WP FlashNotes introduces structured learning tools — note blocks and flashcard blocks — directly into the Gutenberg editor.</p>",
+        "role": "<p>Sole developer — block API architecture, server-side rendering, and the JavaScript-driven quiz interface.</p>",
+        "approach": "<p>Built on the WordPress block API using React for the editor interface. Notes and flashcards can be grouped into study sets using the block's InnerBlocks API. Server-side rendering ensures content is accessible without JavaScript. The quiz interface is a JavaScript layer on top of the rendered output.</p>",
+        "challenges": "<p>Designing the study set grouping architecture using block nesting in a way that felt natural in the editor. Meeting plugin repository standards for code quality, security, and internationalization.</p>",
+        "techStack": [
+          { "name": "WordPress", "note": "Plugin foundation, block registration, and REST API endpoints for quiz state." },
+          { "name": "Gutenberg Blocks", "note": "Custom block types using the WordPress block API — note blocks, flashcard blocks, and study set containers." },
+          { "name": "React", "note": "Block editor interface and inspector controls, following Gutenberg's React-based extension model." },
+          { "name": "PHP", "note": "Server-side rendering and plugin bootstrap — ensuring content is accessible without client-side JavaScript." },
+          { "name": "JavaScript", "note": "Quiz interface layer on top of server-rendered flashcard output." }
+        ],
+        "outcomes": "<p>In active development. Core block types functional and usable. Working toward the code quality and documentation standards required by the official WordPress plugin repository.</p>"
+      },
+      {
+        "id": 3,
+        "slug": "kadencewp",
+        "name": "KadenceWP",
+        "oneLiner": "Shipping features and fixes across a widely-used WordPress plugin suite",
+        "year": "2024",
+        "type": "Open Source Contribution",
+        "tags": ["WordPress", "Gutenberg", "React", "PHP", "JavaScript"],
+        "links": [
+          { "label": "Visit Site", "url": "https://www.kadencewp.com/", "type": "site" }
+        ],
+        "screenshots": [
+          { "desktop": "/kadence-plugin.png", "mobile": null },
+          { "desktop": null, "mobile": null }
+        ],
+        "context": "<p>KadenceWP is one of the most widely-used theme and block plugin suites on WordPress.org. As part of the StellarWP team, I contributed to Kadence Blocks, Kadence Blocks Pro, and the Kadence theme across multiple release cycles.</p>",
+        "role": "<p>WordPress developer on the StellarWP product team — bug fixes, feature development, and code review across the Kadence ecosystem.</p>",
+        "approach": "<p>Worked within an established codebase serving a large user base, which required careful change management and thorough testing before each release. Shipped new Gutenberg block features using the WordPress block API and React, and resolved PHP-side issues in template rendering and the Options API.</p>",
+        "challenges": "<p>Shipping changes to a plugin used by hundreds of thousands of sites — every change required understanding downstream effects and writing regression-safe code. Working within a large, pre-existing codebase without introducing breaking changes.</p>",
+        "techStack": [
+          { "name": "WordPress", "note": "Core platform — worked across plugin hooks, filters, Options API, and template rendering." },
+          { "name": "Gutenberg Blocks", "note": "Block API extensions and new block features shipped across Kadence Blocks and Kadence Blocks Pro." },
+          { "name": "React", "note": "Block editor components, inspector panel controls, and sidebar UI following Gutenberg's extension model." },
+          { "name": "PHP", "note": "Backend fixes across template rendering, Options API, and server-side block output." },
+          { "name": "JavaScript", "note": "Frontend block behavior, editor extensions, and interactivity for new block features." }
+        ],
+        "outcomes": "<p>Multiple features and bug fixes shipped across release cycles. Changes delivered to a production plugin suite used by hundreds of thousands of WordPress sites.</p>"
+      }
+    ]
+  },
+  "es": {
+    "projectsDetailed": [
+      {
+        "id": 6,
+        "slug": "icca-2028",
+        "name": "ICCA 2028",
+        "oneLiner": "Lideré un equipo de 2 personas para lanzar un sitio de congreso composable — 80% en línea en dos semanas",
+        "year": "2025",
+        "type": "Desarrollo de Theme",
+        "tags": ["WordPress", "PHP", "ACF", "PostCSS", "Bitbucket Pipelines"],
+        "links": [
+          { "label": "Visitar Sitio", "url": "https://www.icca2028.org/", "type": "site" }
+        ],
+        "screenshots": [
+          { "desktop": "/icca-2028.png", "mobile": "/icca-2028-mobile.png" },
+          { "desktop": "/icca-2028-interior.png", "mobile": "/icca-2028-interior-mobile.png" }
+        ],
+        "context": "<p>ICCA 2028 es el congreso bienal del Consejo Internacional de Arbitraje Comercial (International Council for Commercial Arbitration) — uno de los encuentros más prestigiosos del derecho internacional, celebrado en una ciudad diferente del mundo cada dos años. La edición 2028 tendrá lugar en San Francisco.</p><p>La organización necesitaba un sitio web que cumpliera varios objetivos de alto impacto simultáneamente: presentar el congreso y la ciudad a una audiencia profesional global, convertir visitantes en pre-registros, impulsar la asistencia cuando se abriera el registro, y atraer patrocinadores corporativos comunicando con claridad el valor de patrocinar el evento y facilitando el contacto con el equipo organizador — todo bajo un plazo de entrega ajustado.</p>",
+        "role": "<p>Desarrollador líder en un equipo de dos personas. Responsable de definir la arquitectura técnica, establecer el toolchain completo y el pipeline de despliegue, coordinar el flujo de trabajo con Git en ambos entornos, y mentorear a mi colega durante todo el proceso — mientras entregábamos el proyecto bajo un plazo ajustado.</p>",
+        "approach": "<p>Definí una arquitectura composable desde el inicio: un theme personalizado de WordPress con ACF como capa de componentes, construida bajo principios DRY para que cada elemento se construyera una sola vez y se reutilizara en todo el sitio. El diseño fue entregado en Figma; a partir de esos archivos extrajimos design tokens — valores de color, tipografía y espaciado — que alimentaron directamente el pipeline de PostCSS como custom properties de CSS, manteniendo la implementación alineada con el sistema de diseño durante todo el proyecto. Las plantillas PHP manejaron el renderizado del lado del servidor para cada área de contenido; jQuery y manipulación directa del DOM cubrieron los comportamientos interactivos del frontend.</p><p>Configuré PostCSS para el pipeline de CSS y Bitbucket Pipelines para el despliegue automatizado a dos entornos separados: desarrollo y staging. El entorno de staging fue diseñado deliberadamente para proteger al editor de contenido: su trabajo en staging nunca era sobreescrito por los commits del equipo de desarrollo, lo que permitió que contenido y código avanzaran en paralelo sin conflictos.</p><p>Las integraciones de terceros incluyeron Osano para el consentimiento de cookies y cumplimiento de privacidad, DigiOh para los formularios de captación de leads que impulsan el pre-registro y el contacto de patrocinadores, y Google Maps para mostrar el venue del congreso en San Francisco y sus alrededores.</p>",
+        "challenges": "<p>La primera fase — el 80% del sitio — debía lanzarse dos semanas después de comenzar el desarrollo. Eso no dejó margen para revisar la arquitectura: el sistema composable de ACF tenía que ser correcto desde el principio, y las páginas tenían que construirse rápidamente sin acumular deuda técnica.</p><p>Liderar el equipo bajo ese plazo implicó mentorear activamente a mi colega en el toolchain — PostCSS, Bitbucket Pipelines, flujos de Git — mientras construíamos simultáneamente. Mantener la velocidad sin perder la coherencia del código compartido requirió convenciones claras y comunicación constante.</p>",
+        "techStack": [
+          { "name": "WordPress", "note": "Base del CMS con un theme personalizado y plantillas de página para cada sección del sitio del congreso." },
+          { "name": "PHP", "note": "Renderizado de plantillas del lado del servidor siguiendo la jerarquía de plantillas de WordPress en cada tipo de página." },
+          { "name": "ACF", "note": "Capa de componentes composables — grupos de campos reutilizables y configurables ensamblados entre páginas sin duplicación, aplicando DRY en todo el código." },
+          { "name": "PostCSS", "note": "Pipeline de CSS para compilación y watch durante el desarrollo; los design tokens de Figma — color, tipografía y espaciado — compilados como custom properties de CSS para mantener la implementación alineada con el sistema de diseño." },
+          { "name": "jQuery / JS", "note": "Comportamientos interactivos y manipulación directa del DOM en todo el frontend." },
+          { "name": "Bitbucket Pipelines", "note": "CI/CD para despliegue automatizado a los entornos de desarrollo y staging, permitiendo flujos paralelos de contenido y código sin conflictos." },
+          { "name": "Osano", "note": "Plataforma de consentimiento de cookies y cumplimiento de privacidad integrada en todas las páginas." },
+          { "name": "DigiOh", "note": "Formularios de captación de leads para pre-registro y contacto de patrocinadores, sirviendo directamente a los objetivos de conversión del sitio." },
+          { "name": "Google Maps", "note": "Mapas embebidos que muestran el venue del congreso en San Francisco y sus alrededores." }
+        ],
+        "outcomes": "<p>La fase uno — el 80% del sitio — se entregó puntualmente, dos semanas después del inicio. La configuración de dos entornos permitió al editor de contenido trabajar en staging sin interrupciones mientras el desarrollo continuaba en paralelo. Mi colega alcanzó plena productividad con el toolchain antes de llegar al plazo.</p>"
+      },
+      {
+        "id": 1,
+        "slug": "partyslate",
+        "name": "PartySlate",
+        "oneLiner": "Integración de blog sin interrupciones con biblioteca de bloques Gutenberg",
+        "year": "2024",
+        "type": "Integración WordPress",
+        "tags": ["WordPress", "Gutenberg", "ACF", "GraphQL", "PHP", "JavaScript"],
+        "links": [
+          { "label": "Visitar Sitio", "url": "https://partyslate.com/best-of", "type": "site" }
+        ],
+        "screenshots": [
+          { "desktop": "/partyslate.png", "mobile": null },
+          { "desktop": "/party-slate-blog-post.png", "mobile": null }
+        ],
+        "context": "<p>PartySlate tenía un blog y sitio principal existentes. Querían una experiencia editorial modernizada y una nueva instalación de WordPress integrada en su infraestructura existente, sin interrupciones durante la transición.</p>",
+        "role": "<p>Desarrollador WordPress responsable de la integración completa: nueva configuración de WordPress, biblioteca de bloques Gutenberg personalizados, arquitectura de plantillas ACF e implementación de widgets con GraphQL.</p>",
+        "approach": "<p>Configuré una nueva instalación de WordPress y la integré con su sitio principal y blog WordPress legado usando autenticación compartida. Construí una biblioteca personalizada de bloques Gutenberg adaptada a los flujos de trabajo editorial del equipo de contenido.</p><p>Los grupos de campos ACF estandarizaron la salida de plantillas. Los endpoints GraphQL alimentan widgets interactivos en todo el sitio con datos en tiempo real.</p>",
+        "challenges": "<p>Ejecutar ambas instalaciones de WordPress en paralelo sin interrupciones requirió gestión cuidadosa del enrutamiento durante el cambio. Mapear el esquema GraphQL limpiamente al modelo de datos existente requirió varias iteraciones.</p>",
+        "techStack": [
+          { "name": "WordPress", "note": "Nueva instalación integrada con el blog WP legado y sitio principal, usando autenticación compartida." },
+          { "name": "Bloques Gutenberg", "note": "Biblioteca de bloques personalizados adaptada a los flujos de trabajo y patrones de publicación del equipo editorial." },
+          { "name": "ACF", "note": "Lógica de plantillas y grupos de campos estructurados para salida consistente entre tipos de contenido." },
+          { "name": "GraphQL", "note": "Capa de datos en tiempo real para widgets interactivos, conectando con su API existente." },
+          { "name": "PHP", "note": "Renderizado del lado del servidor para bloques, plantillas y endpoints REST." },
+          { "name": "JavaScript", "note": "Interactividad de bloques, ejecución de consultas GraphQL y lógica de widgets." }
+        ],
+        "outcomes": "<p>Sin interrupciones el día del lanzamiento. El equipo editorial adoptó los nuevos bloques de Gutenberg de inmediato. Los widgets GraphQL entregaron datos en tiempo real sin infraestructura adicional.</p>"
+      },
+      {
+        "id": 4,
+        "slug": "paltech",
+        "name": "PalTech",
+        "oneLiner": "Construcción completa de PSD a WordPress, pixel-perfecta en cada breakpoint",
+        "year": "2023",
+        "type": "Desarrollo de Theme",
+        "tags": ["WordPress", "ACF Pro", "PHP", "Sass", "jQuery"],
+        "links": [
+          { "label": "Visitar Sitio", "url": "https://pal-tech.com", "type": "site" }
+        ],
+        "screenshots": [
+          { "desktop": "/pal-tech-home.png", "mobile": "/pal-tech-home-mobile.png" },
+          { "desktop": "/pal-tech-about-desktop.png", "mobile": "/pal-tech-about-mobile.png" }
+        ],
+        "context": "<p>PalTech necesitaba una reconstrucción completa de su sitio web desde diseños PSD finalizados. Cada página tenía un layout distinto — el proyecto exigía traducción precisa de cada diseño en un código mantenible y escalable.</p>",
+        "role": "<p>Desarrollador líder y único ingeniero — responsable de todo desde la arquitectura y el tooling hasta el lanzamiento, más soporte y mantenimiento post-lanzamiento continuo.</p>",
+        "approach": "<p>Partí de los diseños PSD finalizados para definir la arquitectura antes de escribir una línea de código: identifiqué los custom post types que el sitio requería, mapeé las plantillas que cada uno necesitaba y catalogué los componentes y secciones que podían compartirse entre layouts. Construí un theme personalizado de WordPress usando una aproximación al diseño atómico — las template parts de WP funcionaron como la capa de composición, con los grupos de campos ACF Pro manejando el contenido detrás de cada componente reutilizable. Esto mantuvo el código DRY a lo largo de un proyecto con muchas plantillas distintas sin duplicar markup ni estilos.</p><p>El pipeline de assets corrió sobre Gulp: compilando Sass, autoprefixing, minificando CSS y JS, y haciendo watch de archivos durante el desarrollo. jQuery y animate.css manejaron las interacciones UI y animaciones de entrada activadas por scroll.</p>",
+        "challenges": "<p>Las páginas compartían componentes pero no siempre la estructura — el reto fue diseñar una biblioteca de componentes lo suficientemente expresiva para cubrir cada variación de layout manteniendo el código DRY. Cada plantilla debía poder componerse desde partes compartidas sin duplicar markup ni estilos. Hacer el backend genuinamente usable para un cliente no técnico requirió un diseño cuidadoso de los campos ACF a lo largo de todo el proyecto.</p>",
+        "techStack": [
+          { "name": "WordPress", "note": "CMS con custom post types, jerarquía de plantillas y template parts de WP como capa de composición para cada página." },
+          { "name": "ACF Pro", "note": "Grupos de campos flexibles que impulsan cada componente reutilizable — contenido estructurado que el cliente puede gestionar sin tocar código." },
+          { "name": "PHP", "note": "Archivos de plantilla y template parts personalizados siguiendo la jerarquía de WordPress, compuestos por página desde componentes compartidos." },
+          { "name": "Sass", "note": "CSS organizado y mantenible en múltiples layouts, compilado y procesado por Gulp." },
+          { "name": "Gulp", "note": "Pipeline de assets — compilación de Sass, autoprefixing, minificación de CSS y JS, y watch de archivos durante el desarrollo." },
+          { "name": "jQuery", "note": "Interacciones UI del frontend y activación de efectos animate.css en scroll." },
+          { "name": "animate.css", "note": "Biblioteca de animaciones CSS para efectos de entrada activados por scroll sin JavaScript pesado." }
+        ],
+        "outcomes": "<p>Lanzado en el plazo acordado. El sistema composable de ACF mantuvo el mantenimiento post-lanzamiento de bajo costo, y el cliente decidió mantenerme para soporte y mantenimiento de forma indefinida.</p>"
+      },
+      {
+        "id": 5,
+        "slug": "all-weather",
+        "name": "All Weather",
+        "oneLiner": "Sitio complejo con múltiples tipos de contenido y layouts Masonry dinámicos",
+        "year": "2021",
+        "type": "Desarrollo en Equipo",
+        "tags": ["WordPress", "ACF", "PHP", "jQuery", "Masonry.js"],
+        "links": [
+          { "label": "Visitar Sitio", "url": "https://www.allweatheraa.com/", "type": "site" }
+        ],
+        "screenshots": [
+          { "desktop": "/all-weather-home.png", "mobile": null },
+          { "desktop": null, "mobile": null }
+        ],
+        "context": "<p>Un sitio WordPress complejo con múltiples custom post types y requerimientos de layout dinámico. Entregado como esfuerzo coordinado de equipo bajo restricciones reales de tiempo.</p>",
+        "role": "<p>Desarrollador frontend líder, con contribuciones en backend junto al equipo de desarrollo durante todo el proyecto.</p>",
+        "approach": "<p>Construí plantillas ACF personalizadas para cada tipo de post, asegurando salida estructurada y predecible sin importar la longitud o tipo de contenido. Masonry.js fue integrado con jQuery para manejar layouts de cuadrícula dinámica que se adaptan a la cantidad de contenido y dimensiones de las tarjetas.</p><p>Trabajé estrechamente con los desarrolladores backend para alinear estructura de datos y lógica de presentación sin bloquear ningún lado del stack.</p>",
+        "challenges": "<p>Hacer que Masonry.js se reinicializara correctamente después de la paginación de WordPress y cambios de contenido dinámico requirió secuenciación cuidadosa de eventos con jQuery. Entregar output frontend limpio bajo un plazo ajustado mientras se coordinaba con desarrolladores backend.</p>",
+        "techStack": [
+          { "name": "WordPress", "note": "CMS con múltiples custom post types para categorías de contenido editorial variado." },
+          { "name": "ACF", "note": "Grupos de campos personalizados por tipo de post, impulsando la salida de plantillas para cada categoría de contenido." },
+          { "name": "PHP", "note": "Renderizado del lado del servidor en plantillas personalizadas vinculadas a la jerarquía de plantillas de WordPress." },
+          { "name": "jQuery", "note": "Interacciones UI y activación de re-layouts Masonry cuando el contenido cambia o se ejecuta la paginación." },
+          { "name": "Masonry.js", "note": "Layout de cuadrícula dinámico y adaptable al contenido para tamaños de tarjeta mixtos." },
+          { "name": "CSS", "note": "Estilos personalizados sobre la base del theme para cada tipo de contenido y layout." }
+        ],
+        "outcomes": "<p>Entregado en el plazo bajo restricciones reales de proyecto. Los layouts Masonry dinámicos funcionaron de manera confiable en todos los tipos de contenido y tamaños de ventana.</p>"
+      },
+      {
+        "id": 2,
+        "slug": "wp-flashnotes",
+        "name": "WP FlashNotes",
+        "oneLiner": "Plugin de WordPress para aprendizaje estructurado y auto-estudio",
+        "year": "2023",
+        "type": "Desarrollo de Plugin",
+        "tags": ["WordPress", "Gutenberg", "React", "PHP", "JavaScript"],
+        "links": [
+          { "label": "Ver en GitHub", "url": "https://github.com/laloptk/wp-flashnotes", "type": "repo" }
+        ],
+        "screenshots": [
+          { "desktop": "/wp-flashnotes.png", "mobile": null },
+          { "desktop": null, "mobile": null }
+        ],
+        "context": "<p>Proyecto personal orientado a su publicación en el repositorio oficial de plugins de WordPress. WP FlashNotes introduce herramientas de aprendizaje estructurado — bloques de notas y tarjetas de estudio — directamente en el editor Gutenberg.</p>",
+        "role": "<p>Desarrollador único — arquitectura de la API de bloques, renderizado del lado del servidor e interfaz de quiz en JavaScript.</p>",
+        "approach": "<p>Construido sobre la API de bloques de WordPress usando React para la interfaz del editor. Las notas y tarjetas se pueden agrupar en conjuntos de estudio usando la API InnerBlocks. El renderizado del lado del servidor asegura que el contenido sea accesible sin JavaScript. La interfaz de quiz es una capa JavaScript sobre el output renderizado.</p>",
+        "challenges": "<p>Diseñar la arquitectura de agrupación de conjuntos de estudio usando anidado de bloques de manera que se sintiera natural en el editor. Cumplir los estándares del repositorio de plugins para calidad de código, seguridad e internacionalización.</p>",
+        "techStack": [
+          { "name": "WordPress", "note": "Base del plugin, registro de bloques y endpoints REST API para el estado del quiz." },
+          { "name": "Bloques Gutenberg", "note": "Tipos de bloque personalizados usando la API de bloques de WordPress — bloques de notas, tarjetas y contenedores de conjuntos de estudio." },
+          { "name": "React", "note": "Componentes del editor de bloques y controles del inspector, siguiendo el modelo de extensión basado en React de Gutenberg." },
+          { "name": "PHP", "note": "Renderizado del lado del servidor y bootstrap del plugin para accesibilidad sin JavaScript del lado del cliente." },
+          { "name": "JavaScript", "note": "Interfaz de quiz sobre el output de tarjetas renderizado en el servidor." }
+        ],
+        "outcomes": "<p>En desarrollo activo. Los tipos de bloque principales son funcionales. Trabajando hacia los estándares de calidad de código y documentación requeridos por el repositorio oficial de plugins de WordPress.</p>"
+      },
+      {
+        "id": 3,
+        "slug": "kadencewp",
+        "name": "KadenceWP",
+        "oneLiner": "Publicando funcionalidades y correcciones en un popular suite de plugins WordPress",
+        "year": "2024",
+        "type": "Contribución Open Source",
+        "tags": ["WordPress", "Gutenberg", "React", "PHP", "JavaScript"],
+        "links": [
+          { "label": "Visitar Sitio", "url": "https://www.kadencewp.com/", "type": "site" }
+        ],
+        "screenshots": [
+          { "desktop": "/kadence-plugin.png", "mobile": null },
+          { "desktop": null, "mobile": null }
+        ],
+        "context": "<p>KadenceWP es uno de los suites de theme y plugins más utilizados en WordPress.org. Como parte del equipo StellarWP, contribuí a Kadence Blocks, Kadence Blocks Pro y el theme Kadence en múltiples ciclos de lanzamiento.</p>",
+        "role": "<p>Desarrollador WordPress en el equipo de producto StellarWP — corrección de bugs, desarrollo de funcionalidades y revisión de código en todo el ecosistema Kadence.</p>",
+        "approach": "<p>Trabajé dentro de una base de código establecida que sirve a una gran base de usuarios, lo que requirió gestión cuidadosa de cambios y pruebas exhaustivas antes de cada release. Publiqué nuevas funcionalidades de bloques Gutenberg usando la API de bloques de WordPress y React, y resolví problemas PHP en el renderizado de plantillas y la Options API.</p>",
+        "challenges": "<p>Publicar cambios en un plugin usado por cientos de miles de sitios — cada cambio requería entender los efectos downstream y escribir código seguro ante regresiones. Trabajar dentro de un código preexistente grande sin introducir cambios disruptivos.</p>",
+        "techStack": [
+          { "name": "WordPress", "note": "Plataforma principal — trabajé en hooks, filtros, Options API y renderizado de plantillas." },
+          { "name": "Bloques Gutenberg", "note": "Extensiones de la API de bloques y nuevas funcionalidades publicadas en Kadence Blocks y Kadence Blocks Pro." },
+          { "name": "React", "note": "Componentes del editor de bloques, controles del panel inspector y UI de barra lateral." },
+          { "name": "PHP", "note": "Correcciones de backend en renderizado de plantillas, Options API y salida de bloques del lado del servidor." },
+          { "name": "JavaScript", "note": "Comportamiento de bloques en el frontend, extensiones del editor e interactividad para nuevas funcionalidades." }
+        ],
+        "outcomes": "<p>Múltiples funcionalidades y correcciones de bugs publicadas en ciclos de lanzamiento. Cambios entregados a un suite de plugins en producción usado por cientos de miles de sitios WordPress.</p>"
+      }
+    ]
+  }
 }
