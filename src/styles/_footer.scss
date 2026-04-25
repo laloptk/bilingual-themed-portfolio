@@ -1,16 +1,26 @@
 @use './globals' as *;
 
 .footer {
+  &.light {
+    --color-bg:             #{$color-light-bg};
+    --color-text:           #{$color-light-text};
+    --color-text-secondary: #{$color-light-text-secondary};
+    --color-accent:         #{$color-light-primary};
+    --color-border:         #{$color-light-border};
+  }
   text-align: center;
+  font-family: $font-text;
   font-size: $font-size-xs;
-  padding-top: 10px;
+  letter-spacing: 0.04em;
+  padding: 2rem 1rem;
+  color: var(--color-text-secondary);
+  border-top: 1px solid var(--color-border);
+  background-color: var(--color-bg);
 
   a {
-    color: $color-light-primary;
-  }
+    color: var(--color-accent);
+    transition: opacity 0.2s ease;
 
-  &.dark {
-    background-color: $color-dark-bg;
-    color: $color-dark-text;
+    &:hover { opacity: 0.7; }
   }
 }
