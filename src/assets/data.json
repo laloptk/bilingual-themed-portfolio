@@ -1,66 +1,79 @@
 {
   "en": {
-    "title": "I'm, Eduardo. ",
-    "subtitle": "I build with WordPress.",
+    "title": "Eduardo Sanchez",
+    "subtitle": "WordPress Developer",
     "author": "Eduardo Sanchez Hidalgo Urias",
-    "version": "1.0",
-    "description": "<p>This is my portfolio website where you can see my experience as a <strong>WordPress developer</strong> and a few of the projects I worked on.</p>",
+    "version": "2.0",
+    "description": "<p>10 years building WordPress end to end — custom plugins and themes, static and dynamic Gutenberg blocks, REST API integrations, and React-driven headless frontends. PHP grounded in software engineering principles.</p>",
+    "whatIBuild": [
+      {
+        "id": "wib-en-1",
+        "label": "01",
+        "title": "Custom Gutenberg Blocks",
+        "description": "Static and dynamic blocks built with React — custom inspector panels, ACF integration, server-side rendering, and block theme development. Built to extend the editor cleanly."
+      },
+      {
+        "id": "wib-en-2",
+        "label": "02",
+        "title": "Custom Theme Development",
+        "description": "Custom WordPress themes from scratch — block theme architecture, template hierarchy, clean PHP, and maintainable code built to WordPress standards."
+      },
+      {
+        "id": "wib-en-3",
+        "label": "03",
+        "title": "Plugin Development",
+        "description": "Custom plugins engineered with OOP and SOLID principles — from simple utilities to complex, production-grade functionality."
+      }
+    ],
     "projects": {
       "sectionTitle": "Projects",
       "content": [
         {
+          "id": 6,
+          "title": "ICCA 2028",
+          "tags": ["WordPress", "ACF", "PostCSS", "WCAG AA"],
+          "description": "<p>Custom WordPress theme built from a Figma design for ICCA 2028, a biennial international conference hosted in San Francisco. Translated the design pixel-accurately into a maintainable theme using ACF-powered composition — reusable, configurable components insertable across pages with different layouts. Built with PostCSS for asset compilation. Semantic HTML, WCAG AA compliant, and performant.</p>",
+          "url": "./projects/icca-2028",
+          "image": {
+            "src": "./icca-2028.png",
+            "alt": "ICCA 2028 San Francisco website",
+            "caption": "Visiting San Francisco — ICCA 2028 conference site."
+          }
+        },
+        {
           "id": 1,
           "title": "PartySlate",
-          "description": "PartySlate already had a blog, but they wanted a fresh look and a better experience for their content team, that's where I came in. I helped them revamp their blog by integrating a brand-new WordPress setup with both their main website and their legacy blog (also on WordPress). The project involved building custom Gutenberg blocks and templates using ACF, implementing GraphQL API calls for interactive widgets, and playing with a few other neat WordPress tricks. It was a fun challenge that blended creativity with solid engineering.",
+          "tags": ["WordPress", "Gutenberg", "ACF", "GraphQL"],
+          "description": "<p>Integrated a new WordPress installation with PartySlate's main site and legacy blog — zero downtime. Built custom Gutenberg blocks and ACF-powered templates for the content team. Added GraphQL-powered interactive widgets and real-time data endpoints.</p>",
           "url": "./projects/partyslate",
           "image": {
-            "src": "./party-slate-blog-post-w-sidebar.png",
-            "alt": "A blog post by party slate",
-            "caption": "This is an image of one of the blog posts posted in party slate."
-          }
-        },
-        {
-          "id": 2,
-          "title": "WP FlashNotes",
-          "description": "<p>WP FlashNotes is a personal project aiming to be accepted in the official WP plugins repository, it is currently in active development.</p><p>A WordPress plugin that introduces note and flashcard Gutenberg blocks you can insert into posts and pages. The notes and flashcards can be grouped by study sets. Useful to structure information and quizz one self, or others, when learning.</p>",
-          "url": "./projects/wp-flashnotes",
-          "image": {
-            "src": "./wp-flashnotes.png",
-            "alt": "LearnHooks plugin",
-            "caption": "Image of WP FlashNotes"
-          }
-        },
-        {
-          "id": 3,
-          "title": "KadenceWP",
-          "description": "<p>While working with StellarWP, I had the chance to contribute to Kadence, one of their branches offering a powerful WordPress theme and page builder (both free and pro versions).</p><p>My work focused on enhancing the Kadence ecosystem by fixing bugs and developing new features for Kadence blocks. I also worked with the WordPress Customizer, the Options API, and various internal tools. It was a hands-on experience that deepened my understanding of modern WordPress development.</p>",
-          "url": "./projects/kadencewp",
-          "image": {
-            "src": "./kadence-plugin.png",
-            "alt": "KadenceWP Website",
-            "caption": "This is a caption for the second item."
+            "src": "./partyslate.png",
+            "alt": "A blog post by PartySlate",
+            "caption": "A blog post on the revamped PartySlate blog."
           }
         },
         {
           "id": 4,
           "title": "PalTech",
-          "description": "I built the PalTech website using WordPress, starting from their custom PSD designs. They handed me beautifully crafted layouts for every page, and I translated those into reusable modules to bring the templates to life. The project was not just about coding, it was about turning an elegant design into a fully functional site. It was genuinely fun to work on a build with such thoughtful design behind it.",
+          "tags": ["WordPress", "PHP", "CSS", "ACF"],
+          "description": "<p>Built PalTech's full website in WordPress from custom PSD designs — translating every page layout into modular, reusable templates. Pixel-accurate implementation across all breakpoints with a focus on maintainability and clean markup.</p>",
           "url": "./projects/paltech",
           "image": {
             "src": "./pal-tech-home.png",
-            "alt": "PalTech website's homepage",
-            "caption": "A screenshot of the PalTech website homepage"
+            "alt": "PalTech website homepage",
+            "caption": "PalTech homepage — built from custom PSD designs."
           }
         },
         {
           "id": 5,
-          "title": "All Wheather",
-          "description": "<p>This was a challenging project that required strong teamwork.</p><p>I was primarily responsible for building most of the front end, while also contributing to some backend tasks. I developed custom templates for various post types using ACF, and integrated libraries like jQuery and Masonry to handle dynamic layouts. It was a great opportunity to blend functionality with a smooth user experience.</p>",
+          "title": "All Weather",
+          "tags": ["WordPress", "ACF", "PHP", "jQuery"],
+          "description": "<p>Led front-end development for a complex WordPress site with multiple custom post types. Built ACF-powered templates, integrated jQuery and Masonry for dynamic layouts, and contributed to backend tasks. Full-stack team delivery under real constraints.</p>",
           "url": "./projects/all-weather",
           "image": {
             "src": "./all-weather-home.png",
-            "alt": "All Wheather Website",
-            "caption": "The homepage of All Weather AA"
+            "alt": "All Weather website",
+            "caption": "All Weather AA homepage."
           }
         }
       ]
@@ -69,43 +82,50 @@
       "sectionTitle": "Experience",
       "content": [
         {
-          "id": "job-en-1",
-          "title": "StellarWP",
+          "id": "job-en-0",
+          "title": "Freelance",
           "position": "WordPress Developer",
-          "description": "<p>Contributed to the ongoing maintenance and feature development for multiple WordPress plugins across the company's product suite.</p> <p>Specialized in Gutenberg block development, with a strong focus on the Kadence Theme, Kadence Blocks, and Kadence Blocks Pro.</p>",
+          "description": "<p>Working with clients on contract engagements. Focused on block theme architecture and advanced Gutenberg development. Using AI-assisted workflows to accelerate delivery without cutting corners on code quality.</p>",
+          "startYear": "2025",
+          "endYear": "Present"
+        },
+        {
+          "id": "job-en-1",
+          "title": "KadenceWP",
+          "position": "WordPress Developer",
+          "description": "<p>Enhanced the Kadence ecosystem — fixing bugs and shipping new features across the Kadence theme, Kadence Blocks, and Kadence Blocks Pro. Worked with PHP, JavaScript/React, and the Gutenberg block API to deliver reliable, well-tested updates to a widely-used plugin suite.</p>",
           "startYear": "2023",
-          "endYear": "2024",
-          "image": {
-            "src": "",
-            "alt": "",
-            "caption": ""
-          }
+          "endYear": "2024"
         },
         {
           "id": "job-en-2",
           "title": "Wizeline",
-          "description": "<p>I led the technical part of an audit of a large-scale Magento-based eCommerce platform to assess technical debt and identify improvement opportunities. Delivered a phased modernization plan, including patching legacy issues, introducing a React-based headless frontend, and outlining a long-term migration to microservices. The roadmap was approved and became the foundation for the company's digital transformation strategy.</p>",
+          "position": "Software Engineer",
+          "description": "<p>Led a technical assessment of a client's Magento e-commerce platform and authored a modernization roadmap that was adopted by the team. Served as technical lead — coordinating and mentoring the frontend development team through an architectural improvement initiative.</p>",
           "startYear": "2022",
           "endYear": "2023"
         },
         {
           "id": "job-en-3",
-          "title": "RockStarCoders",
-          "description": "<p>Worked full-time as a contractor, serving marketing, SEO, and design-focused clients. Delivered tailored solutions including full site builds, plugin customization, performance optimization, and ongoing maintenance. Regularly worked with WordPress, ACF, Page Builders, REST API, and custom Gutenberg blocks. Often handled direct communication with clients, ensuring agile, client-first development.</p>",
+          "title": "RockstarCoders",
+          "position": "WordPress Developer",
+          "description": "<p>Developed and customized WordPress themes and plugins for a range of client projects. Managed ongoing site maintenance and client support as part of the internal agency team.</p>",
           "startYear": "2018",
           "endYear": "2021"
         },
         {
           "id": "job-en-4",
           "title": "CabForward",
-          "description": "<p>Initially joined as a part-time contractor to implement the agency's website redesign. After a few months, I was brought on full-time to help offer WordPress websites as a service to their clients. Most projects involved building custom sites using page builders like Divi and Cornerstone, with a focus on rapid delivery and solid UX.</p>",
+          "position": "WordPress Developer",
+          "description": "<p>Led the development phase of a full company website redesign. Built and customized client sites by adapting WordPress themes to design specifications.</p>",
           "startYear": "2017",
           "endYear": "2019"
         },
         {
           "id": "job-en-5",
-          "title": "PostModernMarketing",
-          "description": "<p>Worked full-time as a contractor handling a wide variety of WordPress development tasks. From building custom templates for pages and post types to adding new functionality or styling existing components, I adapted to each project's needs with flexibility and precision. This role required strong knowledge of WordPress internals, frontend styling, and modular development practices.</p>",
+          "title": "Post Modern Marketing",
+          "position": "WordPress Developer",
+          "description": "<p>Built custom themes using ACF — custom templates for post types and pages, plugin modifications, and a wide variety of client projects. Worked with WPBakery, Divi, and Beaver Builder across the agency's client base.</p>",
           "startYear": "2016",
           "endYear": "2017"
         }
@@ -113,67 +133,80 @@
     }
   },
   "es": {
-    "title": "¡Hola! Soy Eduardo.",
-    "subtitle": "Construyo con WordPress.",
+    "title": "Eduardo Sanchez",
+    "subtitle": "Desarrollador WordPress",
     "author": "Eduardo Sánchez Hidalgo Urías",
-    "version": "1.0",
-    "description": "<p>Este es mi portafolio donde puedes ver mi experiencia como <strong>desarrollador de WordPress</strong> y algunos de los proyectos en los que he trabajado.</p>",
+    "version": "2.0",
+    "description": "<p>10 años construyendo WordPress de punta a punta — plugins y themes personalizados, bloques de Gutenberg estáticos y dinámicos, integraciones con REST API y frontends headless con React. PHP fundamentado en principios de ingeniería de software.</p>",
+    "whatIBuild": [
+      {
+        "id": "wib-es-1",
+        "label": "01",
+        "title": "Bloques Gutenberg Personalizados",
+        "description": "Bloques estáticos y dinámicos construidos con React — paneles de inspector personalizados, integración con ACF, server-side rendering y desarrollo de block themes. Diseñados para extender el editor limpiamente."
+      },
+      {
+        "id": "wib-es-2",
+        "label": "02",
+        "title": "Desarrollo de Themes",
+        "description": "Themes de WordPress personalizados desde cero — arquitectura de block themes, jerarquía de plantillas, PHP limpio y código mantenible conforme a los estándares de WordPress."
+      },
+      {
+        "id": "wib-es-3",
+        "label": "03",
+        "title": "Desarrollo de Plugins",
+        "description": "Plugins personalizados con OOP y principios SOLID — desde utilidades simples hasta funcionalidades complejas y de nivel productivo."
+      }
+    ],
     "projects": {
       "sectionTitle": "Proyectos",
       "content": [
         {
+          "id": 6,
+          "title": "ICCA 2028",
+          "tags": ["WordPress", "ACF", "PostCSS", "WCAG AA"],
+          "description": "<p>Theme personalizado de WordPress construido desde un diseño en Figma para ICCA 2028, una conferencia internacional bienal en San Francisco. Diseño traducido con precisión pixel usando componentes ACF reutilizables y configurables, insertables en páginas con distintas composiciones. Compilación de CSS con PostCSS. HTML semántico, cumple WCAG AA y es performante.</p>",
+          "url": "./projects/icca-2028",
+          "image": {
+            "src": "./icca-2028.png",
+            "alt": "Sitio web de ICCA 2028 San Francisco",
+            "caption": "Visiting San Francisco — sitio de la conferencia ICCA 2028."
+          }
+        },
+        {
           "id": 1,
           "title": "PartySlate",
-          "description": "PartySlate ya tenía un blog, pero querían renovarlo y ofrecer una mejor experiencia a su equipo de contenidos, ahí entré yo. Les ayudé a rediseñar su blog integrando una nueva instalación de WordPress con su sitio principal y su blog anterior (también en WordPress). El proyecto incluyó la creación de bloques personalizados de Gutenberg y plantillas con ACF, llamadas a la API de GraphQL para widgets interactivos, y algunos otros trucos de WordPress. Fue un reto divertido que combinó creatividad con ingeniería sólida.",
+          "tags": ["WordPress", "Gutenberg", "ACF", "GraphQL"],
+          "description": "<p>Integré una nueva instalación de WordPress con el sitio principal de PartySlate y su blog legado — sin interrupciones. Construí bloques de Gutenberg personalizados y plantillas con ACF para el equipo de contenidos. Añadí widgets interactivos con GraphQL y endpoints de datos en tiempo real.</p>",
           "url": "./projects/partyslate",
           "image": {
-            "src": "./party-slate-blog-post-w-sidebar.png",
+            "src": "./partyslate.png",
             "alt": "Una entrada de blog en PartySlate",
-            "caption": "Imagen de una entrada publicada en PartySlate."
-          }
-        },
-        {
-          "id": 2,
-          "title": "WP FlashNotes",
-          "description": "<p>Bloques de Gutenberg para notas y tarjetas de estudio que se pueden insertar en entradas y páginas, y agrupar en conjuntos de estudio. Útiles para estructurar información y auto-evaluarse (o evaluar a otros) al aprender. En desarrollo activo.</p>",
-          "url": "./projects/wp-flashnotes",
-          "image": {
-            "src": "./wp-flashnotes.png",
-            "alt": "Plugin WP FlashNotes",
-            "caption": "Imagen de WP FlashNotes."
-          }
-        },
-        {
-          "id": 3,
-          "title": "KadenceWP",
-          "description": "<p>Durante mi tiempo en StellarWP, tuve la oportunidad de colaborar con Kadence, una de sus divisiones que ofrece un potente tema y constructor de páginas para WordPress (en versiones gratuita y pro).</p><p>Mi trabajo se centró en mejorar el ecosistema de Kadence corrigiendo errores y desarrollando nuevas funcionalidades para los bloques de Gutenberg. También trabajé con el Personalizador de WordPress, la Options API y varias herramientas internas. Fue una experiencia práctica que reforzó mis conocimientos en desarrollo moderno de WordPress.</p>",
-          "url": "./projects/kadencewp",
-          "image": {
-            "src": "./kadence-plugin.png",
-            "alt": "Sitio web de KadenceWP",
-            "caption": "Captura de Kadence."
+            "caption": "Una entrada en el blog renovado de PartySlate."
           }
         },
         {
           "id": 4,
           "title": "PalTech",
-          "description": "Desarrollé el sitio web de PalTech en WordPress, partiendo de diseños personalizados en PSD. Me entregaron maquetas muy bien elaboradas para cada página, y las transformé en módulos reutilizables para construir las plantillas finales. El proyecto no fue solo programar: se trató de convertir un diseño elegante en un sitio totalmente funcional. Fue divertido trabajar con un diseño tan bien pensado.",
+          "tags": ["WordPress", "PHP", "CSS", "ACF"],
+          "description": "<p>Construí el sitio completo de PalTech en WordPress a partir de diseños PSD personalizados — convirtiendo cada maqueta en plantillas modulares y reutilizables. Implementación pixel-perfecta en todos los breakpoints, con foco en mantenibilidad y markup limpio.</p>",
           "url": "./projects/paltech",
           "image": {
             "src": "./pal-tech-home.png",
-            "alt": "Página de inicio del sitio de PalTech",
-            "caption": "Captura de la homepage de PalTech."
+            "alt": "Homepage de PalTech",
+            "caption": "Homepage de PalTech — construida desde diseños PSD."
           }
         },
         {
           "id": 5,
-          "title": "All Wheather",
-          "description": "<p>Este fue un proyecto desafiante que exigió un gran trabajo en equipo.</p><p>Mi responsabilidad principal fue construir la mayor parte del front-end, aunque también colaboré en algunas tareas de backend. Desarrollé plantillas personalizadas para distintos tipos de contenido usando ACF e integré librerías como jQuery y Masonry para manejar diseños dinámicos. Fue una excelente oportunidad de combinar funcionalidad con una experiencia de usuario fluida.</p>",
+          "title": "All Weather",
+          "tags": ["WordPress", "ACF", "PHP", "jQuery"],
+          "description": "<p>Lideré el desarrollo front-end de un sitio WordPress complejo con múltiples post types. Construí plantillas con ACF, integré jQuery y Masonry para maquetación dinámica, y colaboré en tareas de backend. Entrega en equipo con restricciones reales.</p>",
           "url": "./projects/all-weather",
           "image": {
             "src": "./all-weather-home.png",
-            "alt": "Sitio web de All Wheather",
-            "caption": "Página de inicio de All Weather AA."
+            "alt": "Sitio web de All Weather",
+            "caption": "Homepage de All Weather AA."
           }
         }
       ]
@@ -182,43 +215,50 @@
       "sectionTitle": "Experiencia",
       "content": [
         {
-          "id": "job-es-1",
-          "title": "StellarWP",
+          "id": "job-es-0",
+          "title": "Freelance",
           "position": "Desarrollador WordPress",
-          "description": "<p>Contribuí al mantenimiento continuo y al desarrollo de nuevas funciones para múltiples plugins de WordPress dentro del portafolio de la empresa.</p><p>Especializado en desarrollo de bloques de Gutenberg, con enfoque en Kadence Theme, Kadence Blocks y Kadence Blocks Pro.</p>",
+          "description": "<p>Trabajando con clientes en contratos temporales. Enfocado en arquitectura de block themes y desarrollo avanzado de Gutenberg. Uso de flujos de trabajo asistidos por IA para acelerar entregas sin sacrificar la calidad del código.</p>",
+          "startYear": "2025",
+          "endYear": "Presente"
+        },
+        {
+          "id": "job-es-1",
+          "title": "KadenceWP",
+          "position": "Desarrollador WordPress",
+          "description": "<p>Mejoré el ecosistema Kadence — corrigiendo bugs y publicando nuevas funcionalidades en Kadence theme, Kadence Blocks y Kadence Blocks Pro. Trabajé con PHP, JavaScript/React y la API de bloques de Gutenberg para entregar actualizaciones fiables y bien probadas en un conjunto de plugins ampliamente utilizado.</p>",
           "startYear": "2023",
-          "endYear": "2024",
-          "image": {
-            "src": "",
-            "alt": "",
-            "caption": ""
-          }
+          "endYear": "2024"
         },
         {
           "id": "job-es-2",
           "title": "Wizeline",
-          "description": "<p>Lideré la parte técnica de una auditoría de una plataforma de eCommerce basada en Magento, para evaluar deuda técnica e identificar oportunidades de mejora. Entregué un plan de modernización por fases que incluía corregir problemas heredados, introducir un frontend headless en React, y definir la migración a microservicios. La hoja de ruta fue aprobada y se convirtió en la base de la estrategia de transformación digital de la empresa.</p>",
+          "position": "Ingeniero de Software",
+          "description": "<p>Lideré una evaluación técnica de la plataforma de e-commerce Magento de un cliente y redacté un plan de modernización adoptado por el equipo. Fungí como líder técnico — coordinando y mentoreando al equipo de desarrollo frontend durante una iniciativa de mejora arquitectónica.</p>",
           "startYear": "2022",
           "endYear": "2023"
         },
         {
           "id": "job-es-3",
-          "title": "RockStarCoders",
-          "description": "<p>Trabajé tiempo completo como contratista para clientes enfocados en marketing, SEO y diseño. Entregué soluciones a medida como sitios completos, personalización de plugins, optimización de rendimiento y mantenimiento continuo. Usé WordPress, ACF, page builders, REST API y bloques personalizados de Gutenberg. Con frecuencia gestioné la comunicación directa con clientes, asegurando un desarrollo ágil y centrado en sus necesidades.</p>",
+          "title": "RockstarCoders",
+          "position": "Desarrollador WordPress",
+          "description": "<p>Desarrollé y personalicé themes y plugins de WordPress para una variedad de proyectos de clientes. Gestioné mantenimiento continuo y soporte como parte del equipo interno de la agencia.</p>",
           "startYear": "2018",
           "endYear": "2021"
         },
         {
           "id": "job-es-4",
           "title": "CabForward",
-          "description": "<p>Comencé como contratista de medio tiempo implementando el rediseño del sitio de la agencia. Meses después me integraron a tiempo completo para ofrecer sitios WordPress como servicio a sus clientes. La mayoría de los proyectos involucraron el uso de page builders como Divi y Cornerstone, con foco en entregas rápidas y buena UX.</p>",
+          "position": "Desarrollador WordPress",
+          "description": "<p>Lideré la fase de desarrollo de un rediseño completo del sitio de la empresa. Construí y personalicé sitios para clientes adaptando themes de WordPress a especificaciones de diseño.</p>",
           "startYear": "2017",
           "endYear": "2019"
         },
         {
           "id": "job-es-5",
-          "title": "PostModernMarketing",
-          "description": "<p>Trabajé tiempo completo como contratista manejando una amplia variedad de tareas de desarrollo en WordPress. Desde construir plantillas para páginas y post types, hasta añadir funcionalidades o estilos a componentes existentes. Este rol requirió un buen conocimiento de WordPress interno, maquetación frontend y prácticas modulares.</p>",
+          "title": "Post Modern Marketing",
+          "position": "Desarrollador WordPress",
+          "description": "<p>Construí themes personalizados con ACF — plantillas para post types y páginas, modificaciones de plugins y una amplia variedad de proyectos de clientes. Trabajé con WPBakery, Divi y Beaver Builder en la cartera de clientes de la agencia.</p>",
           "startYear": "2016",
           "endYear": "2017"
         }
@@ -226,19 +266,32 @@
     }
   },
   "skills": {
-    "sectionTitle": "Habilidades",
-    "content": [
-      { "id": "skill1", "title": "HTML", "fontAwesomeName": "fab fa-html5" },
-      { "id": "skill2", "title": "CSS", "fontAwesomeName": "fab fa-css3-alt" },
-      { "id": "skill3", "title": "JavaScript", "fontAwesomeName": "fab fa-js" },
-      { "id": "skill4", "title": "React", "fontAwesomeName": "fab fa-react" },
-      { "id": "skill5", "title": "PHP", "fontAwesomeName": "fab fa-php" },
-      { "id": "skill7", "title": "Git", "fontAwesomeName": "fab fa-git-alt" },
-      { "id": "skill8", "title": "WordPress", "fontAwesomeName": "fab fa-wordpress" }
+    "sectionTitle": "Skills",
+    "categories": [
+      {
+        "id": "cat-languages",
+        "label": "Languages",
+        "items": ["PHP", "JavaScript (ES6+)", "HTML5", "CSS3", "SQL", "Python"]
+      },
+      {
+        "id": "cat-wordpress",
+        "label": "WordPress",
+        "items": ["Custom Plugins & Themes", "Gutenberg Blocks", "Block Themes", "REST API", "ACF", "Hooks & Filters"]
+      },
+      {
+        "id": "cat-ui",
+        "label": "UI & Libraries",
+        "items": ["React", "Redux", "jQuery", "Sass"]
+      },
+      {
+        "id": "cat-tools",
+        "label": "Tooling",
+        "items": ["Git", "Composer", "npm", "Docker", "WP-CLI"]
+      }
     ]
   },
   "social": {
-    "sectionTitle": "Enviar un mensaje",
+    "sectionTitle": "Send a message",
     "content": [
       { "id": "social1", "name": "GitHub", "url": "https://github.com/laloptk", "fontAwesomeName": "fab fa-github" },
       { "id": "social2", "name": "LinkedIn", "url": "https://www.linkedin.com/in/eduardo-sanchez-hidalgo/", "fontAwesomeName": "fab fa-linkedin" }
