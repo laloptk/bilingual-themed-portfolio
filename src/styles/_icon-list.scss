@@ -1,5 +1,6 @@
 @use './globals' as *;
 
+// Contact section icon list (unchanged)
 .icon-list {
   display: flex;
   flex-wrap: wrap;
@@ -7,7 +8,7 @@
   justify-content: center;
   padding: 1rem;
   font-size: $font-size-xxl;
-  color: #7566d5;
+  color: var(--color-accent);
 }
 
 @media (max-width: 980px) {
@@ -15,5 +16,87 @@
     gap: 1rem;
     font-size: clamp(1.8rem, 8vw, 3rem);
     padding: 0.5rem;
+  }
+}
+
+// ── Skills — categorized grid ─────────────────────────────────────
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+
+  @include md {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem 4rem;
+  }
+
+  @include lg {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem 3rem;
+  }
+}
+
+.skills-category {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.skills-category-label {
+  font-family: $font-text;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--color-border-accent);
+  margin-bottom: 0.25rem;
+}
+
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.skills-tag {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-family: $font-text;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--color-text-secondary);
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: var(--color-text);
+
+    &::before {
+      background: var(--color-accent);
+      box-shadow:
+        4px 0   0 0 var(--color-accent),
+        0   4px 0 0 var(--color-accent),
+        4px 4px 0 0 var(--color-accent);
+    }
+  }
+
+  // 2×2 pixel-art square bullet
+  &::before {
+    content: '';
+    display: inline-block;
+    flex-shrink: 0;
+    width: 4px;
+    height: 4px;
+    background: var(--color-border-accent);
+    // three extra shadows fill the 2×2 grid
+    box-shadow:
+      4px 0   0 0 var(--color-border-accent),
+      0   4px 0 0 var(--color-border-accent),
+      4px 4px 0 0 var(--color-border-accent);
+    image-rendering: pixelated;
   }
 }
