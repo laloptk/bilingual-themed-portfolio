@@ -1,147 +1,340 @@
 @use './globals' as *;
 
-.single-project {
-    padding: 180px 20px 40px;
-    transition:
-        background-color 0.3s ease,
-        color 0.3s ease;
+// ── Page wrapper ─────────────────────────────────────────────────
+.project-page {
+  min-height: 100svh;
+  padding-top: 80px;
 
-    .section {
-        padding: 2em 1em;
-    }
+  @media (max-width: 980px) {
+    padding-top: 0;
+  }
+}
 
-    &--container {
-        max-width: 1280px;
-        margin: 0 auto;
-    }
+// ── Not-found ────────────────────────────────────────────────────
+.project-not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60svh;
+  gap: 1rem;
+  font-family: $font-title;
+  font-size: $font-size-sm;
+  color: var(--color-text-secondary);
 
-    &--header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2rem;
-        margin-bottom: 20px;
-    }
+  a { color: var(--color-accent); }
+}
 
-    &--title {
-        text-transform: uppercase;
-        font-size: clamp(2rem, 5vw, 3rem);
-        @include gradient-title();
-        text-align: center;
-    }
+// ── Nav bar ──────────────────────────────────────────────────────
+.project-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid var(--color-border);
+  background-color: var(--color-bg);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
 
-    &--subtitle {
-        text-transform: uppercase;
-        font-size: clamp(0.9rem, 1.8vw, 1.1rem);
-        text-align: center;
-    }
+.project-back {
+  font-family: $font-title;
+  font-size: $font-size-xs;
+  letter-spacing: 0.05em;
+  color: var(--color-accent);
+  transition: opacity 0.2s;
 
-    &--meta-label {
-        text-transform: uppercase;
-        font-size: 1.2em;
-        margin-bottom: 12px;
-    }
+  &:hover { opacity: 0.7; }
+}
 
-    &--description {
-        @media (min-width: 1180px) {
-            .section-content {
-                display: grid;
-                grid-template-columns: 1fr 5px 1fr;
-                gap: 1em;
-            }
-        }
-    }
+.project-nav-meta {
+  font-family: $font-title;
+  font-size: $font-size-xs;
+  letter-spacing: 0.06em;
+  color: var(--color-text-secondary);
+}
 
-    &--separator {
-        background: linear-gradient(
-            to bottom,
-            #f9766f 0%,
-            #d160a2 25%,
-            #7f60d1 65%,
-            #3b8ff1 90%,
-            #7db9e8 100%
-        );
-    }
+// ── 2×2 grid ─────────────────────────────────────────────────────
+// Row 1: [Image 1]     [Narrative 1 — intro]
+// Row 2: [Narrative 2 — details] [Image 2]
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 1px;
+  background-color: var(--color-border);
+  align-items: start;
 
-    &--footer {
-        display: flex;
-        justify-content: space-around;
-        gap: 20px;
-        padding: 2em 0;
+  .project-cell--image-1     { grid-column: 1; grid-row: 1; }
+  .project-cell--narrative-1 { grid-column: 2; grid-row: 1; overflow-y: auto;}
+  .project-cell--narrative-2 { grid-column: 1; grid-row: 2; overflow-y: auto;}
+  .project-cell--image-2     { grid-column: 2; grid-row: 2; }
+}
 
-        ul {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            li {
-                display: inline-block;
-                padding: 10px 14px;
-                border-top: 2px solid black;
-                border-bottom: 2px solid black;
-                font-size: 1em;
-            }
-        }
-    }
+// ── Cells ─────────────────────────────────────────────────────────
+.project-cell {
+  background-color: var(--color-bg);
+  max-height: 90vh;
+}
 
-    &--links {
-        position: relative;
-    }
+.project-cell--image-1,
+.project-cell--image-2 {
+  background-color: var(--color-surface);
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  overflow: hidden;
+}
 
-    &--stack {
-        position: relative;
-    }
+.project-cell-inner {
+  padding: 2.5rem;
+}
 
-    &.dark {
-        background-color: $color-dark-bg;
-        color: $color-dark-text;
+// ── Image cell ────────────────────────────────────────────────────
+.project-image-cell {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
 
-        a {
-            color: $color-dark-primary;
-        }
+.image-cell-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--color-border);
+  flex-shrink: 0;
+}
 
-        .single-project--footer ul li {
-            border-top-color: $color-dark-text;
-            border-bottom-color: $color-dark-text;
-        }
-    }
+.image-cell-label {
+  font-family: $font-title;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+}
 
-    @media (max-width: 980px) {
-        padding: 36px 14px 30px;
+.image-toggle {
+  display: flex;
+  gap: 0;
+}
 
-        &--header {
-            flex-direction: column;
-            gap: 10px;
-            align-items: flex-start;
-        }
+.toggle-pill {
+  font-family: $font-title;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  background: none;
+  border: 1px solid var(--color-border);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
 
-        &--title,
-        &--subtitle {
-            text-align: left;
-        }
+  &:first-child { border-radius: $radius-sm 0 0 $radius-sm; }
+  &:last-child  { border-radius: 0 $radius-sm $radius-sm 0; border-left: none; }
 
-        &--meta-label {
-            font-size: 1rem;
-        }
+  &.active {
+    background-color: var(--color-accent);
+    border-color: var(--color-accent);
+    color: var(--color-bg);
+  }
 
-        &--footer {
-            flex-direction: column;
-            align-items: flex-start;
-        }
+  &:not(.active):hover {
+    border-color: var(--color-border-accent);
+    color: var(--color-text);
+  }
+}
 
-        &--stack,
-        &--links {
-            margin-bottom: 8px;
-            width: 100%;
+.image-frame {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 1.5rem;
 
-            ul {
-                li {
-                    font-size: 14px;
-                    padding: 7px 10px;
-                    a {
-                        font-size: 14px;
-                    }
-                }
-            }
-        }
-    }
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border) transparent;
+
+  &::-webkit-scrollbar       { width: 4px; }
+  &::-webkit-scrollbar-track { background: transparent; }
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--color-border);
+    border-radius: 99px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid var(--color-border);
+  }
+}
+
+.image-placeholder {
+  flex: 1;
+  display: grid;
+  place-items: center;
+  color: var(--color-text-secondary);
+  font-family: $font-title;
+  font-size: $font-size-xs;
+  letter-spacing: 0.06em;
+  opacity: 0.5;
+}
+
+// ── Narrative — header ────────────────────────────────────────────
+.project-header {
+  padding-bottom: 1.75rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.project-name {
+  font-family: $font-pixel;
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+  margin-bottom: 0.75rem;
+}
+
+.project-one-liner {
+  font-family: $font-title;
+  font-size: $font-size-sm;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+.project-tag {
+  font-family: $font-title;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border: 1px solid var(--color-border-accent);
+  color: var(--color-accent);
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.project-link {
+  font-family: $font-title;
+  font-size: $font-size-xs;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--color-accent);
+  border-bottom: 1px solid var(--color-border-accent);
+  padding-bottom: 1px;
+  transition: border-color 0.2s, opacity 0.2s;
+
+  &:hover {
+    border-color: var(--color-accent);
+    opacity: 0.8;
+  }
+}
+
+// ── Content blocks ────────────────────────────────────────────────
+.project-blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.project-block {
+  p {
+    font-size: $font-size-sm;
+    line-height: 1.7;
+    margin-bottom: 0.6rem;
+
+    &:last-child { margin-bottom: 0; }
+  }
+}
+
+.project-block-label {
+  font-family: $font-title;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+// ── Tech stack ────────────────────────────────────────────────────
+.project-tech-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  background-color: var(--color-border);
+  margin-top: 0.75rem;
+}
+
+.tech-row {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  background-color: var(--color-bg);
+  align-items: baseline;
+}
+
+.tech-name {
+  font-family: $font-title;
+  font-size: $font-size-xs;
+  font-weight: 700;
+  color: var(--color-text);
+  padding: 0;
+}
+
+.tech-note {
+  font-family: $font-text;
+  font-size: $font-size-xs;
+  color: var(--color-text-secondary);
+  line-height: 1.55;
+  padding: 0;
+  margin: 0;
+}
+
+// ── Mobile ────────────────────────────────────────────────────────
+@media (max-width: 768px) {
+  .project-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  .project-cell--image-1     { order: 1; min-height: 300px; }
+  .project-cell--narrative-1 { order: 2; }
+  .project-cell--narrative-2 { order: 3; }
+  .project-cell--image-2     { order: 4; min-height: 300px; }
+
+  .project-cell-inner {
+    padding: 1.5rem;
+  }
+
+  .tech-row {
+    grid-template-columns: 100px 1fr;
+  }
+
+  .project-nav {
+    padding: 0.875rem 1rem;
+  }
+
+  .image-cell-bar {
+    padding: 0.75rem 1rem;
+  }
 }

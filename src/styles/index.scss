@@ -13,6 +13,8 @@
 @use './contact';
 @use './project';
 @use './what-i-build';
+@use './skills';
+@use './section-transition';
 
 // =====================
 // Global Styles Entry
@@ -64,8 +66,6 @@ body {
 // Toggled via .portfolio.light / .portfolio.dark on the main wrapper
 
 .portfolio {
-  padding: 0 $spacing-md;
-
   // Dark (default)
   --color-bg:               #{$color-dark-bg};
   --color-surface:          #{$color-dark-surface};
@@ -194,6 +194,19 @@ strong {
   h3.gradient-title {
     font-size: clamp(1.3rem, 4vw, 1.8rem);
   }
+}
+
+// ── Scrollbar ────────────────────────────────────────────────────
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border) transparent;
+}
+
+::-webkit-scrollbar       { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-border);
+  border-radius: 99px;
 }
 
 // ── Utilities ────────────────────────────────────────────────────

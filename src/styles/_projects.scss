@@ -54,7 +54,7 @@
         height: 100%;
         object-fit: cover;
         object-position: center top;
-        animation: scroll-preview 20s ease-in infinite;
+        animation: scroll-preview 20s ease-in-out infinite;
         animation-play-state: paused;
       }
     }

@@ -1,0 +1,37 @@
+@use './globals' as *;
+
+.section-transition {
+  width: 100%;
+
+  .st-blocks {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: none;
+    overflow: hidden;
+    opacity: 0.2;
+  }
+
+  .st-row {
+    display: flex;
+    width: 100%;
+    height: clamp(20px, 3vw, 40px);
+  }
+
+  .st-block {
+    flex: 1;
+    background-color: var(--color-surface-elevated);
+
+    .portfolio.light & {
+      background-color: #d4c8b4;
+    }
+
+    .st-blocks.top & {
+      opacity: 1;
+    }
+
+    .st-blocks.bottom & {
+      opacity: 0;
+    }
+  }
+}

@@ -1,5 +1,11 @@
 @use './globals' as *;
 
+#experience {
+  .section-header {
+    align-items: flex-start;
+  }
+}
+
 .timeline {
   position: relative;
 

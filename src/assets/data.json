@@ -4,7 +4,7 @@
     "subtitle": "WordPress Developer",
     "author": "Eduardo Sanchez Hidalgo Urias",
     "version": "2.0",
-    "description": "<p>10 years building WordPress end to end — custom plugins and themes, static and dynamic Gutenberg blocks, REST API integrations, and React-driven headless frontends. PHP grounded in software engineering principles.</p>",
+    "description": "<p>10 years building WordPress end to end — custom plugins and themes, static and dynamic Gutenberg blocks, REST API integrations, and React-driven frontends. PHP grounded in software engineering principles.</p>",
     "whatIBuild": [
       {
         "id": "wib-en-1",
@@ -137,7 +137,7 @@
     "subtitle": "Desarrollador WordPress",
     "author": "Eduardo Sánchez Hidalgo Urías",
     "version": "2.0",
-    "description": "<p>10 años construyendo WordPress de punta a punta — plugins y themes personalizados, bloques de Gutenberg estáticos y dinámicos, integraciones con REST API y frontends headless con React. PHP fundamentado en principios de ingeniería de software.</p>",
+    "description": "<p>10 años construyendo WordPress de punta a punta — plugins y themes personalizados, bloques de Gutenberg estáticos y dinámicos, integraciones con REST API y frontends con React. PHP fundamentado en principios de ingeniería de software.</p>",
     "whatIBuild": [
       {
         "id": "wib-es-1",

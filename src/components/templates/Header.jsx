@@ -1,4 +1,3 @@
-import SemanticImage from "../molecules/SemanticImage";
 import LinksList from "../molecules/LinksList";
 import headerData from "../../assets/header.json";
 import { Link } from 'react-router-dom';
@@ -19,12 +18,7 @@ const Header = () => {
     return (
         <header className={`portfolio-header ${colorMode}`}>
             <div className="portfolio-header--container">
-                <Link to="/">
-                {
-                    headerData?.logo?.src &&
-                        <SemanticImage src={headerData.logo.src} alt={headerData?.logo?.alt ?? "Website logo"} classes="main-logo" />
-                }
-                </Link>
+                <Link to="/" className="site-logo" aria-label="Eduardo Sanchez Hidalgo — Home">ESH</Link>
                 <nav className="main-nav">
                     {
                         headerData?.menu &&

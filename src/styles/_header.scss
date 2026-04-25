@@ -28,9 +28,16 @@
     align-items: center;
   }
 
-  .main-logo {
-    width: 64px;
-    opacity: 0.9;
+  .site-logo {
+    font-family: $font-logo;
+    font-size: 1.875rem;
+    letter-spacing: 0.22em;
+    padding-right: 0.22em; // compensate trailing letter-spacing
+    color: var(--color-accent);
+    line-height: 1;
+    transition: opacity 0.2s;
+
+    &:hover { opacity: 0.65; }
   }
 
   .main-nav {
