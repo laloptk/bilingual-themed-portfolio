@@ -12,10 +12,24 @@
 @use './forms';
 @use './contact';
 @use './project';
+@use './what-i-build';
 
 // =====================
 // Global Styles Entry
 // =====================
+
+// Dark-first CSS custom properties on :root so header/footer inherit them
+:root {
+  --color-bg:               #{$color-dark-bg};
+  --color-surface:          #{$color-dark-surface};
+  --color-surface-elevated: #{$color-dark-surface-elevated};
+  --color-text:             #{$color-dark-text};
+  --color-text-secondary:   #{$color-dark-text-secondary};
+  --color-accent:           #{$color-dark-primary};
+  --color-accent-secondary: #{$color-dark-secondary};
+  --color-border:           #{$color-dark-border};
+  --color-border-accent:    #{$color-dark-border-accent};
+}
 
 *,
 *::before,
@@ -34,8 +48,8 @@ html {
 body {
   max-width: 100%;
   font-family: $font-text;
-  background-color: $color-light-bg;
-  color: $color-light-text;
+  background-color: $color-dark-bg;
+  color: $color-dark-text;
   line-height: 1.6;
   transition:
     background-color 0.3s ease,
@@ -46,29 +60,54 @@ body {
   padding: 0;
 }
 
+// ── Theme CSS custom properties ──────────────────────────────────
+// Toggled via .portfolio.light / .portfolio.dark on the main wrapper
+
 .portfolio {
   padding: 0 $spacing-md;
-  &.dark {
-    background-color: $color-dark-bg;
 
-    & .contact {
-      & label {
-        color: $color-dark-text;
-      }
+  // Dark (default)
+  --color-bg:               #{$color-dark-bg};
+  --color-surface:          #{$color-dark-surface};
+  --color-surface-elevated: #{$color-dark-surface-elevated};
+  --color-text:             #{$color-dark-text};
+  --color-text-secondary:   #{$color-dark-text-secondary};
+  --color-accent:           #{$color-dark-primary};
+  --color-accent-secondary: #{$color-dark-secondary};
+  --color-border:           #{$color-dark-border};
+  --color-border-accent:    #{$color-dark-border-accent};
 
-      & button {
-        color: $color-dark-text;
-        border-color: $color-dark-text;
+  background-color: var(--color-bg);
+  color: var(--color-text);
 
-        &:hover {
-          background-color: $color-dark-text;
-          color: $color-light-text;
-        }
+  &.light {
+    --color-bg:               #{$color-light-bg};
+    --color-surface:          #{$color-light-surface};
+    --color-surface-elevated: #{$color-light-surface-elevated};
+    --color-text:             #{$color-light-text};
+    --color-text-secondary:   #{$color-light-text-secondary};
+    --color-accent:           #{$color-light-primary};
+    --color-accent-secondary: #{$color-light-secondary};
+    --color-border:           #{$color-light-border};
+    --color-border-accent:    #{$color-light-border-accent};
+
+    background-color: var(--color-bg);
+    color: var(--color-text);
+
+    & .contact label { color: var(--color-text); }
+
+    & .contact button {
+      color: var(--color-text);
+      border-color: var(--color-text);
+      &:hover {
+        background-color: var(--color-text);
+        color: var(--color-bg);
       }
     }
   }
 }
 
+// ── Section container ────────────────────────────────────────────
 .section {
   max-width: $max-width-container;
   margin: 0 auto;
@@ -81,14 +120,14 @@ body {
   }
 }
 
-// Image reset
+// ── Image reset ──────────────────────────────────────────────────
 img {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-// Global typography
+// ── Global typography ────────────────────────────────────────────
 h1,
 h2,
 h3,
@@ -96,7 +135,8 @@ h4,
 h5,
 h6 {
   font-family: $font-title;
-  font-weight: 600;
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
 p {
@@ -109,26 +149,31 @@ a {
 }
 
 strong {
-  color: $color-light-primary;
+  color: var(--color-accent);
+  font-weight: 600;
 }
 
-// Utility class for gradient title
+// ── .gradient-title — clean section heading style ─────────────────
+// Titles are bold Bricolage Grotesque — type scale carries the weight.
 
 @each $heading in h1, h2, h3, h4, h5, h6 {
   #{$heading}.gradient-title {
     width: fit-content;
+    font-family: $font-title;
+    font-weight: 700;
+    color: var(--color-text);
 
-    // Different font sizes based on heading level
     @if $heading == h1 {
-      @include gradient-title();
       font-size: $font-size-xxl;
+      letter-spacing: -0.03em;
+      line-height: 1;
       margin: 0 auto;
     } @else if $heading == h2 {
-      @include gradient-title();
       font-size: $font-size-xl;
+      letter-spacing: -0.02em;
     } @else if $heading == h3 {
-      @include gradient-title();
       font-size: $font-size-lg;
+      letter-spacing: -0.01em;
     } @else if $heading == h4 {
       font-size: $font-size-md;
     } @else if $heading == h5 {
@@ -141,31 +186,21 @@ strong {
 
 @media (max-width: 980px) {
   h1.gradient-title {
-    font-size: clamp(2.2rem, 8vw, 3.4rem);
+    font-size: clamp(2.4rem, 10vw, 4rem);
   }
-
   h2.gradient-title {
-    font-size: clamp(1.6rem, 5vw, 2.4rem);
+    font-size: clamp(1.8rem, 6vw, 2.8rem);
   }
-
   h3.gradient-title {
-    font-size: clamp(1.2rem, 4vw, 1.8rem);
+    font-size: clamp(1.3rem, 4vw, 1.8rem);
   }
 }
 
-// Responsive container
+// ── Utilities ────────────────────────────────────────────────────
 .container {
   @include centered-container;
 }
 
-// Section spacing
-.section {
-  @include section-padding;
-}
-
-// Utility classes for titles
-
-.title {
-  font-size: $font-size-xl;
-  margin-bottom: $spacing-md;
+.accent {
+  color: var(--color-accent);
 }
