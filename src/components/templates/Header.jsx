@@ -18,7 +18,7 @@ const Header = () => {
     return (
         <header className={`portfolio-header ${colorMode}`}>
             <div className="portfolio-header--container">
-                <Link to="/" className="site-logo" aria-label="Eduardo Sanchez Hidalgo — Home">ESH</Link>
+                <Link to="/" className="site-logo" aria-label="Eduardo Sanchez Hidalgo — Home">{"\{ ESH \}"}</Link>
                 <nav className="main-nav">
                     {
                         headerData?.menu &&

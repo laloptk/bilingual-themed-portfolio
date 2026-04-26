@@ -5,8 +5,13 @@ const IconList = ({ icons, type = 'list' }) => {
       {icons &&
         icons.map(icon =>
           icon.url ? (
-            <a href={icon.url ? icon.url : '#'}>
-              <FontAwesomeIcon icon={icon.fontAwesomeName} />
+            <a 
+              key={icon.id}
+              href={icon.url ? icon.url : '#'}
+              rel="noopener noreferrer"
+              aria-label={`Visit my ${icon.name ?? ''} profile`}
+            >
+              <FontAwesomeIcon icon={icon.fontAwesomeName} aria-hidden="true"/>
             </a>
           ) : (
             <span>

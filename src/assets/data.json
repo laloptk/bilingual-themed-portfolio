@@ -293,8 +293,8 @@
   "social": {
     "sectionTitle": "Send a message",
     "content": [
-      { "id": "social1", "name": "GitHub", "url": "https://github.com/laloptk", "fontAwesomeName": "fab fa-github" },
-      { "id": "social2", "name": "LinkedIn", "url": "https://www.linkedin.com/in/eduardo-sanchez-hidalgo/", "fontAwesomeName": "fab fa-linkedin" }
+      { "id": "social1", "name": "GitHub", "url": "https://github.com/laloptk", "fontAwesomeName": "fab fa-github", "ariaLabel": "Visit my Github profile"},
+      { "id": "social2", "name": "LinkedIn", "url": "https://www.linkedin.com/in/eduardo-sanchez-hidalgo/", "fontAwesomeName": "fab fa-linkedin", "ariaLabel": "Visit my LinkedIn profile" }
     ]
   }
 }
