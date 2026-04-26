@@ -70,8 +70,8 @@ const Home = () => {
         <SectionTransition>
           <SectionBox
             id="contact"
-            title={isEnglish ? "Let's Work Together" : 'Trabajemos Juntos'}
-            classes="section contact-section with-line-after"
+            title={isEnglish ? 'Contact' : 'Contacto'}
+            classes="section contact-section side-title"
           >
             <Contact
               social={data.social.content}

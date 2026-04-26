@@ -23,7 +23,7 @@
     display: grid;
     grid-template-columns: min-content 1fr;
     column-gap: 4rem;
-    align-items: center;
+    align-items: start;
 
     .section-header {
       overflow: visible;
@@ -34,9 +34,11 @@
       // stretch full height of the row so the rule reaches bottom of content
       align-self: stretch;
       display: flex;
-      align-items: center;
+      align-items: flex-start;
 
       h2.gradient-title {
+        position: sticky;
+        top: $spacing-md;
         writing-mode: vertical-lr;
         text-orientation: upright;
         font-size: 40px;
@@ -69,6 +71,7 @@
         display: block;
 
         h2.gradient-title {
+          position: static;
           writing-mode: horizontal-tb;
           transform: none;
           font-size: clamp(1.8rem, 6vw, 2.8rem);

@@ -92,4 +92,11 @@
       }
     }
   }
+
+  // Scroll-preview animation requires hover — disable on touch screen sizes
+  @media (max-width: 991px) {
+    .card figure img {
+      animation: none;
+    }
+  }
 }
