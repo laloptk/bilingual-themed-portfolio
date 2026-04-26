@@ -105,7 +105,7 @@ const Project = () => {
 
         <nav className="project-nav">
           <Link to="/" className="project-back">{l.back}</Link>
-          <span className="project-nav-meta">{year} — {type}</span>
+          <span className="project-nav-meta">{type}</span>
         </nav>
 
         <div className="project-grid">
