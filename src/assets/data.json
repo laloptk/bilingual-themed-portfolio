@@ -41,18 +41,6 @@
           }
         },
         {
-          "id": 1,
-          "title": "PartySlate",
-          "tags": ["WordPress", "Gutenberg", "ACF", "GraphQL"],
-          "description": "<p>Integrated a new WordPress installation with PartySlate's main site and legacy blog — zero downtime. Built custom Gutenberg blocks and ACF-powered templates for the content team. Added GraphQL-powered interactive widgets and real-time data endpoints.</p>",
-          "url": "./projects/partyslate",
-          "image": {
-            "src": "./partyslate.png",
-            "alt": "A blog post by PartySlate",
-            "caption": "A blog post on the revamped PartySlate blog."
-          }
-        },
-        {
           "id": 4,
           "title": "PalTech",
           "tags": ["WordPress", "PHP", "CSS", "ACF"],
@@ -62,6 +50,18 @@
             "src": "./pal-tech-home.png",
             "alt": "PalTech website homepage",
             "caption": "PalTech homepage — built from custom PSD designs."
+          }
+        },
+        {
+          "id": 1,
+          "title": "PartySlate",
+          "tags": ["WordPress", "Gutenberg", "ACF", "GraphQL"],
+          "description": "<p>Integrated a new WordPress installation with PartySlate's main site and legacy blog — zero downtime. Built custom Gutenberg blocks and ACF-powered templates for the content team. Added GraphQL-powered interactive widgets and real-time data endpoints.</p>",
+          "url": "./projects/partyslate",
+          "image": {
+            "src": "./partyslate.png",
+            "alt": "A blog post by PartySlate",
+            "caption": "A blog post on the revamped PartySlate blog."
           }
         },
         {
@@ -174,18 +174,6 @@
           }
         },
         {
-          "id": 1,
-          "title": "PartySlate",
-          "tags": ["WordPress", "Gutenberg", "ACF", "GraphQL"],
-          "description": "<p>Integré una nueva instalación de WordPress con el sitio principal de PartySlate y su blog legado — sin interrupciones. Construí bloques de Gutenberg personalizados y plantillas con ACF para el equipo de contenidos. Añadí widgets interactivos con GraphQL y endpoints de datos en tiempo real.</p>",
-          "url": "./projects/partyslate",
-          "image": {
-            "src": "./partyslate.png",
-            "alt": "Una entrada de blog en PartySlate",
-            "caption": "Una entrada en el blog renovado de PartySlate."
-          }
-        },
-        {
           "id": 4,
           "title": "PalTech",
           "tags": ["WordPress", "PHP", "CSS", "ACF"],
@@ -195,6 +183,18 @@
             "src": "./pal-tech-home.png",
             "alt": "Homepage de PalTech",
             "caption": "Homepage de PalTech — construida desde diseños PSD."
+          }
+        },
+        {
+          "id": 1,
+          "title": "PartySlate",
+          "tags": ["WordPress", "Gutenberg", "ACF", "GraphQL"],
+          "description": "<p>Integré una nueva instalación de WordPress con el sitio principal de PartySlate y su blog legado — sin interrupciones. Construí bloques de Gutenberg personalizados y plantillas con ACF para el equipo de contenidos. Añadí widgets interactivos con GraphQL y endpoints de datos en tiempo real.</p>",
+          "url": "./projects/partyslate",
+          "image": {
+            "src": "./partyslate.png",
+            "alt": "Una entrada de blog en PartySlate",
+            "caption": "Una entrada en el blog renovado de PartySlate."
           }
         },
         {
