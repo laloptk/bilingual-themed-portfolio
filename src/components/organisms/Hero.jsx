@@ -12,24 +12,23 @@ const Hero = ({ title, subtitle, text }) => {
   return (
     <header className={`header ${colorMode}`}>
       <div className="header-inner">
-        <div className="header-meta">
-          <p className="header-eyebrow">{subtitle}</p>
-          <span className="header-status">
-            {isEnglish ? 'Available for work' : 'Disponible para proyectos'}
-          </span>
-        </div>
-
         <h1 className="header-name">
           <span>{firstName}</span>
           <span>{lastName}</span>
         </h1>
 
-        <div className="header-bottom">
+        <aside className="header-sidebar">
+          <div className="header-meta">
+            <p className="header-eyebrow">{subtitle}</p>
+            <span className="header-status">
+              {isEnglish ? 'Available for work' : 'Disponible para proyectos'}
+            </span>
+          </div>
           <SafeHTMLContent content={text} classes="header-tagline" />
           <a href="#projects" className="header-cta">
             {isEnglish ? 'View Projects' : 'Ver Proyectos'}
           </a>
-        </div>
+        </aside>
       </div>
     </header>
   );
