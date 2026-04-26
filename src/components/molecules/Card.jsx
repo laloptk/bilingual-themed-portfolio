@@ -76,7 +76,7 @@ const Card = ({ post, type = 'default', btnText = 'View Project' }) => {
             </div>
           )}
           {type === 'default' && post.url && (
-            <Link to={post.url}>{btnText}</Link>
+            <Link to={post.url}>{post.btnText || btnText}</Link>
           )}
         </div>
       </div>

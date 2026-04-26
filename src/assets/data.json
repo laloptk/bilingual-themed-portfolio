@@ -34,6 +34,7 @@
           "tags": ["WordPress", "ACF", "PostCSS", "WCAG AA"],
           "description": "<p>Custom WordPress theme built from a Figma design for ICCA 2028, a biennial international conference hosted in San Francisco. Translated the design pixel-accurately into a maintainable theme using ACF-powered composition — reusable, configurable components insertable across pages with different layouts. Built with PostCSS for asset compilation. Semantic HTML, WCAG AA compliant, and performant.</p>",
           "url": "./projects/icca-2028",
+          "btnText": "More details about the ICCA 2028 project",
           "image": {
             "src": "./icca-2028.png",
             "alt": "ICCA 2028 San Francisco website",
@@ -46,6 +47,7 @@
           "tags": ["WordPress", "PHP", "CSS", "ACF"],
           "description": "<p>Built PalTech's full website in WordPress from custom PSD designs — translating every page layout into modular, reusable templates. Pixel-accurate implementation across all breakpoints with a focus on maintainability and clean markup.</p>",
           "url": "./projects/paltech",
+          "btnText": "More details about the PalTech project",
           "image": {
             "src": "./pal-tech-home.png",
             "alt": "PalTech website homepage",
@@ -58,6 +60,7 @@
           "tags": ["WordPress", "Gutenberg", "ACF", "GraphQL"],
           "description": "<p>Integrated a new WordPress installation with PartySlate's main site and legacy blog — zero downtime. Built custom Gutenberg blocks and ACF-powered templates for the content team. Added GraphQL-powered interactive widgets and real-time data endpoints.</p>",
           "url": "./projects/partyslate",
+          "btnText": "More details about the PartySlate project",
           "image": {
             "src": "./partyslate.png",
             "alt": "A blog post by PartySlate",
@@ -70,6 +73,7 @@
           "tags": ["WordPress", "ACF", "PHP", "jQuery"],
           "description": "<p>Led front-end development for a complex WordPress site with multiple custom post types. Built ACF-powered templates, integrated jQuery and Masonry for dynamic layouts, and contributed to backend tasks. Full-stack team delivery under real constraints.</p>",
           "url": "./projects/all-weather",
+          "btnText": "More details about the All Weather project",
           "image": {
             "src": "./all-weather-home.png",
             "alt": "All Weather website",
@@ -167,6 +171,7 @@
           "tags": ["WordPress", "ACF", "PostCSS", "WCAG AA"],
           "description": "<p>Theme personalizado de WordPress construido desde un diseño en Figma para ICCA 2028, una conferencia internacional bienal en San Francisco. Diseño traducido con precisión pixel usando componentes ACF reutilizables y configurables, insertables en páginas con distintas composiciones. Compilación de CSS con PostCSS. HTML semántico, cumple WCAG AA y es performante.</p>",
           "url": "./projects/icca-2028",
+          "btnText": "Más detalles sobre el proyecto ICCA 2028",
           "image": {
             "src": "./icca-2028.png",
             "alt": "Sitio web de ICCA 2028 San Francisco",
@@ -179,6 +184,7 @@
           "tags": ["WordPress", "PHP", "CSS", "ACF"],
           "description": "<p>Construí el sitio completo de PalTech en WordPress a partir de diseños PSD personalizados — convirtiendo cada maqueta en plantillas modulares y reutilizables. Implementación pixel-perfecta en todos los breakpoints, con foco en mantenibilidad y markup limpio.</p>",
           "url": "./projects/paltech",
+          "btnText": "Más detalles sobre el proyecto PalTech",
           "image": {
             "src": "./pal-tech-home.png",
             "alt": "Homepage de PalTech",
@@ -191,6 +197,7 @@
           "tags": ["WordPress", "Gutenberg", "ACF", "GraphQL"],
           "description": "<p>Integré una nueva instalación de WordPress con el sitio principal de PartySlate y su blog legado — sin interrupciones. Construí bloques de Gutenberg personalizados y plantillas con ACF para el equipo de contenidos. Añadí widgets interactivos con GraphQL y endpoints de datos en tiempo real.</p>",
           "url": "./projects/partyslate",
+          "btnText": "Más detalles sobre el proyecto PartySlate",
           "image": {
             "src": "./partyslate.png",
             "alt": "Una entrada de blog en PartySlate",
@@ -203,6 +210,7 @@
           "tags": ["WordPress", "ACF", "PHP", "jQuery"],
           "description": "<p>Lideré el desarrollo front-end de un sitio WordPress complejo con múltiples post types. Construí plantillas con ACF, integré jQuery y Masonry para maquetación dinámica, y colaboré en tareas de backend. Entrega en equipo con restricciones reales.</p>",
           "url": "./projects/all-weather",
+          "btnText": "Más detalles sobre el proyecto All Weather",
           "image": {
             "src": "./all-weather-home.png",
             "alt": "Sitio web de All Weather",
