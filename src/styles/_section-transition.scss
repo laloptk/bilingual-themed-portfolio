@@ -1,5 +1,20 @@
 @use './globals' as *;
 
+// Sections alternate: odd (1st, 3rd, 5th) = surface, even = bg (default).
+.portfolio > section:nth-of-type(odd) {
+  background-color: var(--color-surface);
+}
+
+// Transitions at child positions 2, 6, 10 (4n+2) precede surface sections.
+// Their bg is surface; blocks dissolve from bg color above.
+.portfolio > .section-transition:nth-child(4n+2) {
+  background-color: var(--color-surface);
+
+  .st-block {
+    background-color: var(--color-bg);
+  }
+}
+
 .section-transition {
   width: 100%;
 
@@ -9,7 +24,6 @@
     width: 100%;
     pointer-events: none;
     overflow: hidden;
-    opacity: 0.2;
   }
 
   .st-row {
@@ -18,20 +32,10 @@
     height: clamp(20px, 3vw, 40px);
   }
 
+  // Default: transitions at positions 4, 8 precede bg sections.
+  // Bg is default (--color-bg); blocks dissolve from surface color above.
   .st-block {
     flex: 1;
-    background-color: var(--color-surface-elevated);
-
-    .portfolio.light & {
-      background-color: #d4c8b4;
-    }
-
-    .st-blocks.top & {
-      opacity: 1;
-    }
-
-    .st-blocks.bottom & {
-      opacity: 0;
-    }
+    background-color: var(--color-surface);
   }
 }

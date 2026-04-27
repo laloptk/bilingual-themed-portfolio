@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 const BLOCKS_PER_ROW = 33;
 const NUM_ROWS = 4;
 
-const SectionTransition = ({ children }) => {
+const SectionTransition = () => {
   const containerRef = useRef(null);
 
   useEffect(() => {
@@ -22,44 +22,34 @@ const SectionTransition = ({ children }) => {
       }
     });
 
-    function updateBlocksOpacity(blocks, order, isTop, progress) {
-      blocks.forEach((block, idx) => {
-        const offset = order.indexOf(idx) / blocks.length;
-        const adjustedProgress = (progress - offset) * blocks.length;
-        const opacity = isTop
-          ? 1 - Math.min(1, Math.max(0, adjustedProgress))
-          : Math.min(1, Math.max(0, adjustedProgress));
-        block.style.opacity = opacity;
-      });
-    }
-
     const triggers = [];
+    const blocksEl = container.querySelector('.st-blocks');
+    if (!blocksEl) return;
 
-    // Each block container triggers off its own position in the page —
-    // top blocks animate as the section enters, bottom blocks as it exits.
-    container.querySelectorAll('.st-blocks').forEach(blocksContainer => {
-      const rows = blocksContainer.querySelectorAll('.st-row');
-      const numRows = rows.length;
-      const isTop = blocksContainer.classList.contains('top');
+    const rows = blocksEl.querySelectorAll('.st-row');
+    const numRows = rows.length;
 
-      rows.forEach((row, rowIndex) => {
-        const blocks = Array.from(row.querySelectorAll('.st-block'));
-        const randomizedOrder = gsap.utils.shuffle(blocks.map((_, idx) => idx));
+    rows.forEach((row, rowIndex) => {
+      const blocks = Array.from(row.querySelectorAll('.st-block'));
+      const randomizedOrder = gsap.utils.shuffle(blocks.map((_, idx) => idx));
 
-        const trigger = ScrollTrigger.create({
-          trigger: blocksContainer,
-          start: 'top bottom',
-          end: 'bottom top',
-          scrub: true,
-          onUpdate: (self) => {
-            const rowDelay = 0.3 * (numRows - rowIndex - 1);
-            const adjustedProgress = Math.max(0, Math.min(1, self.progress - rowDelay));
-            updateBlocksOpacity(blocks, randomizedOrder, isTop, adjustedProgress);
-          },
-        });
-
-        triggers.push(trigger);
+      const trigger = ScrollTrigger.create({
+        trigger: blocksEl,
+        start: 'top bottom',
+        end: 'bottom top',
+        scrub: true,
+        onUpdate: self => {
+          const rowDelay = 0.3 * (numRows - rowIndex - 1);
+          const progress = Math.max(0, Math.min(1, self.progress - rowDelay));
+          blocks.forEach((block, idx) => {
+            const offset = randomizedOrder.indexOf(idx) / blocks.length;
+            const p = (progress - offset) * blocks.length;
+            block.style.opacity = 1 - Math.min(1, Math.max(0, p));
+          });
+        },
       });
+
+      triggers.push(trigger);
     });
 
     return () => triggers.forEach(t => t.kill());
@@ -67,15 +57,7 @@ const SectionTransition = ({ children }) => {
 
   return (
     <div className="section-transition" ref={containerRef}>
-      <div className="st-blocks top">
-        {Array.from({ length: NUM_ROWS }, (_, i) => (
-          <div key={i} className="st-row" />
-        ))}
-      </div>
-
-      {children}
-
-      <div className="st-blocks bottom">
+      <div className="st-blocks">
         {Array.from({ length: NUM_ROWS }, (_, i) => (
           <div key={i} className="st-row" />
         ))}

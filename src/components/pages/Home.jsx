@@ -27,58 +27,53 @@ const Home = () => {
           text={languageData.description}
         />
 
-        <SectionTransition>
-          <SectionBox
-            id="what-i-build"
-            title={isEnglish ? 'Services' : 'Servicios'}
-            classes="section side-title"
-          >
-            <WhatIBuild items={languageData.whatIBuild} />
-          </SectionBox>
-        </SectionTransition>
+        <SectionTransition />
+        <SectionBox
+          id="what-i-build"
+          title={isEnglish ? 'Services' : 'Servicios'}
+          classes="section side-title"
+        >
+          <WhatIBuild items={languageData.whatIBuild} />
+        </SectionBox>
 
-        <SectionTransition>
-          <SectionBox
-            id="projects"
-            title={languageData.projects.sectionTitle}
-            classes="section projects side-title"
-          >
-            <Grid posts={languageData.projects.content} />
-          </SectionBox>
-        </SectionTransition>
+        <SectionTransition />
+        <SectionBox
+          id="projects"
+          title={languageData.projects.sectionTitle}
+          classes="section projects side-title"
+        >
+          <Grid posts={languageData.projects.content} />
+        </SectionBox>
 
-        <SectionTransition>
-          <SectionBox
-            id="experience"
-            title={languageData.jobs.sectionTitle}
-            classes="section experience side-title"
-          >
-            <TimeLine jobs={languageData.jobs.content} />
-          </SectionBox>
-        </SectionTransition>
+        <SectionTransition />
+        <SectionBox
+          id="experience"
+          title={languageData.jobs.sectionTitle}
+          classes="section experience side-title"
+        >
+          <TimeLine jobs={languageData.jobs.content} />
+        </SectionBox>
 
-        <SectionTransition>
-          <SectionBox
-            id="skills"
-            title={isEnglish ? 'Skills' : 'Habilidades'}
-            classes="section skills side-title"
-          >
-            <Skills skills={data.skills} />
-          </SectionBox>
-        </SectionTransition>
+        <SectionTransition />
+        <SectionBox
+          id="skills"
+          title={isEnglish ? 'Skills' : 'Habilidades'}
+          classes="section skills side-title"
+        >
+          <Skills skills={data.skills} />
+        </SectionBox>
 
-        <SectionTransition>
-          <SectionBox
-            id="contact"
-            title={isEnglish ? 'Contact' : 'Contacto'}
-            classes="section contact-section side-title"
-          >
-            <Contact
-              social={data.social.content}
-              classes={globalVariable.light ? 'light' : 'dark'}
-            />
-          </SectionBox>
-        </SectionTransition>
+        <SectionTransition />
+        <SectionBox
+          id="contact"
+          title={isEnglish ? 'Contact' : 'Contacto'}
+          classes="section contact-section side-title"
+        >
+          <Contact
+            social={data.social.content}
+            classes={globalVariable.light ? 'light' : 'dark'}
+          />
+        </SectionBox>
       </MainBox>
       <Footer classes={globalVariable.light ? 'light' : 'dark'} />
     </>
