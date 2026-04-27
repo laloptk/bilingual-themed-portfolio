@@ -4,6 +4,11 @@
   .section-header {
     align-items: flex-start;
   }
+
+  // Section bg is --color-surface; elevate card on hover so the state is visible.
+  .card:hover {
+    background-color: var(--color-surface-elevated);
+  }
 }
 
 .timeline {
