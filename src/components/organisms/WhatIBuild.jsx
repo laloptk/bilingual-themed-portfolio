@@ -3,7 +3,7 @@ const WhatIBuild = ({ items }) => {
     <div className="wib">
       {items.map(item => (
         <article key={item.id} className="wib-row">
-          <span className="wib-label">{item.label}</span>
+          <span className="wib-label" aria-hidden="true">{item.label}</span>
           <h3 className="wib-title">{item.title}</h3>
           <p className="wib-desc">{item.description}</p>
         </article>
