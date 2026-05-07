@@ -105,7 +105,7 @@
         ],
         "screenshots": [
           { "desktop": "/all-weather-home.png", "mobile": null },
-          { "desktop": null, "mobile": null }
+          { "desktop": "/all-weather-series.png", "mobile": null }
         ],
         "context": "<p>A complex WordPress site with multiple custom post types and heavy dynamic layout requirements. Delivered as a coordinated team effort under real-world time constraints.</p>",
         "role": "<p>Lead front-end developer, with backend contributions alongside the development team throughout the project.</p>",
@@ -285,7 +285,7 @@
         ],
         "screenshots": [
           { "desktop": "/all-weather-home.png", "mobile": null },
-          { "desktop": null, "mobile": null }
+          { "desktop": "/all-weather-series.png", "mobile": null }
         ],
         "context": "<p>Un sitio WordPress complejo con múltiples custom post types y requerimientos de layout dinámico. Entregado como esfuerzo coordinado de equipo bajo restricciones reales de tiempo.</p>",
         "role": "<p>Desarrollador frontend líder, con contribuciones en backend junto al equipo de desarrollo durante todo el proyecto.</p>",
