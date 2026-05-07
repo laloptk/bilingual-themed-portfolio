@@ -8,7 +8,7 @@
     max-width: $max-width-container;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 260px;
+    grid-template-columns: 1fr 360px;
     gap: 4rem;
     align-items: center;
   }
@@ -58,26 +58,35 @@
 
   // Availability indicator with pixel-art dot
   &-status {
+    position: relative;
     display: flex;
     align-items: center;
-    gap: 0.65rem;
+    padding-left: 20px;
     font-family: $font-title;
     font-size: 11px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--color-text-secondary);
 
-    &::before {
+    // Diagonal pixel pair — mirrors the skills list bullet
+    &::before,
+    &::after {
       content: '';
-      display: inline-block;
-      flex-shrink: 0;
-      width: 4px;
-      height: 4px;
-      background: $color-success;
-      box-shadow:
-        4px 0   0 0 $color-success,
-        0   4px 0 0 $color-success,
-        4px 4px 0 0 $color-success;
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      background-color: $color-success;
+      opacity: 0.75;
+    }
+
+    &::before {
+      left: 2px;
+      top: calc(50% - 5px);
+    }
+
+    &::after {
+      left: 5px;
+      top: calc(50% - 2px);
     }
   }
 
