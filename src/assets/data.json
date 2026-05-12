@@ -29,6 +29,19 @@
       "sectionTitle": "Projects",
       "content": [
         {
+          "id": 7,
+          "title": "FrameBlocks",
+          "tags": ["WordPress", "Gutenberg", "React", "Shiki"],
+          "description": "<p>A Gutenberg block plugin for embedding polished UI mockups directly in the WordPress editor — browser windows, VS Code-style code editors, device frames, file trees, and social post shells. Built with a modular block architecture, a webpack alias layer for clean imports, and Shiki integrated as a dedicated service for syntax highlighting. Accepted into and available for download on the official WordPress Plugin Repository.</p>",
+          "url": "./projects/frame-blocks",
+          "btnText": "More details about the FrameBlocks project",
+          "image": {
+            "src": "./frame-blocks-samples.png",
+            "alt": "FrameBlocks WordPress plugin — block samples",
+            "caption": "FrameBlocks — UI mockup blocks for Gutenberg."
+          }
+        },
+        {
           "id": 6,
           "title": "ICCA 2028",
           "tags": ["WordPress", "ACF", "PostCSS", "WCAG AA"],
@@ -39,19 +52,6 @@
             "src": "./icca-2028.png",
             "alt": "ICCA 2028 San Francisco website",
             "caption": "Visiting San Francisco — ICCA 2028 conference site."
-          }
-        },
-        {
-          "id": 7,
-          "title": "FrameBlocks",
-          "tags": ["WordPress", "Gutenberg", "React", "Shiki"],
-          "description": "<p>A Gutenberg block plugin for embedding polished UI mockups directly in the WordPress editor — browser windows, VS Code-style code editors, device frames, file trees, and social post shells. Built with a modular block architecture, a webpack alias layer for clean imports, and Shiki integrated as a dedicated service for syntax highlighting. Targeting submission to the official WordPress Plugin Repository.</p>",
-          "url": "./projects/frame-blocks",
-          "btnText": "More details about the FrameBlocks project",
-          "image": {
-            "src": "./frame-blocks-samples.png",
-            "alt": "FrameBlocks WordPress plugin — block samples",
-            "caption": "FrameBlocks — UI mockup blocks for Gutenberg."
           }
         },
         {
@@ -179,6 +179,19 @@
       "sectionTitle": "Proyectos",
       "content": [
         {
+          "id": 7,
+          "title": "FrameBlocks",
+          "tags": ["WordPress", "Gutenberg", "React", "Shiki"],
+          "description": "<p>Plugin de bloques Gutenberg para incrustar mockups de UI directamente en el editor de WordPress — ventanas de navegador, editores de código estilo VS Code, marcos de dispositivos, árboles de archivos y plantillas de redes sociales. Construido con una arquitectura de bloques modular, aliases de webpack para imports limpios y Shiki integrado como servicio dedicado para resaltado de sintaxis. Aceptado y disponible para descarga en el repositorio oficial de plugins de WordPress.</p>",
+          "url": "./projects/frame-blocks",
+          "btnText": "Más detalles sobre el proyecto FrameBlocks",
+          "image": {
+            "src": "./frame-blocks-samples.png",
+            "alt": "Plugin WordPress FrameBlocks — ejemplos de bloques",
+            "caption": "FrameBlocks — bloques de mockups de UI para Gutenberg."
+          }
+        },
+        {
           "id": 6,
           "title": "ICCA 2028",
           "tags": ["WordPress", "ACF", "PostCSS", "WCAG AA"],
@@ -189,19 +202,6 @@
             "src": "./icca-2028.png",
             "alt": "Sitio web de ICCA 2028 San Francisco",
             "caption": "Visiting San Francisco — sitio de la conferencia ICCA 2028."
-          }
-        },
-        {
-          "id": 7,
-          "title": "FrameBlocks",
-          "tags": ["WordPress", "Gutenberg", "React", "Shiki"],
-          "description": "<p>Plugin de bloques Gutenberg para incrustar mockups de UI directamente en el editor de WordPress — ventanas de navegador, editores de código estilo VS Code, marcos de dispositivos, árboles de archivos y plantillas de redes sociales. Construido con una arquitectura de bloques modular, aliases de webpack para imports limpios y Shiki integrado como servicio dedicado para resaltado de sintaxis. Orientado a publicación en el repositorio oficial de plugins de WordPress.</p>",
-          "url": "./projects/frame-blocks",
-          "btnText": "Más detalles sobre el proyecto FrameBlocks",
-          "image": {
-            "src": "./frame-blocks-samples.png",
-            "alt": "Plugin WordPress FrameBlocks — ejemplos de bloques",
-            "caption": "FrameBlocks — bloques de mockups de UI para Gutenberg."
           }
         },
         {
